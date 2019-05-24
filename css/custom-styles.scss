@@ -338,6 +338,7 @@ $h-line-height: 1.3em;
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     background-color: #cc0033; /* Bootstrap Style Overide*/
+    border-color: $scarlet-red; /* On Highlight in Nav Bar */
 }
 
 .SA-dropdown-menu {
@@ -381,12 +382,13 @@ $h-line-height: 1.3em;
        display: none !important;
     }
     .SA-active{
-     
+        .navTitle {
            -webkit-box-sizing: border-box;
            box-sizing: border-box;
            background-color: #333;
+           padding-bottom: 10px !important;
            border-bottom: 5px solid $scarlet-red;
-   
+        }
    }
 } 
 
@@ -1249,7 +1251,6 @@ footer{
 
 /* Modal Exit Button on Header*/
 .modal-header {
-
     .close{
         font-size: 10em;
         color: $scarlet-red;
@@ -1259,10 +1260,8 @@ footer{
             opacity: 1;
         }
     }
-
     font-size: .2em;
     border-bottom: none;
-    margin-bottom: none;
     margin-bottom: -25px;
 }
 
