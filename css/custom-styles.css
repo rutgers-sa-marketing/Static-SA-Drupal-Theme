@@ -340,55 +340,12 @@ h6 {
   .SA-support-nav-link {
     display: none !important;
   }
-  .SA-active a {
+  .SA-active {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background-color: #333;
-    padding-bottom: 10px !important;
     border-bottom: 5px solid #cc0033;
   }
-}
-
-.navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
-  background-color: transparent;
-}
-
-.navbar-default .navbar-toggle {
-  border: none;
-}
-
-.navbar-toggle span.icon-bar {
-  -webkit-transition: all 0.15s;
-  transition: all 0.15s;
-}
-
-.navbar-toggle span:nth-child(2) {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  -webkit-transform-origin: 10% 10%;
-          transform-origin: 10% 10%;
-}
-
-.navbar-toggle span:nth-child(3) {
-  opacity: 0;
-}
-
-.navbar-toggle span:nth-child(4) {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  -webkit-transform-origin: 10% 90%;
-          transform-origin: 10% 90%;
-}
-
-.navbar-toggle.collapsed span:nth-child(2),
-.navbar-toggle.collapsed span:nth-child(4) {
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-}
-
-.navbar-toggle.collapsed span:nth-child(3) {
-  opacity: 1;
 }
 
 /* Changes the Bootstrap mobile menu breakpoint to collapse at 990px  (This Overrides Bootstrap's Styles)
@@ -520,24 +477,24 @@ h6 {
   font-size: 1.1em;
 }
 
-.modal-header {
+.modal-search-header {
   border-bottom: none;
 }
 
-.modal-dialog {
+.modal-search-dialog {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-.modal-backdrop {
+.modal-search-backdrop {
   background-color: #fff;
   opacity: 1 !important;
   border: 10px solid rgba(136, 136, 136, 0.4);
 }
 
-.modal-content {
+.modal-search-content {
   height: auto;
   min-height: 100%;
   border-radius: 0;
@@ -547,19 +504,19 @@ h6 {
   border-right: none;
 }
 
-.modal-body {
+.modal-search-content .close {
+  opacity: 1;
+  font-size: 4em;
+}
+
+.modal-search-body {
   text-align: center;
 }
 
-.modal-body form {
+.modal-search-body form {
   margin: 0 auto;
   float: none;
   width: 100%;
-}
-
-.modal-content .close {
-  opacity: 1;
-  font-size: 4em;
 }
 
 .navbar-default .navbar-collapse,
@@ -1246,5 +1203,24 @@ footer {
   background: #E0E0E0;
   padding: 10px;
   display: inline-block;
+}
+
+/* Modal Exit Button on Header*/
+.modal-header {
+  font-size: .2em;
+  border-bottom: none;
+  margin-bottom: none;
+  margin-bottom: -25px;
+}
+
+.modal-header .close {
+  font-size: 10em;
+  color: #cc0033;
+  opacity: .6;
+}
+
+.modal-header .close:hover {
+  color: #cc0033 !important;
+  opacity: 1;
 }
 /*# sourceMappingURL=custom-styles.css.map */

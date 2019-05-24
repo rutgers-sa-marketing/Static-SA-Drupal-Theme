@@ -34,15 +34,15 @@
 
   <body>
     <!-- Search Modal -->
-    <div class="modal fade SA-search-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
+    <div class="modal fade SA-search-modal modal-search-backdrop" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-search-dialog" role="document">
+          <div class="modal-search-content">
             
-            <div class="modal-header">
+            <div class="modal-search-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
 
-            <div class="modal-body">
+            <div class="modal-search-body">
               <img src="images/SA-logo.svg" width="200px" onerror="this.onerror=null; this.src='images/SA-logo.png'" alt="Rutgers Student Affairs Logo">
               
               <form class="navbar-form " role="search">
@@ -134,7 +134,7 @@
           <ul class="nav navbar-nav">
             <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-default navbar-btn SA-search-btn"><i class="fas fa-search SA-search-icon"></i> Search</button>
   
-            <li class="SA-active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="index.html">Home</a></li>
             <!-- Dropdown -->
             <li class="dropdown yamm-fw"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Mega Menu<b class="caret"></b></a> 
               <ul class="dropdown-menu SA-dropdown-menu">
@@ -188,7 +188,7 @@
             <li><a href="accordions.html">Accordions</a></li>
             <li><a href="tabs.html">Tabs</a></li>
             <!-- Dropdown -->
-            <li class="dropdown yamm-fw"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Staff<b class="caret"></b></a>
+            <li class="dropdown yamm-fw SA-active"><a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Staff<span class="sr-only">(current)</span> <b class="caret"></b></a>
               <ul class="dropdown-menu SA-dropdown-menu">
                 <li class="yamm-content">
                   <div class="row">
@@ -277,6 +277,7 @@
                 </li>
               </ul>
             </li>
+            <li><a href="photo-gallery.html">Photo Gallery</a></li>
             <li><a class="SA-support-nav-link" href="#">Support Students</a></li>
           </ul>
   
