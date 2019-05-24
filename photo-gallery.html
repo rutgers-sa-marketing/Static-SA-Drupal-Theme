@@ -36,15 +36,15 @@
   </head>
 
   <body>
-    <!-- Search Modal -->
-    <div class="modal fade SA-search-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <!-- Search Modal -->
+      <div class="modal fade SA-search-modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
-
+  
             <div class="modal-body">
               <img src="images/SA-logo.svg" width="200px" onerror="this.onerror=null; this.src='images/SA-logo.png'" alt="Rutgers Student Affairs Logo">
               
@@ -52,15 +52,15 @@
                 <div class="form-group">
                   <input type="text" class="form-control" placeholder="Search website...">
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-                <button type="close" data-dismiss="modal" class="btn btn-danger">Close</button>
+                <button type="submit" class="btn btn-default">Search</button>
+                <button type="close" data-dismiss="modal" class="btn btn-danger">Cancel</button>
               </form>
-
+  
               <div class="container SA-search-ul">
                 <div class="row">
                   <div class="col-sm-12">
                     <h2>Useful Links</h2>
-
+                   
                   </div>
                   <div class="col-md-3 col-md-offset-3 col-sm-6">
                     <ul>
@@ -73,7 +73,7 @@
                       <li><a href="">Important Information</a></li>
                     </ul>
                   </div>
-
+  
                   <div class="col-md-3 col-sm-6">
                     <ul>
                       <li><a href="">Dummy Link</a></li>
@@ -88,49 +88,53 @@
                 </div>
               </div>
             </div>
-
+  
           </div>
         </div>
     </div><!-- /modal -->
-
-
+  
+  
     <!-- Utility Bar -->
     <div class="utility-bar">
       <div class="container">
         <div class="row">
-          <div class="col-md-5 col-md-offset-7">
-            <div class="utility-menu">
+          <div class="col-md-12">
+            <div class="utility-menu pull-right">
               <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Contact Us</a></li>
-                <li><a data-toggle="modal" data-target="#myModal" href="#">Search</a></li>
+                <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fas fa-search"></i> Search</a></li>
               </ul>
             </div><!-- /utility-menu -->
           </div><!-- /col -->
         </div><!-- /row -->
       </div><!-- /container -->
     </div><!-- /utility-bar -->
-
+  
     <header class="container SA-branding">
       <div class="row">
         <div class="col-md-7">
           <a href="index.html" title="Rutgers Student Affairs"><img src="images/SA-logo.svg" onerror="this.onerror=null; this.src='images/SA-logo.png'" alt="Rutgers Student Affairs Logo"></a>
           <h1 class="SA-dep-title">Division of Student Affairs New Brunswick</h1> 
         </div>
-
+  
         <div class="col-md-3 col-md-offset-2">
             <a class="btn btn-default SA-btn-primary" href="#" role="button">Support Students</a>
         </div>
       </div>
     </header>
-
+  
     <!-- Main Navigation & MEGA MENU -->
-    <div class="navbar navbar-default navbar-static-top SA-navbar yamm">
-        <div class="container">
-     
-          <div class="navbar-header">
-            <button class="navbar-toggle collapsed SA-navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" aria-expanded="false"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-          </div>
+    <div class="navbar navbar-default navbar-static-top SA-navbar yamm" data-spy="affix" data-offset-top="157">
+          <div class="container">
+       
+            <div class="navbar-header">
+              <button class="navbar-toggle collapsed SA-navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" aria-expanded="false">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+              </button>
+            </div>
           
         <div class="navbar-collapse collapse" id="navbar-collapse-grid" aria-expanded="false" style="height: 1px;">
           
