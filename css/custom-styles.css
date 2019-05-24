@@ -259,6 +259,11 @@ h6 {
 }
 
 /* Navigation - For Mega Menu styles see yamm.css */
+.affix {
+  /*Bootstrap style for sticky navbar*/
+  position: static;
+}
+
 .SA-navbar {
   background-color: #5e5f5f;
   margin-bottom: 0;
@@ -298,6 +303,7 @@ h6 {
 
 .SA-dropdown-menu {
   background-color: #333 !important;
+  border-top: 1px solid #333;
 }
 
 .SA-dropdown-menu a {
@@ -306,7 +312,7 @@ h6 {
 }
 
 .SA-dropdown-menu a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .SA-dropdown-menu ul {
@@ -339,6 +345,12 @@ h6 {
 }
 
 @media all and (min-width: 768px) {
+  .affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
   .SA-support-nav-link {
     display: none !important;
   }
@@ -349,6 +361,79 @@ h6 {
     padding-bottom: 10px !important;
     border-bottom: 5px solid #cc0033;
   }
+}
+
+/* Toggle Icon X Animation */
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+  width: 22px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  transform-origin: 10% 10%;
+  -webkit-transform-origin: 10% 10%;
+  /* Chrome, Safari, Opera */
+  -moz-transform-origin: 10% 10%;
+  /* Firefox */
+  -ms-transform-origin: 10% 10%;
+  /* IE 9 */
+}
+
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+  -webkit-transform-origin: 10% 90%;
+  /* Chrome, Safari, Opera */
+  -moz-transform-origin: 10% 90%;
+  /* Firefox */
+  -ms-transform-origin: 10% 90%;
+  /* IE 9 */
+}
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
 }
 
 /* Changes the Bootstrap mobile menu breakpoint to collapse at 990px  (This Overrides Bootstrap's Styles)
@@ -533,6 +618,16 @@ h6 {
   margin-bottom: 40px;
 }
 
+.SA-main-content a {
+  color: #cc0033;
+}
+
+.SA-main-content a:hover, .SA-main-content a:target, .SA-main-content a:focus {
+  color: #cc0033;
+  text-decoration: none;
+  border-bottom: 1px solid #cc0033;
+}
+
 /* Sidebars */
 .SA-left-sidebar {
   margin-bottom: 25px;
@@ -659,7 +754,7 @@ h6 {
   display: block;
   font-weight: 700;
   background-color: #5e5f5f;
-  color: #fff;
+  color: #fff !important;
   padding: 15px;
   height: 60px;
   margin-bottom: 15px;
@@ -697,7 +792,7 @@ h6 {
   position: relative;
   display: block;
   background: #5e5f5f;
-  color: #fff;
+  color: #fff !important;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
   min-height: 320px;
@@ -715,7 +810,7 @@ h6 {
 .SA-info-box:hover {
   background: #cc0033;
   text-decoration: none;
-  color: #fff;
+  color: #fff !important;
 }
 
 .SA-info-box:hover img {
