@@ -24,9 +24,6 @@
     <!-- Custom style for the Mega Menu --> 
     <link href="css/yamm.css" rel="stylesheet">
 
-    <!-- Custom style for the Carousel Slides -->
-    <link href="css/carousel-slides.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -322,33 +319,93 @@
       </div>
 
     <div class="container SA-main-content">
-      <div class="row SA-featured-content">
-        <div class="col-md-6"> <!-- Add col-md-push-3 when sidebars are enabled -->
-          <a href="#" role="img link" title="Featured Story"><img src="https://picsum.photos/id/1015/1000/780" class="img-responsive" alt="Featured"></a>
-          <h2><a href="#" role="titlelink">Blazing a Trail: Meet Dawud Hamdan</a></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis pariatur asperiores, architecto accusamus. Duis molestie est nunc, nec pharetra dolor dapibus ac. Donec fringilla enim eget nunc varius eleifend. Donec maximus interdum ligula vel placerat.</p>
-        </div><!-- /col -->
+      
 
-        <div class="col-md-6"> <!-- Add col-md-push-3 when sidebars are enabled -->
-          <div class="SA-featured-block">
-            <a href="#"><img src="https://picsum.photos/id/1015/240/200" class="img-responsive" alt="Featured"></a>
-            <h3><a href="">Room Decorating Contest</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis pariatur asperiores, architecto accusamus.</p>
+        <div id="main_area" style="padding-bottom: 25px;">
+            <!-- Slider -->
+            <div class="row">
+              <div class="col-xs-12" id="slider">
+                <!-- Top part of the slider -->
+                <div class="row">
+                  <div class="col-sm-12" id="carousel-bounding-box">
+                    <div class="carousel slide" id="myCarousel">
+                      <!-- Carousel items -->
+                      <div class="carousel-inner">
+                        
+                        <div class="active item" data-slide-number="0">
+                          <img src="https://picsum.photos/id/1015/1200/500">
+                          <div class="carousel-caption">
+                            <h2>Slider One</h2>
+                            <p>Lorem Ipsum Dolor</p>
+                            <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                          </div>
+                        </div>
+        
+                        <div class="item" data-slide-number="1">
+                          <img src="https://picsum.photos/id/1036/1200/500">
+                          <div class="carousel-caption">
+                            <h2>Slider Two</h2>
+                            <p>Lorem Ipsum Dolor</p>
+                            <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                          </div>
+                        </div>
+        
+                        <div class="item" data-slide-number="2">
+                         <img src="https://picsum.photos/id/1039/1200/500">
+                          <div class="carousel-caption">
+                            <h2>Slider Three</h2>
+                            <p>Lorem Ipsum Dolor</p>
+                            <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                          </div>
+                        </div>
+                        
+                        <div class="item" data-slide-number="3">
+                         <img src="https://picsum.photos/id/1050/1200/500">
+                          <div class="carousel-caption">
+                            <h2>Slider Four</h2>
+                            <p>Lorem Ipsum Dolor</p>
+                            <p class="sub-text">October 24 2014 - <a href="#">Read more</a></p>
+                          </div>
+                        </div>
+        
+                      </div>
+                    
+                      <!-- Carousel nav -->
+                      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <!--/Slider-->
+        
+            <div class="row" id="SA-slider-thumbs" data-ride="carousel">
+              <!-- Bottom switcher of slider -->
+              <ul class="hide-bullets">
+                <li class="col-sm-3">
+                  <a data-target="SA-slider-thumbs" class="thumbnail active SA-slider-thumb" id="carousel-selector-0" data-slide-to="0"><img src="https://picsum.photos/id/1015/320/100"></a>
+                </li>
+        
+                <li class="col-sm-3">
+                  <a data-target="SA-slider-thumbs" class="thumbnail SA-slider-thumb" id="carousel-selector-1" data-slide-to="1"><img src="https://picsum.photos/id/1036/320/100"></a>
+                </li>
+        
+                <li class="col-sm-3">
+                  <a data-target="SA-slider-thumbs" class="thumbnail SA-slider-thumb" id="carousel-selector-2" data-slide-to="2"><img src="https://picsum.photos/id/1039/320/100"></a>
+                </li>
+        
+                <li class="col-sm-3">
+                  <a data-target="SA-slider-thumbs" class="thumbnail SA-slider-thumb" id="carousel-selector-3"><img src="https://picsum.photos/id/1050/320/100"></a>
+                </li>
+              </ul>
+            </div>
           </div>
-
-          <div class="SA-featured-block">
-            <a href="#"><img src="https://picsum.photos/id/1015/240/200" class="img-responsive" alt="Featured"></a>
-            <h3><a href="">Appreciating the Heroes of Our Halls</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-
-            <div class="SA-featured-block">
-              <a href="#"><img src="https://picsum.photos/id/1015/240/200" class="img-responsive" alt="Featured"></a>
-              <h3><a href="">Housing Selection Process</a></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis pariatur asperiores.</p>
-            </div>
-        </div><!-- /col-->
-      </div><!-- /row /SA-featured-content -->
 
       
       <!-- STORY CATEGORIES -->
