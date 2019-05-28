@@ -23,7 +23,9 @@
         text-align: left !important;
         background: rgba(0, 0, 0, 0.35);
         padding-left: 20px;
+        
     }
+    
     
     
     /* Caption Styles */
@@ -35,6 +37,14 @@
     }
     }
     
+     /* Change Slide Height */
+    @media screen and (max-width: 768px) {
+      .carousel-inner>.item>img{
+        height: 350px;
+      }
+      }
+
+
     #SA-slider-thumbs .active{
       border: 2px solid #cc0033 !important;
     }
@@ -42,10 +52,10 @@
     .SA-slider-thumb{
       border: 2px solid #333 !important;
     }
-    
+
     /* text-decoration-color: white; */ 
     .SA-main-content a:hover, .SA-main-content a:target, .SA-main-content a:focus {
-      color: #cc0033;
+      color: white;
       text-decoration: none;
       border-bottom: 1px solid white;
       
