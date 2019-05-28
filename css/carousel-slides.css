@@ -10,7 +10,7 @@
     
     
     .carousel-caption {
-        position: absolute;
+        position: left;
         right: 0;
         left: 0 !important;
         z-index: 10;
@@ -42,6 +42,15 @@
     .SA-slider-thumb{
       border: 2px solid #333 !important;
     }
+    
+    /* text-decoration-color: white; */ 
+    .SA-main-content a:hover, .SA-main-content a:target, .SA-main-content a:focus {
+      color: #cc0033;
+      text-decoration: none;
+      border-bottom: 1px solid white;
+      
+  }
 
+   
    
     

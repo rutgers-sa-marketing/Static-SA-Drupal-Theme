@@ -1251,9 +1251,16 @@ footer {
  
 }
 
-.SA-hours-loc h3 {
+.tableheader{
   text-align: right;
   display: none;
+  font-size: .775em;
+  color:#5E5F5F;
+}
+
+.SA-hours-loc h3{
+  text-align: center;
+  display: inline;
 }
 
 .SA-hours-loc h3 a {
@@ -1305,7 +1312,7 @@ footer {
 
 /*Facilities-inner-2 show scroll message*/
 @media screen and (max-width: 992px) {
-.SA-hours-loc h3 {
+.tableheader {
     display: block !important;
 }
 }
