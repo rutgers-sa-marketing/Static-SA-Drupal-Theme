@@ -1248,10 +1248,12 @@ footer {
 /* Hours and Occupancy (Manly for Recreation facilities but can be implemented in other use cases)*/
 .SA-hours-loc {
   margin-top: 25px;
+ 
 }
 
 .SA-hours-loc h3 {
-  text-align: center;
+  text-align: right;
+  display: none;
 }
 
 .SA-hours-loc h3 a {
@@ -1282,6 +1284,32 @@ footer {
 .SA-table tbody > tr > td {
   padding: 15px 5px;
 }
+
+/* Facilities-inner-2 Table*/
+.table>thead>tr>th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+  border-right: 2px solid #ddd;
+}
+
+/* Facilities-inner-2 Table*/
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+
+}
+
+
+/*Facilities-inner-2 show scroll message*/
+@media screen and (max-width: 980px) {
+  .SA-hours-loc h3 {
+      display: block !important;
+  }
+}
+
 
 @media all and (min-width: 661px) {
   .SA-table {
