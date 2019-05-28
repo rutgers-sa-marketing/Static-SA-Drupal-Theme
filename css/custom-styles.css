@@ -852,12 +852,16 @@ h6 {
   border: 2px solid #fff;
 }
 
-.carousel-control.left {
+.carousel-control {
+  width: 10%;
+}
+
+.carousel-control.left, .carousel-control.right {
   background: none;
 }
 
-.carousel-control.right {
-  background: none;
+.carousel-control.left:hover, .carousel-control.left:active, .carousel-control.left:focus, .carousel-control.right:hover, .carousel-control.right:active, .carousel-control.right:focus {
+  border: none;
 }
 
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
@@ -1248,19 +1252,10 @@ footer {
 /* Hours and Occupancy (Manly for Recreation facilities but can be implemented in other use cases)*/
 .SA-hours-loc {
   margin-top: 25px;
- 
 }
 
-.tableheader{
-  text-align: right;
-  display: none;
-  font-size: .775em;
-  color:#5E5F5F;
-}
-
-.SA-hours-loc h3{
+.SA-hours-loc h3 {
   text-align: center;
-  display: inline;
 }
 
 .SA-hours-loc h3 a {
@@ -1291,32 +1286,6 @@ footer {
 .SA-table tbody > tr > td {
   padding: 15px 5px;
 }
-
-/* Facilities-inner-2 Table*/
-.table>thead>tr>th {
-  vertical-align: bottom;
-  border-bottom: 2px solid #ddd;
-  border-right: 2px solid #ddd;
-}
-
-/* Facilities-inner-2 Table*/
-.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-  padding: 8px;
-  line-height: 1.42857143;
-  vertical-align: top;
-  border-top: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-
-}
-
-
-/*Facilities-inner-2 show scroll message*/
-@media screen and (max-width: 992px) {
-.tableheader {
-    display: block !important;
-}
-}
-
 
 @media all and (min-width: 661px) {
   .SA-table {
@@ -1355,6 +1324,99 @@ footer {
   color: #cc0033 !important;
   opacity: 1;
 }
+
+/* Featured Slider */
+.hide-bullets {
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+/* Caption Styles */
+.carousel-caption {
+  position: left;
+  right: 0;
+  left: 0 !important;
+  z-index: 10;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  color: #fff;
+  text-shadow: none !important;
+  width: 100%;
+  bottom: 0 !important;
+  text-align: left !important;
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.896315)), color-stop(60%, rgba(13, 13, 13, 0.596595)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.896315) 0%, rgba(13, 13, 13, 0.596595) 60%, rgba(255, 255, 255, 0) 100%);
+  padding-left: 20px;
+}
+
+.carousel-caption a {
+  color: #fff;
+}
+
+.carousel-caption a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.carousel-caption h2 {
+  margin: 0 0 10px 0;
+}
+
+.carousel-caption p {
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-caption {
+    right: 0;
+    left: 0;
+    padding-bottom: 0;
+  }
+}
+
+/* Change Slide Height */
+@media screen and (max-width: 768px) {
+  .carousel-inner > .item > img {
+    height: 350px;
+  }
+}
+
+#SA-slider-thumbs .active {
+  border: none;
+}
+
+#SA-slider-thumbs .active img {
+  opacity: 1;
+}
+
+.SA-slider-thumb {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+  background: #000;
+}
+
+.SA-slider-thumb:hover {
+  border: none !important;
+  text-decoration: none;
+  color: none;
+}
+
+.SA-slider-thumb img {
+  opacity: .4;
+  -webkit-transiition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.SA-slider-thumb img:hover {
+  opacity: .8;
+}
 /*# sourceMappingURL=custom-styles.css.map */
-
-
