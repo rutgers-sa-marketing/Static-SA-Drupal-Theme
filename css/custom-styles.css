@@ -1299,21 +1299,7 @@ footer {
     padding: 20px 10px;
   }
 }
-.table-info{
-  text-align: right;
-}
-/*Facilities Table Heading Hidden*/
-.tableheader{
-  display: none;
-  text-align: right;
-}
 
-/*Facilities Table Heading Appears*/
-@media all and (max-width: 992px) {
-.tableheader{
-  display: block;
-}
-}
 /* Events Page */
 .SA-detail-box {
   background: #E0E0E0;
