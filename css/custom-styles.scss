@@ -1462,6 +1462,7 @@ $heroheight: 700px;
 .SA-Hero{
     background-image: url("https://picsum.photos/id/1015/1663/700");
     height: $heroheight;
+    margin: 0 0;
 
 }  
 
@@ -1473,3 +1474,19 @@ $heroheight: 700px;
     font-size: 4em;
 
 }
+
+.video-title {
+//    position: absolute;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 1.5em;
+    width: 500px;
+    text-align: center;
+  }
+  
+  /*Index-4 Video Banner*/
+  .hero-video {
+    max-width: 100%;
+  
+    margin-left: -15px;
+  }

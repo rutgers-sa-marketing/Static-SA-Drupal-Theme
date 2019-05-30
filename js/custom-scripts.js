@@ -87,21 +87,3 @@ function includeHTML() {
     }
   }
 };
-
-function setActive() {
-  var location,navList, i ;
-  /*get current url*/
-  location = window.location.href;
-  /*get list of nav elements*/
-  navList = document.getElementsByClassName("navTitle");
-  console.log(navList);
-  console.log();
-  /*loop through ALL nav elements*/
-  for(var each in navList) {
-    console.log(navList[each]);
-    //if current page matches nav element leading to current page, set it active.
-    //if(location.includes(navList[i].getAttribute(""))!=-1){
-      //navList[i].parentElement.addClass("SA-active");
-    //}
-  }
-};

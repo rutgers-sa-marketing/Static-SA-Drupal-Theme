@@ -1436,6 +1436,7 @@ footer {
 .SA-Hero {
   background-image: url("https://picsum.photos/id/1015/1663/700");
   height: 700px;
+  margin: 0 0;
 }
 
 .hero-title {
@@ -1446,21 +1447,17 @@ footer {
   font-size: 4em;
 }
 
-/*Index-4 Video Banner*/
 .video-title {
-  position: absolute;
-  top: 30%;
-  left: 30%;
   color: white;
   text-shadow: 2px 2px black;
   font-size: 1.5em;
   width: 500px;
-  margin: 0 auto;
   text-align: center;
 }
 
 /*Index-4 Video Banner*/
 .hero-video {
-  width: 100%;
+  max-width: 100%;
+  margin-left: -15px;
 }
 /*# sourceMappingURL=custom-styles.css.map */
