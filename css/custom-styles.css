@@ -1445,4 +1445,22 @@ footer {
   text-shadow: 3px 3px #303030;
   font-size: 4em;
 }
+
+/*Index-4 Video Banner*/
+.video-title {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 1.5em;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*Index-4 Video Banner*/
+.hero-video {
+  width: 100%;
+}
 /*# sourceMappingURL=custom-styles.css.map */
