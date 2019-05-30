@@ -1312,6 +1312,24 @@ footer{
     }
 }
 
+
+
+
+/*Facilities Table Heading Hidden*/
+.tableheader{
+    display: none;
+    text-align: right;
+  }
+  
+  /*Facilities Table Heading Appears*/
+  @media all and (max-width: 992px) {
+  .tableheader{
+    display: block;
+  }
+  }
+  
+  
+
 @media all and (min-width: 661px){
     .SA-table{
         margin-top: $row-spacing;
@@ -1439,3 +1457,19 @@ footer{
     }
 }
 
+
+$heroheight: 700px;
+.SA-Hero{
+    background-image: url("https://picsum.photos/id/1015/1663/700");
+    height: $heroheight;
+
+}  
+
+.hero-title{
+    text-align:center;
+    margin-top: ($heroheight/2)-75;
+    color: white;
+    text-shadow:  3px 3px #303030;
+    font-size: 4em;
+
+}
