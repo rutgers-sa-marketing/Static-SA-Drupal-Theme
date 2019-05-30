@@ -1287,6 +1287,19 @@ footer {
   padding: 15px 5px;
 }
 
+/*Facilities Table Heading Hidden*/
+.tableheader {
+  display: none;
+  text-align: right;
+}
+
+/*Facilities Table Heading Appears*/
+@media all and (max-width: 992px) {
+  .tableheader {
+    display: block;
+  }
+}
+
 @media all and (min-width: 661px) {
   .SA-table {
     margin-top: 5%;
@@ -1418,5 +1431,36 @@ footer {
 
 .SA-slider-thumb img:hover {
   opacity: .8;
+}
+
+.SA-Hero {
+  background-image: url("https://picsum.photos/id/1015/1663/700");
+  height: 700px;
+}
+
+.hero-title {
+  text-align: center;
+  margin-top: 275px;
+  color: white;
+  text-shadow: 3px 3px #303030;
+  font-size: 4em;
+}
+
+/*Index-4 Video Banner*/
+.video-title {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 1.5em;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*Index-4 Video Banner*/
+.hero-video {
+  width: 100%;
 }
 /*# sourceMappingURL=custom-styles.css.map */
