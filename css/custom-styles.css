@@ -1489,11 +1489,23 @@ footer {
 }
 
 /*Ekko Lightbox IE fix*/
-.ekko-lightbox .modal-dialog {
-  -webkit-box-flex: 100% !important;
-      -ms-flex: 100% !important;
-          flex: 100% !important;
-  margin-left: 0;
-  margin-right: 0;
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .ekko-lightbox {
+    padding-right: 0 !important;
+  }
+  .ekko-lightbox .modal-dialog {
+    -webkit-box-flex: 100% !important;
+        -ms-flex: 100% !important;
+            flex: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+    -ms-overflow-style: none;
+  }
+}
+
+/* Modal Padding Right Fix */
+.modal-open {
+  padding-right: 0 !important;
 }
 /*# sourceMappingURL=custom-styles.css.map */

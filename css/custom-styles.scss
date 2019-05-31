@@ -1516,9 +1516,23 @@ footer{
         }
   }
 
-  /*Ekko Lightbox IE fix*/
-  .ekko-lightbox .modal-dialog {
-      flex: 100% !important;
-      margin-left: 0;
-      margin-right: 0;
-  }
+    /*Ekko Lightbox IE fix*/
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+    .ekko-lightbox {
+        
+      padding-right: 0 !important; //modal padding right fix
+      .modal-dialog {
+        flex: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+        overflow: hidden;
+        -ms-overflow-style: none;
+      
+      }
+    }
+    }
+
+    /* Modal Padding Right Fix */
+    .modal-open {
+        padding-right: 0 !important;
+    }
