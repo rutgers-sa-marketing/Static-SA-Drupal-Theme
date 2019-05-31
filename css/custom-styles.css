@@ -725,6 +725,7 @@ h6 {
 
 .SA-left-sidebar h3 {
   margin: 0 0 20px 0;
+  color: #cc0033;
 }
 
 .SA-left-sidebar-content {
@@ -743,6 +744,7 @@ h6 {
 
 .SA-right-sidebar h3 {
   margin: 0 0 20px 0;
+  color: #cc0033;
 }
 
 .SA-right-sidebar-content {
@@ -1555,10 +1557,6 @@ footer {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.video-banner .relative {
-  position: relative;
-}
-
 .video-banner h2 {
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -1569,6 +1567,11 @@ footer {
   line-height: 1.3em;
   letter-spacing: 2px;
   margin-top: 35vh;
+}
+
+.relative {
+  position: relative;
+  height: 80vh !important;
 }
 
 /*Ekko Lightbox IE fix*/
@@ -1590,5 +1593,51 @@ footer {
 /* Modal Padding Right Fix */
 .modal-open {
   padding-right: 0 !important;
+}
+
+/* Styling for Articles Dropdown */
+.articles-filter-dropdown {
+  margin-bottom: 4vh;
+}
+
+.SA-mini-articles-block {
+  margin-bottom: 30px;
+  padding-right: 10px;
+  overflow: hidden;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.SA-mini-articles-block a {
+  color: #000;
+}
+
+.SA-mini-articles-block a:hover, .SA-mini-articles-block a:active, .SA-mini-articles-block a:focus {
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+
+.SA-mini-articles-block h3 {
+  font-size: 1em;
+  font-weight: 500;
+  color: #000;
+}
+
+.SA-mini-articles-block img {
+  float: left;
+  margin: 0 20px 0 0;
+  height: 50px;
+  width: 50px;
+}
+
+/* FontAwesome Font Styling */
+.font-social {
+  font-size: 1.5em;
+  color: #8e182e !important;
+}
+
+.font-social:hover, .font-social:active, .font-social:focus {
+  color: #cc0033;
 }
 /*# sourceMappingURL=custom-styles.css.map */
