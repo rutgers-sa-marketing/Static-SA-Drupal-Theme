@@ -1515,3 +1515,10 @@ footer{
             margin-top: 35vh;
         }
   }
+
+  /*Ekko Lightbox IE fix*/
+  .ekko-lightbox .modal-dialog {
+      flex: 100% !important;
+      margin-left: 0;
+      margin-right: 0;
+  }
