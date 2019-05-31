@@ -106,6 +106,7 @@ h6 {
   display: none;
 }
 
+/*Changes content in the top red bar for Mobile*/
 @media all and (min-width: 768px) {
   .utility-bar {
     height: auto;
@@ -172,6 +173,7 @@ h6 {
   text-align: center;
 }
 
+/*Moves Logo On top of Dept Name in Mobile */
 @media all and (min-width: 768px) {
   .SA-branding img {
     float: left;
@@ -345,6 +347,7 @@ h6 {
   text-decoration: underline;
 }
 
+/* Adds Support Students to Nav in Mobile Size*/
 @media all and (min-width: 768px) {
   .affix {
     position: fixed;
@@ -437,7 +440,7 @@ h6 {
   -ms-transform: rotate(0);
 }
 
-/* Changes the Bootstrap mobile menu breakpoint to collapse at 990px  (This Overrides Bootstrap's Styles)
+/*Changes the Bootstrap mobile menu breakpoint to collapse at 990px  (This Overrides Bootstrap's Styles)
 @media (max-width: 990px) {
     .navbar-header {
         float: none;
@@ -552,6 +555,7 @@ h6 {
   border-color: #cc0033;
 }
 
+/*Adds Search from Red bar into NavBar in Mobile*/
 @media all and (min-width: 768px) {
   .SA-search-btn {
     display: none;
@@ -778,6 +782,7 @@ h6 {
   font-size: 1.5em;
 }
 
+/*Changes size of the Link Boxes on Index page (ie: all stories, inclusion etc.)*/
 @media all and (min-width: 768px) {
   .SA-link-boxes a {
     height: 110px;
@@ -887,6 +892,7 @@ h6 {
   text-shadow: none;
 }
 
+/* Changes padding for Carousel Slider L and R icons*/
 @media all and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
     padding: 4px;
@@ -924,6 +930,7 @@ h6 {
   font-size: 0.875em;
 }
 
+/* Changes Inside Text sizes of RU Fact Slider*/
 @media all and (min-width: 768px) {
   .SA-fact {
     margin-top: 70px;
@@ -1066,6 +1073,7 @@ footer {
   text-align: center;
 }
 
+/* Changes location of the Bottom Links in Footer from bottom (in mobile) to right (in tab/desktop) */
 @media all and (min-width: 768px) {
   .SA-university-links {
     text-align: right;
