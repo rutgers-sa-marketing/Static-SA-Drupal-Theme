@@ -833,6 +833,9 @@ $h-line-height: 1.3em;
         transition: $ease;
         border-bottom: 5px solid #8e182e;
     }
+    .span{
+        font-size: .775em;
+    }
     position: relative;
     display: block;
     background: $menu-button-color;
@@ -858,10 +861,13 @@ $h-line-height: 1.3em;
     }
     h3,p{
         padding: 0 10px;
+        
         span{
+            
             border-bottom: none;
             &:hover, &:active, &:focus{
-                border-bottom: 1px solid #fff;
+                border-bottom: 1px solid #fff;    
+                
             }
         }
     }
@@ -1522,3 +1528,17 @@ footer{
       margin-left: 0;
       margin-right: 0;
   }
+
+  .dropdown-menu{
+    list-style-type: none;
+    
+  }
+  
+
+
+
+
+    
+    
+
+
