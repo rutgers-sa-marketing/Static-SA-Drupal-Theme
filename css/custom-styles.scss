@@ -1459,24 +1459,28 @@ footer{
 }
 
 
-$heroheight: 700px;
-.SA-Hero{
-    background-image: url("https://picsum.photos/id/1015/1663/700");
-    height: $heroheight;
-    margin: 0 0;
 
+/* Hero Banner and Hero Video Banner */
+
+.SA-Hero{
+    background: #000 url("../images/SA-hero-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin: 0 0;
+    width: 100%;
 }  
 
 .hero-title{
-    text-align:center;
-    margin-top: ($heroheight/2)-75;
-    color: white;
+    text-align: center;
+    margin-top: 25vh;
+    color: #fff;
     text-shadow:  3px 3px #303030;
-    font-size: 4em;
+    font-size: 3em;
 
 }
 
-/* Index-4 Video  */
+/* Video  */
 .hero-video {
     position: absolute;
     top: 50%;
@@ -1487,10 +1491,9 @@ $heroheight: 700px;
     min-height: 100%;
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
-    
   }
   
-  /*Index-4 Video Banner (container)*/
+  /* Video Banner (container) */
   .video-banner {
     position: relative;
     overflow: hidden;
