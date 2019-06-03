@@ -1681,4 +1681,16 @@ footer {
 .about-sa a {
   color: #cc0033;
 }
+
+.SA-mini-events-block {
+  font-size: .8em;
+}
+
+.SA-mini-events-block a {
+  color: black;
+}
+
+.SA-mini-events-block p {
+  margin-top: -10px;
+}
 /*# sourceMappingURL=custom-styles.css.map */
