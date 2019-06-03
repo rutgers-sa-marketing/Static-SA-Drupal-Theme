@@ -800,6 +800,12 @@ $h-line-height: 1.3em;
     }
 }
 
+.SA-right-sidebar-support {
+    margin-top: 50px;
+    p{
+        color: #848484;
+    }
+}
 
 /* Featured Blocks */
 .SA-featured-content{
@@ -1665,12 +1671,44 @@ footer{
     }
 
     /* FontAwesome Font Styling */
-
     .font-social {
         font-size: 1.5em;
-        color: $scarlet-hover-color;
+        color: $scarlet-red;
+        text-decoration: none;
+        margin-right: 5px;
 
         &:hover, &:active, &:focus{
+            text-decoration: none;
+            color: $scarlet-hover-color;
+        }
+    }
+
+    /* Styling for any links */
+    .href-styles {
+        font-size: 1em;
+        color: $scarlet-red;
+        text-decoration: none;
+
+        &:hover, &:active, &:focus{
+            text-decoration: underline;
+            color: $scarlet-hover-color;
+        }
+
+    }
+
+    /* Styling for About Student Affairs section*/
+    .about-sa {
+        padding: 25px;
+        font-size: 14px;
+        color: #333;
+        background: #efefef;
+        text-transform: uppercase;
+        em {
+            font-style: italic;
+            text-transform: none;
+        }
+        
+        a{
             color: $scarlet-red;
         }
     }
