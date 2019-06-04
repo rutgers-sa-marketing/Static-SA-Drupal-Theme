@@ -309,7 +309,7 @@ h6 {
 }
 
 .SA-navbar {
-  background-color: #5e5f5f;
+  background-color: #cc0033;
   margin-bottom: 0;
   border: none;
 }
@@ -323,7 +323,7 @@ h6 {
 }
 
 .SA-navbar a:hover {
-  background-color: #cc0033 !important;
+  background-color: #8e182e !important;
 }
 
 .SA-navbar .SA-navbar-toggle {
@@ -378,7 +378,7 @@ h6 {
 
 .SA-dropdown-menu {
   background-color: #333 !important;
-  border-top: 1px solid #333;
+  border-top: 1px solid #8e182e;
 }
 
 .SA-dropdown-menu a {
@@ -433,9 +433,9 @@ h6 {
   .SA-active .navTitle {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #333;
+    background-color: #cc0033;
     padding-bottom: 10px !important;
-    border-bottom: 5px solid #cc0033;
+    border-bottom: 5px solid #8e182e !important;
   }
 }
 
@@ -840,7 +840,7 @@ h6 {
 .SA-link-boxes a {
   display: block;
   font-weight: 700;
-  background-color: #5e5f5f;
+  background-color: #cc0033;
   color: #fff !important;
   padding: 15px;
   height: 60px;
@@ -848,12 +848,12 @@ h6 {
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
   position: relative;
-  border-top: 5px solid #8e182e;
+  border-top: 5px solid #000000;
 }
 
 .SA-link-boxes a:hover, .SA-link-boxes a:active, .SA-link-boxes a:focus {
-  background-color: #cc0033;
-  border-top: 5px solid #cc0033;
+  background-color: #8e182e !important;
+  border-top: 5px solid #8e182e !important;
   text-decoration: none;
 }
 
@@ -879,7 +879,7 @@ h6 {
 .SA-info-box {
   position: relative;
   display: block;
-  background: #5e5f5f;
+  background: #cc0033;
   color: #fff !important;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
@@ -892,17 +892,17 @@ h6 {
 .SA-info-box img {
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
-  border-bottom: 5px solid #8e182e;
+  border-bottom: 5px solid #000000;
 }
 
 .SA-info-box:hover {
-  background: #cc0033;
+  background: #8e182e !important;
   text-decoration: none;
   color: #fff !important;
 }
 
 .SA-info-box:hover img {
-  border-bottom: 5px solid #cc0033;
+  border-bottom: 5px solid #8e182e !important;
 }
 
 .SA-info-box h3 {
@@ -1166,7 +1166,7 @@ footer {
 .SA-ql-box {
   margin-bottom: 25px;
   display: inline-block;
-  background-color: #5e5f5f;
+  background-color: #cc0033;
   width: 100%;
   color: #fff;
   -webkit-transition: all 0.15s ease-in-out;

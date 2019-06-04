@@ -1,10 +1,11 @@
 /* General */
+$black: #000000;
 $scarlet-red: #cc0033;
 $scarlet-hover-color: #8e182e !important; 
 $font-color: #333;
 $alert-color: #fed116;
 $advisory-color: #bbe4f8;
-$menu-button-color: #5e5f5f;
+$menu-button-color: $scarlet-red;
 $ease: all .15s ease-in-out;
 $row-spacing: 5%;
 $mobile-spacing: 25px;
@@ -373,7 +374,7 @@ $h-line-height: 1.3em;
         -webkit-transition: $ease;
         transition: $ease;
         &:hover{
-            background-color: $scarlet-red !important;
+            background-color: #8e182e !important;
     
         }
     }
@@ -426,7 +427,7 @@ $h-line-height: 1.3em;
 
 .SA-dropdown-menu {
     background-color: #333 !important;
-    border-top: 1px solid #333;
+    border-top: 1px solid #8e182e;
     a{
         display: block;
         padding: 8px;
@@ -477,9 +478,9 @@ $h-line-height: 1.3em;
         .navTitle {
            -webkit-box-sizing: border-box;
            box-sizing: border-box;
-           background-color: #333;
+           background-color: $scarlet-red;
            padding-bottom: 10px !important;
-           border-bottom: 5px solid $scarlet-red;
+           border-bottom: 5px solid $scarlet-hover-color;
         }
    }
 } 
@@ -885,10 +886,10 @@ $h-line-height: 1.3em;
         -webkit-transition: $ease;
         transition: $ease;
         position: relative;
-        border-top: 5px solid #8e182e;
+        border-top: 5px solid $black;
         &:hover, &:active, &:focus{
-            background-color: $scarlet-red;
-            border-top: 5px solid $scarlet-red;
+            background-color: $scarlet-hover-color;
+            border-top: 5px solid $scarlet-hover-color;
             text-decoration: none;
         }
     }
@@ -921,7 +922,7 @@ $h-line-height: 1.3em;
     img{
         -webkit-transition: $ease;
         transition: $ease;
-        border-bottom: 5px solid #8e182e;
+        border-bottom: 5px solid $black;
     }
     position: relative;
     display: block;
@@ -934,11 +935,11 @@ $h-line-height: 1.3em;
     overflow: hidden;
     margin-bottom: $mobile-spacing;
     &:hover{
-        background: $scarlet-red;
+        background: $scarlet-hover-color;
         text-decoration: none;
         color: #fff !important;
         img{
-            border-bottom: 5px solid #cc0033;
+            border-bottom: 5px solid $scarlet-hover-color;
         }
     }
 

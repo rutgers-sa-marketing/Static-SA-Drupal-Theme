@@ -1,10 +1,11 @@
 /* General */
+$black: #000000;
 $scarlet-red: #cc0033;
-$scarlet-hover-color: #8e182e !important; 
+$scarlet-hover-color: #cc0033 !important; 
 $font-color: #333;
 $alert-color: #fed116;
 $advisory-color: #bbe4f8;
-$menu-button-color: #5e5f5f;
+$menu-button-color: $black;
 $ease: all .15s ease-in-out;
 $row-spacing: 5%;
 $mobile-spacing: 25px;
@@ -420,13 +421,13 @@ $h-line-height: 1.3em;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    background-color: #cc0033; /* Bootstrap Style Overide*/
+    background-color: $scarlet-red; /* Bootstrap Style Overide*/
     border-color: $scarlet-red; /* On Highlight in Nav Bar */
 }
 
 .SA-dropdown-menu {
-    background-color: #333 !important;
-    border-top: 1px solid #333;
+    background-color: $black !important;
+    border-top: 1px solid $black;
     a{
         display: block;
         padding: 8px;
@@ -477,7 +478,7 @@ $h-line-height: 1.3em;
         .navTitle {
            -webkit-box-sizing: border-box;
            box-sizing: border-box;
-           background-color: #333;
+           background-color: $black;
            padding-bottom: 10px !important;
            border-bottom: 5px solid $scarlet-red;
         }
@@ -885,7 +886,7 @@ $h-line-height: 1.3em;
         -webkit-transition: $ease;
         transition: $ease;
         position: relative;
-        border-top: 5px solid #8e182e;
+        border-top: 5px solid $scarlet-hover-color;
         &:hover, &:active, &:focus{
             background-color: $scarlet-red;
             border-top: 5px solid $scarlet-red;
@@ -921,7 +922,7 @@ $h-line-height: 1.3em;
     img{
         -webkit-transition: $ease;
         transition: $ease;
-        border-bottom: 5px solid #8e182e;
+        border-bottom: 5px solid $scarlet-hover-color;
     }
     position: relative;
     display: block;
@@ -938,7 +939,7 @@ $h-line-height: 1.3em;
         text-decoration: none;
         color: #fff !important;
         img{
-            border-bottom: 5px solid #cc0033;
+            border-bottom: 5px solid $scarlet-red;
         }
     }
 
@@ -1202,7 +1203,7 @@ footer{
         padding: 15px;
         margin-right: 15px;
         float: left;
-        border-right: 5px solid #8e182e;
+        border-right: 5px solid $scarlet-hover-color;
         -webkit-transition: $ease;
         transition: $ease;
     }
@@ -1239,9 +1240,9 @@ footer{
 .nav-tabs > li.active > a {
     color: #fff;
     cursor: default;
-    background-color: #cc0033;
-    border: 1px solid #cc0033;
-    border-bottom-color: #cc0033;
+    background-color: $scarlet-red;
+    border: 1px solid $scarlet-red;
+    border-bottom-color: $scarlet-red;
     border-bottom-color: transparent;
     border-radius: 0;
 }
@@ -1251,7 +1252,7 @@ footer{
     padding: 15px 20px;
     border: 1px solid transparent;
     border-radius: 0;
-    background-color: #8e182e;
+    background-color: $scarlet-hover-color;
     color: #fff;
     font-weight: 700;
     -webkit-transition: $ease;
@@ -1259,14 +1260,14 @@ footer{
 }
 
 .SA-tab:hover{
-    background-color: #cc0033 !important;
-    border-color: #cc0033 !important;
+    background-color: $scarlet-red !important;
+    border-color: $scarlet-red !important;
     color: #fff !important;
 }
 
 .SA-tab:focus{
-    background-color: #cc0033 !important;
-    border-color: #cc0033 !important;
+    background-color: $scarlet-red !important;
+    border-color: $scarlet-red !important;
     color: #fff !important;
 }
 
@@ -1298,7 +1299,7 @@ footer{
 
 .panel-collapse {
     background: #e0e2e1;
-    border-top: 5px solid #8e182e;
+    border-top: 5px solid $scarlet-hover-color;
 }
 
 
@@ -1322,7 +1323,7 @@ footer{
       border-radius: 0;
       color: #fff;
       border-color: none;
-      background-color: #8e182e;
+      background-color: $scarlet-hover-color;
       transition: all .15s ease-in-out;
       // height: 65px;
       &:hover{
