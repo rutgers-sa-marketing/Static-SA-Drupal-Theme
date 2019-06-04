@@ -744,6 +744,11 @@ $h-line-height: 1.3em;
             border-bottom: 1px solid $scarlet-red;
         }
     }
+
+    .SA-Hero {
+        margin-top: -40px;
+
+    }
 }
 
 
@@ -1560,8 +1565,8 @@ footer{
     background-size: cover;
     background-position: center;
     height: 70vh;
-    margin: 0 0;
-    width: 100%;
+    //margin: 0 0;
+    //width: 100%;
 }  
 
 .hero-title{

@@ -705,6 +705,10 @@ h6 {
   border-bottom: 1px solid #cc0033;
 }
 
+.SA-main-content .SA-Hero {
+  margin-top: -40px;
+}
+
 /* Sidebars */
 .SA-left-sidebar {
   margin-bottom: 25px;
@@ -1530,8 +1534,6 @@ footer {
   background-size: cover;
   background-position: center;
   height: 70vh;
-  margin: 0 0;
-  width: 100%;
 }
 
 .hero-title {
