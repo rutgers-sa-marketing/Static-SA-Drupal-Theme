@@ -705,6 +705,10 @@ h6 {
   border-bottom: 1px solid #cc0033;
 }
 
+.SA-main-content .SA-Hero {
+  margin-top: -40px;
+}
+
 /* Sidebars */
 .SA-left-sidebar {
   margin-bottom: 25px;
@@ -1526,20 +1530,24 @@ footer {
 
 /* Hero Banner and Hero Video Banner */
 .SA-Hero {
-  background: #000 url("../images/SA-hero-bg.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 70vh;
-  margin: 0 0;
-  width: 100%;
+  background: rgba(0, 0, 0, 0.5) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAF0lEQVQIW2NkYGD4z8DAwMgAI0AMDA4AI3EBBCKrOnQAAAAASUVORK5CYII=");
+  height: 420px;
+  position: relative;
+  z-index: 1;
+}
+
+.SA-hero-img {
+  z-index: -1;
 }
 
 .hero-title {
-  text-align: center;
-  margin-top: 25vh;
   color: #fff;
   text-shadow: 3px 3px #303030;
   font-size: 3em;
+  position: absolute;
+  top: 150px;
+  text-align: center;
+  width: 100%;
 }
 
 /* Video  */
