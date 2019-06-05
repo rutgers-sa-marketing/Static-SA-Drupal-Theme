@@ -377,8 +377,8 @@ h6 {
 }
 
 .SA-dropdown-menu {
-  background-color: #000000 !important;
-  border-top: 1px solid #000000;
+  background-color: #333 !important;
+  border-top: 1px solid #333;
 }
 
 .SA-dropdown-menu a {
