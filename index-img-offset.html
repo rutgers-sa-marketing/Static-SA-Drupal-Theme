@@ -35,280 +35,56 @@
   </head>
 
   <body>
+    <!--Header is pulled from header.html-->
+    <div w3-include-html="header.html" id="header-div"></div>
+
+
     
 
-<!-- Search Modal -->
-<div class="modal fade SA-search-modal modal-search-backdrop" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-search-dialog " role="document">
-    <div class="modal-search-content">
-      
-      <div class="modal-search-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      </div>
-
-      <div class="modal-search-body">
-        <img src="images/SA-logo.svg" width="200px" onerror="this.onerror=null; this.src='images/SA-logo.png'" alt="Rutgers Student Affairs Logo">
-        
-        <form class="navbar-form " role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search website...">
-          </div>
-          <button type="submit" class="btn btn-default">Search</button>
-          <button type="close" data-dismiss="modal" class="btn btn-danger">Cancel</button>
-        </form>
-
-        <div class="container SA-search-ul">
-          <div class="row">
-            <div class="col-sm-12">
-              <h2>Useful Links</h2>
-             
-            </div>
-            <div class="col-md-3 col-md-offset-3 col-sm-6">
-              <ul>
-                <li><a href="">Useful Link</a></li>
-                <li><a href="">Another Link of Something</a></li>
-                <li><a href="">Really Useful Link</a></li>
-                <li><a href="">Contact Information</a></li>
-                <li><a href="">Dummy Link</a></li>
-                <li><a href="">Something Link</a></li>
-                <li><a href="">Important Information</a></li>
-              </ul>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-              <ul>
-                <li><a href="">Dummy Link</a></li>
-                <li><a href="">Something Link</a></li>
-                <li><a href="">Important Information</a></li>
-                <li><a href="">Contact Information</a></li>
-                <li><a href="">Dummy Link</a></li>
-                <li><a href="">Something Link</a></li>
-                <li><a href="">Important Information</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div><!-- /modal -->
-
-<!-- Main Navigation & MEGA MENU -->
-<div class="navbar navbar-default navbar-static-top SA-navbar-hero yamm" data-spy="affix" data-offset-top="157">
-    <div class="container">
- 
-      <div class="navbar-header">
-        <button class="navbar-toggle collapsed SA-navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" aria-expanded="false">
-          <span class="icon-bar top-bar"></span>
-          <span class="icon-bar middle-bar"></span>
-          <span class="icon-bar bottom-bar"></span>
-        </button>
-      </div>
-    
-  <div class="navbar-collapse collapse" id="navbar-collapse-grid" aria-expanded="false" style="height: 1px;">
-    
-    <ul class="nav navbar-nav">
-      <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-default navbar-btn SA-search-btn"><i class="fas fa-search SA-search-icon"></i> Search</button>
-
-      <li class="SA-active"><a href="index.html" class="navTitle">Home<span class="sr-only">(current)</span></a></li>
-      <!-- Dropdown -->
-      <li class="dropdown yamm-fw"><a class="dropdown-toggle navTitle" href="#" data-toggle="dropdown" aria-expanded="false">Mega Menu<b class="caret"></b></a> 
-        <ul class="dropdown-menu SA-dropdown-menu">
-          <li class="yamm-content">
-            <div class="row">
-              <div class="col-sm-3">
-                 <h3>Some Pages</h3>
-                 <ul>
-                  <li><a href="accent-index.html">PRCC Accent Banner Page</a></li>
-                  <li><a href="index-2.html"> Sliding Banner Page</a></li>
-                  <li><a href="index-3.html"> Hero Banner Page</a></li>
-                  <li><a href="index-4.html"> Video Banner Page</a></li>
-                  <!--<li><a href="index-5.html">Full Screen Video</a></li>-->
-                  <li><a href="index-black.html">Black Home Page</a></li>
-                  <li><a href="index-red.html">Red Home Page</a></li>
-                </ul>
-              </div>
-              <div class="col-sm-3">
-                <h3>Services</h3>
-                <ul>
-                  <li><a href="index-img-offset.html">Index Banner Offset</a></li>
-                  <li><a href="index-vid-offset.html">Index Video Offset</a></li>
-                  <li><a href="#">Something Else</a></li>
-                  <li><a href="#">Dummy Link</a></li>
-                  <li><a href="#">Example Link</a></li>
-                </ul>
-              </div>
-              <div class="col-sm-3">
-                <h3>Useful Information</h3>
-                <ul>
-                  <li><a href="articles.html">Articles</a></li>
-                  <li><a href="articles-inner.html">Articles Inner 1</a></li>
-                  <li><a href="photo-gallery.html"> Photo Gallery</a></li>
-                  <li><a href="#">Dummy Link</a></li>
-                  <li><a href="#">Example Link</a></li>
-                </ul>
-              </div>
-              <div class="col-sm-3">
-                <h3>For Students</h3>
-                <ul>
-                  <li><a href="#">Sample Link</a></li>
-                  <li><a href="#">Another Link</a></li>
-                  <li><a href="#">Something Else</a></li>
-                  <li><a href="#">Dummy Link</a></li>
-                  <li><a href="#">Example Link</a></li>
-                </ul>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </li>
-
-      <li><a href="accordions.html" class="navTitle">Accordions</a></li>
-      <li><a href="tabs.html" class="navTitle">Tabs</a></li>
-      <!-- Dropdown -->
-      <li class="dropdown yamm-fw"><a class="dropdown-toggle navTitle" href="#" data-toggle="dropdown" aria-expanded="false">Staff<b class="caret"></b></a>
-        <ul class="dropdown-menu SA-dropdown-menu">
-          <li class="yamm-content">
-            <div class="row">
-              <div class="col-sm-3">
-                  <img class="img-responsive" src="https://picsum.photos/id/164/300/200">
-              </div>
-              <div class="col-sm-3">
-                <h3>Additional Bio Pages</h3>
-                <ul>
-                  <li><a href="bio-page.html">Bio</a></li>
-                  <li><a href="bio.html">Inner Bio Page</a></li>
-                </ul>
-              </div>
-              <div class="col-sm-3">
-                <h3>Category Name</h3>
-                <ul>
-                  <li><a href="#">Sample Link</a></li>
-                  <li><a href="#">Another Link</a></li>
-                  <li><a href="#">Something Else</a></li>
-                  <li><a href="#">Dummy Link</a></li>
-                  <li><a href="#">Example Link</a></li>
-                </ul>
-              </div>
-              <div class="col-sm-3">
-                <h3>Some Info</h3>
-                <ul>
-                  <li><a href="#">Sample Link</a></li>
-                  <li><a href="#">Another Link</a></li>
-                  <li><a href="#">Something Else</a></li>
-                  <li><a href="#">Dummy Link</a></li>
-                  <li><a href="#">Example Link</a></li>
-                </ul>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </li>
-      <!-- Dropdown -->
-      <li class="dropdown yamm-fw"><a class="dropdown-toggle navTitle" href="#" data-toggle="dropdown" aria-expanded="false">Events<b class="caret"></b></a>
-        <ul class="dropdown-menu SA-dropdown-menu">
-          <li class="yamm-content">
-            <div class="row">
-              <div class="col-sm-3">
-                  <img class="img-responsive" src="https://picsum.photos/id/164/300/200">
-              </div>
-              <div class="col-sm-3">
-                <h3>Event Pages</h3>
-                <ul> 
-                  <li><a href="events.html">Upcoming Events</a></li>
-                  <li><a href="events-2.html">Upcoming Events List</a></li>
-                  <br>
-                  <li><a href="event-inner.html">Inner Events Page</a></li>
-                  <li><a href="event-inner-2.html">Inner Events Page 2</a></li>
-                </ul>
-              </div>
-              <div class="col-sm-3">
-                
-              </div>
-              <div class="col-sm-3">
-                
-              </div>
-            </div>
-          </li>
-        </ul>
-      </li>
-
-      <!-- Dropdown -->
-      <li class="dropdown yamm-fw"><a class="dropdown-toggle navTitle" href="#" data-toggle="dropdown" aria-expanded="false">Facilities<b class="caret"></b></a>
-        <ul class="dropdown-menu SA-dropdown-menu">
-          <li class="yamm-content">
-            <div class="row">
-              <div class="col-sm-3">
-                  <img class="img-responsive" src="https://picsum.photos/id/164/300/200">
-              </div>
-              <div class="col-sm-3">
-                <h3>Facility Pages</h3>
-                <ul> 
-                  <li><a href="facilities.html">Our Facilities</a></li>
-                  <li><a href="facilities-inner.html">Facility Inner Page</a></li>
-                  <li><a href="facilities-inner-2.html">Facility Inner-2 Page</a></li>
-                </ul>
-              </div>
-              <div class="col-sm-3">
-                
-              </div>
-              <div class="col-sm-3">
-                
-              </div>
-            </div>
-          </li>
-        </ul>
-      </li>
-      <li><a class="SA-support-nav-link" href="#">Support Students</a></li>
-    </ul>
-
-  </div>
-  
-  </div>
-</div><!-- End Navigation & MEGA MENU -->
-
-
-<!-- Utility Bar -->
-<div class="utility-bar-hero">
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <div class="utility-menu pull-right">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fas fa-search"></i> Search</a></li>
-        </ul>
-      </div><!-- /utility-menu -->
-    </div><!-- /col -->
-  </div><!-- /row -->
-</div><!-- /container -->
-</div><!-- /utility-bar -->
-
-<header class="SA-branding SA-branding-hero">
-<div class="row">
-  <div class="col-md-7">
-    <a href="index.html" title="Rutgers Student Affairs"><img src="images/SA-logo.svg" onerror="this.onerror=null; this.src='images/SA-logo.png'" alt="Rutgers Student Affairs Logo"></a>
-    <h1 class="SA-dep-title">Division of Student Affairs New Brunswick</h1> 
-  </div>
-
-  <div class="col-md-3 col-md-offset-2">
-      <a class="btn btn-default SA-btn-primary" href="#" role="button">Support Students</a>
-  </div>
-</div>
-</header>
 
     <!-- Hero Image -->
-     <div class=" container-fluid video-banner">
-        <h2>There's a U in Rutgers</h2>
-            <video autoplay loop muted src="http://slwordpress.rutgers.edu/wp-content/uploads/video/SA-video-bg.mp4" id="vid-bg" class="hero-video" type="video/mp4"></video>
+      <div class=" container-fluid video-banner">
+          <h1 class="hero-title"> There's a U in Rutgers </h1>   
+          <img class="hero-video" src="./images/SA-hero-bg-wide.jpg">
       </div>
 
     <div class="container SA-main-content">
       
 
-     
+     <!-- LATEST EVENTS -->
+     <div class="row">
+      <div class="col-md-3 col-sm-6 SA-title">
+        <h2>Latest News</h2>
+      </div><!-- /col /SA-title -->
+    </div><!-- /row -->
+
+    <div class="row SA-featured-content">
+        <div class="col-md-6"> <!-- Add col-md-push-3 when sidebars are enabled -->
+          <a href="#" role="img link" title="Featured Story"><img src="https://picsum.photos/id/1015/1000/780" class="img-responsive" alt="Featured"></a>
+          <h2><a href="#" role="titlelink">Blazing a Trail: Meet Dawud Hamdan</a></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis pariatur asperiores, architecto accusamus. Duis molestie est nunc, nec pharetra dolor dapibus ac. Donec fringilla enim eget nunc varius eleifend. Donec maximus interdum ligula vel placerat.</p>
+        </div><!-- /col -->
+
+        <div class="col-md-6"> <!-- Add col-md-push-3 when sidebars are enabled -->
+          <div class="SA-featured-block">
+            <a href="#"><img src="https://picsum.photos/id/1015/240/200" class="img-responsive" alt="Featured"></a>
+            <h3><a href="">Room Decorating Contest</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis pariatur asperiores, architecto accusamus.</p>
+          </div>
+
+          <div class="SA-featured-block">
+            <a href="#"><img src="https://picsum.photos/id/1015/240/200" class="img-responsive" alt="Featured"></a>
+            <h3><a href="">Appreciating the Heroes of Our Halls</a></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="SA-featured-block">
+              <a href="#"><img src="https://picsum.photos/id/1015/240/200" class="img-responsive" alt="Featured"></a>
+              <h3><a href="">Housing Selection Process</a></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis pariatur asperiores.</p>
+            </div>
+        </div><!-- /col-->
+      </div><!-- /row /SA-featured-content -->
 
       
       <!-- STORY CATEGORIES -->

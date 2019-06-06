@@ -1552,7 +1552,7 @@ footer {
 .hero-video {
   position: relative;
   left: 50%;
-  top: 0;
+  margin-top: 320px;
   width: 100%;
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
@@ -1564,6 +1564,7 @@ footer {
     position: relative;
     left: 50%;
     top: 0;
+    height: 560px;
     width: auto !important;
     -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
@@ -1571,11 +1572,26 @@ footer {
   }
 }
 
+@media screen and (max-width: 1200px), (min-width: 990px) {
+  .hero-video {
+    position: relative;
+    left: 50%;
+    margin-top: 270px;
+    width: 100%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+  }
+  .video-banner {
+    height: 550px !important;
+  }
+}
+
 /* Video Banner (container) */
 .video-banner {
   position: relative;
   overflow: hidden;
-  height: 420px;
+  height: 660px;
   padding-left: 0px !important;
   padding-right: 0px !important;
   background: rgba(0, 0, 0, 0.5);
@@ -1590,7 +1606,7 @@ footer {
   text-align: center;
   line-height: 1.3em;
   letter-spacing: 2px;
-  margin-top: 200px;
+  top: 45%;
 }
 
 /*Ekko Lightbox IE fix*/
