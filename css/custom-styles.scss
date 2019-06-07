@@ -1571,14 +1571,21 @@ footer{
 }  
 
 .hero-title{
+
     color: #fff;
     text-shadow:  2px 2px #000;
-    font-size: 3em;
-    position: absolute;
-    top: 150px;
-    text-align: center;
-    width: 100%;
+    font-size: 5vw;
+    line-height: 1.1em;
+    letter-spacing: 2px;
     font-family: $body-font !important;
+    font-weight: 700;
+    text-align: left;
+
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    margin-left: 15%;
+    
 }
 
 
@@ -1586,7 +1593,7 @@ footer{
 .hero-video {
     position: relative;
     left: 50%;
-    margin-top: 320px;
+    padding-top: 56.25%;
     width: 100%;
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
@@ -1596,9 +1603,7 @@ footer{
     .hero-video {
         position: relative;
         left: 50%;
-        top: 0;
-        height: 680px;
-        width: auto !important;
+        width: 100%;
         transform: translateX(-50%) translateY(-50%);
         z-index: -1;
       }
@@ -1608,14 +1613,9 @@ footer{
     .hero-video {
         position: relative;
         left: 50%;
-        margin-top: 270px;
         width: 100%;
         transform: translateX(-50%) translateY(-50%);
         z-index: -1;
-      }
-      
-      .video-banner{
-          height: 550px !important;
       }
   }
 
@@ -1623,21 +1623,10 @@ footer{
   .video-banner {
     position: relative;
     overflow: hidden;
-    height: 660px;
+    margin-bottom: -55% ;
     padding-left: 0px !important;
     padding-right: 0px !important;
-    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0));
-    
-        h2 {
-            font: $heading-font;
-            font-size: 4em;
-            font-weight: 700;
-            margin-left: 15%;
-            line-height: 1.1em;
-            letter-spacing: 2px;
-            top: 25%;
-            text-align: left;
-        }
+    background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0) 50%);
 
         .red-title {
             color: $scarlet-red !important;
@@ -1648,10 +1637,10 @@ footer{
   @media all and (max-width: 768px) {
             
     .video-banner{
+        margin-bottom: -50% ;
         h2{
           text-align: center;
           margin-left: 0% !important;
-          font-size: 3em !important;
         }
 
         .red-title {
