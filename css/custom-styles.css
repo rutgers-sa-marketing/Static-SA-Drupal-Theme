@@ -91,7 +91,7 @@ h6 {
 /* This banner changes based on the cultural center*/
 .utility-bar {
   background: #cc0033;
-  height: 5px;
+  height: 0px;
 }
 
 .utility-menu {
@@ -305,7 +305,8 @@ h6 {
 /* Navigation - For Mega Menu styles see yamm.css */
 .affix {
   /*Bootstrap style for sticky navbar*/
-  position: static;
+  position: fixed;
+  width: 100%;
 }
 
 .SA-navbar {
@@ -1822,5 +1823,18 @@ footer {
 
 .SA-event-list-item p {
   font-size: .9em;
+}
+
+/* Mobile Footer Styling*/
+.SA-navbar-brand {
+  padding: 10px 5px 5px 10px;
+}
+
+.SA-mobile-nav-header {
+  color: #fff;
+  float: left;
+  text-align: left;
+  font-size: .75em;
+  width: 230px;
 }
 /*# sourceMappingURL=custom-styles.css.map */
