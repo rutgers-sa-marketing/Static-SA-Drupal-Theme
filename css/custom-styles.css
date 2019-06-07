@@ -1557,7 +1557,7 @@ footer {
 .hero-video {
   position: relative;
   left: 50%;
-  padding-top: 56.25%;
+  margin-top: 300px;
   width: 100%;
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
@@ -1572,6 +1572,8 @@ footer {
     -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
     z-index: -1;
+    padding-top: 56.25%;
+    margin-top: 0px !important;
   }
 }
 
@@ -1590,16 +1592,21 @@ footer {
 .video-banner {
   position: relative;
   overflow: hidden;
-  margin-bottom: -55%;
   padding-left: 0px !important;
   padding-right: 0px !important;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), color-stop(50%, rgba(0, 0, 0, 0)));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 50%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), color-stop(30%, rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 30%);
 }
 
 .video-banner .red-title {
   color: #cc0033 !important;
   font-size: 1.8em;
+}
+
+@media all and (min-width: 768px) {
+  .video-banner {
+    height: 660px;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -1613,6 +1620,13 @@ footer {
   .video-banner .red-title {
     font-size: 1.8em !important;
   }
+}
+
+/* Offset content up */
+.SA-offset {
+  margin-top: -100px;
+  background: #fff;
+  padding-top: 20px;
 }
 
 /* Video Within Container Styling */
