@@ -1110,6 +1110,7 @@ footer {
 .SA-quick-links {
   padding-bottom: 45px;
   font-size: .75em;
+  background-color: #000;
 }
 
 .SA-quick-links a {
@@ -1128,6 +1129,32 @@ footer {
 .SA-quick-links ul li {
   list-style-type: none;
   margin-bottom: 12px;
+}
+
+.SA-footer-navbar {
+  background-color: #000;
+  margin-bottom: 0;
+  border: none;
+}
+
+.SA-footer-navbar a {
+  color: #fff !important;
+  font-size: 0.875em;
+  font-weight: 600;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.SA-footer-navbar .SA-footer-navbar-toggle {
+  border: none;
+}
+
+.SA-footer-navbar .SA-footer-navbar-toggle span {
+  background-color: #fff !important;
+}
+
+.SA-footer-navbar .SA-footer-navbar-toggle:hover, .SA-footer-navbar .SA-footer-navbar-toggle:focus {
+  background-color: transparent;
 }
 
 .SA-disclaimer {

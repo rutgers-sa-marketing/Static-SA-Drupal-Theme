@@ -1147,6 +1147,7 @@ footer{
 .SA-quick-links{
     padding-bottom: 45px;
     font-size: .75em;
+    background-color: #000;
     a{
         color:#fff;
         &:hover, &:active, &:focus{
@@ -1159,6 +1160,29 @@ footer{
         li{
             list-style-type: none;
             margin-bottom: 12px;
+        }
+    }
+}
+
+.SA-footer-navbar{
+    background-color: #000;
+    margin-bottom: 0;
+    border: none;
+    a{
+        color: #fff !important;
+        font-size: $nav-font-size;
+        font-weight: 600;
+        -webkit-transition: $ease;
+        transition: $ease;
+    }
+
+    .SA-footer-navbar-toggle{
+        border: none;
+        span{
+            background-color: #fff !important; 
+        }
+        &:hover, &:focus{
+            background-color: transparent;
         }
     }
 }
