@@ -305,7 +305,7 @@ h6 {
 /* Navigation - For Mega Menu styles see yamm.css */
 .affix {
   /*Bootstrap style for sticky navbar*/
-  position: fixed;
+  position: relative;
   width: 100%;
 }
 
@@ -1827,14 +1827,16 @@ footer {
 
 /* Mobile Footer Styling*/
 .SA-navbar-brand {
-  padding: 10px 5px 5px 10px;
+  padding: 10px 5px 5px 15px;
 }
 
 .SA-mobile-nav-header {
   color: #fff;
   float: left;
   text-align: left;
-  font-size: .75em;
+  font-size: .72em;
+  font-weight: 700;
   width: 230px;
+  padding: 0px 0px 0px 20px;
 }
 /*# sourceMappingURL=custom-styles.css.map */
