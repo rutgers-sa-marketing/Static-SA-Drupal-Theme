@@ -127,6 +127,12 @@ $h-line-height: 1.3em;
 }
 
 
+/* Add new Breakpoint for Bootstrap Container Class */
+@media (min-width: 1440px){
+    .container {
+        width: 1400px;
+    }
+}
 
 /* Utility Bar */
 /* This banner changes based on the cultural center*/
