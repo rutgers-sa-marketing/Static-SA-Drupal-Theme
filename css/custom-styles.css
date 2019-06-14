@@ -98,7 +98,7 @@ h6 {
 /* This banner changes based on the cultural center*/
 .utility-bar {
   background: #cc0033;
-  height: 0px;
+  height: 10px;
 }
 
 .utility-menu {
@@ -1581,18 +1581,17 @@ footer {
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
   position: absolute;
   top: 15%;
   width: 100%;
-  margin-left: 15%;
 }
 
 /* Video  */
 .hero-video {
   position: relative;
   left: 50%;
-  margin-top: 300px;
+  padding-top: 56.25%;
   width: 100%;
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
@@ -1612,7 +1611,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 990px) {
+@media screen and (max-width: 1200px) {
   .hero-video {
     position: relative;
     left: 50%;
@@ -1644,13 +1643,9 @@ footer {
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .video-banner {
     margin-bottom: -50%;
-  }
-  .video-banner h2 {
-    text-align: center;
-    margin-left: 0% !important;
   }
   .video-banner .red-title {
     font-size: 1.8em !important;
