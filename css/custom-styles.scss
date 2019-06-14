@@ -1,10 +1,11 @@
 /* General */
 $scarlet-red: #cc0033;
-$scarlet-hover-color: #8e182e !important; 
+$scarlet-hover-color: #8e182e ; 
 $font-color: #333;
 $alert-color: #fed116;
 $advisory-color: #bbe4f8;
 $menu-button-color: #5e5f5f;
+$dark-grey: #333;
 $ease: all .15s ease-in-out;
 $row-spacing: 5%;
 $mobile-spacing: 25px;
@@ -137,7 +138,7 @@ $h-line-height: 1.3em;
 /* Utility Bar */
 /* This banner changes based on the cultural center*/
 .utility-bar{
-    background: $scarlet-red;
+    background: $scarlet-red; //bar on top of screen
     height: 10px; //little red bar on top of sceen in mobile
 }
 
@@ -163,7 +164,7 @@ $h-line-height: 1.3em;
 @media all and (min-width: 768px){
     .utility-bar{
         height: auto;
-        background-color: $scarlet-red;
+        background-color: $menu-button-color;
         font-size: .875em;
         p{
             color: #fff;
@@ -370,7 +371,7 @@ $h-line-height: 1.3em;
 }
 
 .SA-navbar{
-    background-color: $menu-button-color;
+    background-color: $scarlet-red;
     margin-bottom: 0;
     border: none;
     a{
@@ -380,7 +381,7 @@ $h-line-height: 1.3em;
         -webkit-transition: $ease;
         transition: $ease;
         &:hover{
-            background-color: $scarlet-red !important;
+            background-color: $scarlet-hover-color !important;
     
         }
     }
@@ -410,7 +411,7 @@ $h-line-height: 1.3em;
         -webkit-transition: $ease;
         transition: $ease;
         &:hover{
-            background-color: $scarlet-red !important;
+            background-color: $scarlet-hover-color !important;
     
         }
     }
@@ -427,7 +428,7 @@ $h-line-height: 1.3em;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    background-color: #cc0033; /* Bootstrap Style Overide*/
+    background-color: $scarlet-red; /* Bootstrap Style Overide*/
     border-color: $scarlet-red; /* On Highlight in Nav Bar */
 }
 
@@ -470,6 +471,7 @@ $h-line-height: 1.3em;
 
 /* Adds Support Students to Nav in Mobile Size*/
 @media all and (min-width: 768px){
+
     .affix { 
         position: fixed;
         top: 0;
@@ -486,7 +488,11 @@ $h-line-height: 1.3em;
            box-sizing: border-box;
            background-color: #333;
            padding-bottom: 10px !important;
-           border-bottom: 5px solid $scarlet-red;
+           border-bottom: 5px solid $dark-grey;
+
+           &:hover {
+            border-bottom: 5px solid $scarlet-hover-color;
+           }
         }
    }
 } 
@@ -933,7 +939,7 @@ $h-line-height: 1.3em;
     img{
         -webkit-transition: $ease;
         transition: $ease;
-        border-bottom: 5px solid #8e182e;
+        border-bottom: 10px solid $scarlet-red;
     }
     position: relative;
     display: block;
@@ -1605,7 +1611,7 @@ footer{
 
     color: #fff;
     text-shadow:  2px 2px #000;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 1.1em;
     letter-spacing: 2px;
     font-family: $body-font !important;
@@ -1613,7 +1619,7 @@ footer{
     text-align: center;
 
     position: absolute;
-    top: 15%;
+    top: 25%;
     width: 100%;
     
 }
@@ -1679,7 +1685,12 @@ footer{
             font-size: 1.8em !important;
         }
     }
-  }
+    
+    .hero-title {
+        top: 15%;
+        font-size: 5vw;
+    }  
+  }   
 
   /* Offset content up */
 

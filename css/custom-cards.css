@@ -1841,4 +1841,66 @@ footer {
   width: 230px;
   padding: 0px 0px 0px 20px;
 }
+
+/* Spotify Style Image offset */
+.top-item {
+  position: relative;
+  padding-top: 24px;
+}
+
+@media all and (min-width: 768px) {
+  .top-item {
+    height: 340px;
+    min-height: 340px;
+  }
+}
+
+.item-art {
+  z-index: 1;
+  margin: 0 auto;
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+  width: 80%;
+  -webkit-box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, 0.3);
+  right: 30px;
+}
+
+@media all and (min-width: 768px) {
+  .item-art {
+    width: 280px;
+    height: 280px;
+    top: -12px;
+    position: absolute;
+  }
+}
+
+@media (min-width: 1200px) {
+  .item-art {
+    width: 250px;
+    height: 250px;
+    top: -12px;
+    position: absolute;
+  }
+}
+
+.item-details {
+  position: relative;
+  min-width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+.item-details p {
+  text-align: right;
+}
+
+.item-bg {
+  position: absolute;
+  width: 88%;
+  background-color: #c03;
+  opacity: .5;
+  z-index: 0;
+}
 /*# sourceMappingURL=custom-cards.css.map */

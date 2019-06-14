@@ -75,10 +75,17 @@
         </div><!-- /col -->
 
         <div class="col-md-6"> <!-- Add col-md-push-3 when sidebars are enabled -->
-          <div class="SA-featured-block">
-            <a href="#"><img src="https://picsum.photos/id/1015/240/200" class="img-responsive" alt="Featured"></a>
-            <h3><a href="">Room Decorating Contest</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis pariatur asperiores, architecto accusamus.</p>
+          <div class="top-item">
+            <figure class="item-art">
+              <a href="#">
+                <img src="https://picsum.photos/id/1015/240/200" class="img-responsive media-object" alt="Featured">
+              </a>
+            </figure>
+            <figcaption class="item-details">
+              <h3 class="SA-h3-text"><a href="#" >Room Decorating Contest</a></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis pariatur asperiores, architecto accusamus.</p>
+            </figcaption>
+            <div class="item-bg"></div>
           </div>
 
           <div class="SA-featured-block">
@@ -311,6 +318,14 @@
       //Imports Header and Footer sections from their .html files
       includeHTML();
       $('#myTab').tabCollapse();
+
+      $('.SA-h3-text').each(function(){
+     var el= $(this);
+       var textLength = el.html().length;
+        if (textLength > 50) {
+          el.css('font-size', '18px');
+        }
+    });
   </script>
   </body>
 </html>

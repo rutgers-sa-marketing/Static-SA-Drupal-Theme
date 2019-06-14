@@ -75,7 +75,7 @@ h6 {
 }
 
 .SA-btn-primary:hover, .SA-btn-primary:active, .SA-btn-primary:focus {
-  background-color: #8e182e !important;
+  background-color: #8e182e;
   text-decoration: underline;
   color: #fff !important;
 }
@@ -123,7 +123,7 @@ h6 {
 @media all and (min-width: 768px) {
   .utility-bar {
     height: auto;
-    background-color: #cc0033;
+    background-color: #5e5f5f;
     font-size: .875em;
   }
   .utility-bar p {
@@ -317,7 +317,7 @@ h6 {
 }
 
 .SA-navbar {
-  background-color: #5e5f5f;
+  background-color: #cc0033;
   margin-bottom: 0;
   border: none;
 }
@@ -331,7 +331,7 @@ h6 {
 }
 
 .SA-navbar a:hover {
-  background-color: #cc0033 !important;
+  background-color: #8e182e !important;
 }
 
 .SA-navbar .SA-navbar-toggle {
@@ -362,7 +362,7 @@ h6 {
 }
 
 .SA-navbar-hero a:hover {
-  background-color: #cc0033 !important;
+  background-color: #8e182e !important;
 }
 
 .SA-navbar-hero .SA-navbar-toggle {
@@ -419,7 +419,7 @@ h6 {
 }
 
 .SA-support-nav-link {
-  background-color: #8e182e !important;
+  background-color: #8e182e;
   text-align: center;
 }
 
@@ -443,7 +443,10 @@ h6 {
     box-sizing: border-box;
     background-color: #333;
     padding-bottom: 10px !important;
-    border-bottom: 5px solid #cc0033;
+    border-bottom: 5px solid #333;
+  }
+  .SA-active .navTitle:hover {
+    border-bottom: 5px solid #8e182e;
   }
 }
 
@@ -905,7 +908,7 @@ h6 {
 .SA-info-box img {
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
-  border-bottom: 5px solid #8e182e;
+  border-bottom: 10px solid #cc0033;
 }
 
 .SA-info-box:hover {
@@ -1576,14 +1579,14 @@ footer {
 .hero-title {
   color: #fff;
   text-shadow: 2px 2px #000;
-  font-size: 5vw;
+  font-size: 4vw;
   line-height: 1.1em;
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 700;
   text-align: center;
   position: absolute;
-  top: 15%;
+  top: 25%;
   width: 100%;
 }
 
@@ -1649,6 +1652,10 @@ footer {
   }
   .video-banner .red-title {
     font-size: 1.8em !important;
+  }
+  .hero-title {
+    top: 15%;
+    font-size: 5vw;
   }
 }
 
@@ -1758,7 +1765,7 @@ footer {
 
 .font-social:hover, .font-social:active, .font-social:focus {
   text-decoration: none;
-  color: #8e182e !important;
+  color: #8e182e;
 }
 
 /* Styling for any links */
@@ -1770,7 +1777,7 @@ footer {
 
 .href-styles:hover, .href-styles:active, .href-styles:focus {
   text-decoration: underline;
-  color: #8e182e !important;
+  color: #8e182e;
 }
 
 /* Styling for About Student Affairs section*/
