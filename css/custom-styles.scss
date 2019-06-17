@@ -128,18 +128,22 @@ $h-line-height: 1.3em;
 }
 
 
-/* Add new Breakpoint for Bootstrap Container Class */
+
+
+/* Adds new Breakpoint for Bootstrap Container Class - This is meant for larger/wider displays */
 @media (min-width: 1440px){
     .container {
         width: 1400px;
     }
 }
 
+
+
 /* Utility Bar */
 /* This banner changes based on the cultural center*/
 .utility-bar{
-    background: $scarlet-red; //bar on top of screen
-    height: 10px; //little red bar on top of sceen in mobile
+    background: #5D5F5F; //bar on top of screen
+    height: 7px; //little red bar on top of sceen in mobile
 }
 
 .utility-menu{
@@ -153,14 +157,13 @@ $h-line-height: 1.3em;
     }
 }
 
-
 /* Utility Bar for Banners*/
 .utility-bar-hero{
     background: rgba(0, 0, 0, .5);
     height: 5px;
 }
 
-/*Changes content in the top red bar for Mobile*/
+/*Changes content in the utility bar for Mobile*/
 @media all and (min-width: 768px){
     .utility-bar{
         height: auto;
@@ -380,7 +383,7 @@ $h-line-height: 1.3em;
         font-weight: 600;
         -webkit-transition: $ease;
         transition: $ease;
-        &:hover{
+        &:hover, &:focus{
             background-color: $scarlet-hover-color !important;
     
         }
@@ -439,6 +442,7 @@ $h-line-height: 1.3em;
         display: block;
         padding: 8px;
         &:hover{
+            background-color: $scarlet-red !important;
             text-decoration: underline;
         }
     }
@@ -486,13 +490,9 @@ $h-line-height: 1.3em;
         .navTitle {
            -webkit-box-sizing: border-box;
            box-sizing: border-box;
-           background-color: #333;
+           background-color: $scarlet-hover-color;
            padding-bottom: 10px !important;
-           border-bottom: 5px solid $dark-grey;
-
-           &:hover {
-            border-bottom: 5px solid $scarlet-hover-color;
-           }
+           border-bottom: 5px solid #fff;
         }
    }
 } 

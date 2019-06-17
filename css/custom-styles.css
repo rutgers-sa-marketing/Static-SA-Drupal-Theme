@@ -87,7 +87,7 @@ h6 {
   margin-top: 0;
 }
 
-/* Add new Breakpoint for Bootstrap Container Class */
+/* Adds new Breakpoint for Bootstrap Container Class - This is meant for larger/wider displays */
 @media (min-width: 1440px) {
   .container {
     width: 1400px;
@@ -97,8 +97,8 @@ h6 {
 /* Utility Bar */
 /* This banner changes based on the cultural center*/
 .utility-bar {
-  background: #cc0033;
-  height: 10px;
+  background: #5D5F5F;
+  height: 7px;
 }
 
 .utility-menu {
@@ -119,7 +119,7 @@ h6 {
   height: 5px;
 }
 
-/*Changes content in the top red bar for Mobile*/
+/*Changes content in the utility bar for Mobile*/
 @media all and (min-width: 768px) {
   .utility-bar {
     height: auto;
@@ -330,7 +330,7 @@ h6 {
   transition: all 0.15s ease-in-out;
 }
 
-.SA-navbar a:hover {
+.SA-navbar a:hover, .SA-navbar a:focus {
   background-color: #8e182e !important;
 }
 
@@ -395,6 +395,7 @@ h6 {
 }
 
 .SA-dropdown-menu a:hover {
+  background-color: #cc0033 !important;
   text-decoration: underline;
 }
 
@@ -441,12 +442,9 @@ h6 {
   .SA-active .navTitle {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background-color: #333;
+    background-color: #8e182e;
     padding-bottom: 10px !important;
-    border-bottom: 5px solid #333;
-  }
-  .SA-active .navTitle:hover {
-    border-bottom: 5px solid #8e182e;
+    border-bottom: 5px solid #fff;
   }
 }
 
