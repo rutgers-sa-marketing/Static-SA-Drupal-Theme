@@ -1903,4 +1903,91 @@ footer {
   opacity: .5;
   z-index: 0;
 }
+
+/*Info Box Thinner*/
+.SA-info-box-thin {
+  position: relative;
+  display: block;
+  background: #5e5f5f;
+  color: #fff !important;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  min-height: 320px;
+  margin-bottom: 0px !important;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.SA-info-box-thin img {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  border-bottom: 5px solid #8e182e;
+}
+
+.SA-info-box-thin:hover {
+  background: #cc0033;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.SA-info-box-thin:hover img {
+  border-bottom: 5px solid #cc0033;
+}
+
+.SA-info-box-thin h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.SA-info-box-thin h3, .SA-info-box-thin p {
+  padding: 0 10px;
+}
+
+.SA-info-box-thin h3 span, .SA-info-box-thin p span {
+  border-bottom: none;
+}
+
+.SA-info-box-thin h3 span:hover, .SA-info-box-thin h3 span:active, .SA-info-box-thin h3 span:focus, .SA-info-box-thin p span:hover, .SA-info-box-thin p span:active, .SA-info-box-thin p span:focus {
+  border-bottom: 1px solid #fff;
+}
+
+/* Info Box no BG */
+.SA-info-box-no-bg {
+  position: relative;
+  display: block;
+  color: #cc0033 !important;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  min-height: 320px;
+  margin-bottom: 0px !important;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.SA-info-box-no-bg img {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.SA-info-box-no-bg:hover {
+  background: #cc0033;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.SA-info-box-no-bg h3 {
+  margin-top: 10px;
+}
+
+.SA-info-box-no-bg h3, .SA-info-box-no-bg p {
+  padding: 0 10px;
+}
+
+.SA-info-box-no-bg h3 span, .SA-info-box-no-bg p span {
+  border-bottom: none;
+}
+
+.SA-info-box-no-bg h3 span:hover, .SA-info-box-no-bg h3 span:active, .SA-info-box-no-bg h3 span:focus, .SA-info-box-no-bg p span:hover, .SA-info-box-no-bg p span:active, .SA-info-box-no-bg p span:focus {
+  border-bottom: 1px solid #fff;
+}
 /*# sourceMappingURL=custom-cards.css.map */

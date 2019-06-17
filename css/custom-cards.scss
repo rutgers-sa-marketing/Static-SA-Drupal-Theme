@@ -1938,3 +1938,81 @@ footer{
   }
 
   
+
+  /*Info Box Thinner*/
+  .SA-info-box-thin{
+    img{
+        -webkit-transition: $ease;
+        transition: $ease;
+        border-bottom: 5px solid #8e182e;
+    }
+    position: relative;
+    display: block;
+    background: $menu-button-color;
+    color: #fff !important;
+    -webkit-transition: $ease;
+    transition: $ease;
+    min-height: 320px;
+    margin-bottom: 0px !important;
+    overflow: hidden;
+    margin-bottom: $mobile-spacing;
+    &:hover{
+        background: $scarlet-red;
+        text-decoration: none;
+        color: #fff !important;
+        img{
+            border-bottom: 5px solid #cc0033;
+        }
+    }
+
+    h3{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    h3,p{
+        padding: 0 10px;
+        span{
+            border-bottom: none;
+            &:hover, &:active, &:focus{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+}
+
+
+
+/* Info Box no BG */
+.SA-info-box-no-bg{
+    img{
+        -webkit-transition: $ease;
+        transition: $ease;
+    }
+    position: relative;
+    display: block;
+    color: $scarlet-red !important;
+    -webkit-transition: $ease;
+    transition: $ease;
+    min-height: 320px;
+    margin-bottom: 0px !important;
+    overflow: hidden;
+    margin-bottom: $mobile-spacing;
+    &:hover{
+        background: $scarlet-red;
+        text-decoration: none;
+        color: #fff !important;
+    }
+
+    h3{
+        margin-top: 10px;
+    }
+    h3,p{
+        padding: 0 10px;
+        span{
+            border-bottom: none;
+            &:hover, &:active, &:focus{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+}
