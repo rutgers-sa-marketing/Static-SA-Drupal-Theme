@@ -1843,13 +1843,78 @@ footer {
 }
 
 /* Spotify Style Image offset */
-.top-item {
+/* .top-item {
+      position: relative;
+      padding-top: 24px;
+    }
+
+    @media all and (min-width: 768px) {
+      .top-item {
+        height: 340px;
+        min-height: 340px;
+      }
+  }
+
+  .item-art {
+    z-index: 1;
+    margin: 0 auto;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    width: 80%;
+    -webkit-box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, 0.3);
+    right:30px;
+  }
+
+  @media all and (min-width: 768px) {
+    .item-art {
+      width: 280px;
+      height: 280px;
+      top: -12px;
+      position: absolute;
+    }
+  }
+
+  @media (min-width: 1200px){
+    .item-art {
+      width: 250px;
+      height: 250px;
+      top: -12px;
+      position: absolute;
+    }
+  }
+
+  .item-details {
+    position: relative;
+    min-width: 100%;
+    height: auto;
+    z-index: 2;
+      p{
+        text-align: right;
+      }
+  }
+
+  .item-bg {
+    position: absolute;
+    width: 88%;
+    background-color: #c03;
+    opacity: .5;
+    z-index: 0;
+  }
+*/
+.SA-img-container {
+  background-color: #e0e0e0;
+  margin-bottom: 30px;
+  overflow: hidden;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
   position: relative;
   padding-top: 24px;
 }
 
 @media all and (min-width: 768px) {
-  .top-item {
+  .SA-img-container {
     height: 340px;
     min-height: 340px;
   }
@@ -1861,10 +1926,6 @@ footer {
   background-size: cover;
   position: relative;
   background-position: center center;
-  width: 80%;
-  -webkit-box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, 0.3);
-  box-shadow: 1px 1px 16px -2px rgba(0, 0, 0, 0.3);
-  right: 30px;
 }
 
 @media all and (min-width: 768px) {
@@ -1885,19 +1946,37 @@ footer {
   }
 }
 
-.item-details {
-  position: relative;
-  min-width: 100%;
-  height: auto;
-  z-index: 2;
+@media all and (max-width: 455px) {
+  .SA-featured-block {
+    padding: 0;
+  }
+  .SA-featured-block h3 {
+    padding-left: 15px;
+  }
+  .SA-featured-block p {
+    padding-left: 15px;
+  }
+  .SA-featured-block img {
+    display: none;
+  }
 }
 
-.item-details p {
-  text-align: right;
+.SA-img-text-content {
+  position: relative;
+  width: 60%;
+  height: auto;
+  z-index: 2;
+  float: right;
+  margin-right: 20px;
+}
+
+.SA-img-text-content h3, .SA-img-text-content p {
+  padding-right: 20px;
 }
 
 .item-bg {
   position: absolute;
+  height: 100%;
   width: 88%;
   background-color: #c03;
   opacity: .5;
