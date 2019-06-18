@@ -1937,6 +1937,11 @@ footer {
 .SA-info-box-thin h3 {
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.SA-info-box-thin p {
+  margin-bottom: 5px;
 }
 
 .SA-info-box-thin h3, .SA-info-box-thin p {
@@ -1976,7 +1981,13 @@ footer {
 }
 
 .SA-info-box-no-bg h3 {
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.SA-info-box-no-bg p {
+  margin-bottom: 5px;
 }
 
 .SA-info-box-no-bg h3, .SA-info-box-no-bg p {
@@ -1989,5 +2000,16 @@ footer {
 
 .SA-info-box-no-bg h3 span:hover, .SA-info-box-no-bg h3 span:active, .SA-info-box-no-bg h3 span:focus, .SA-info-box-no-bg p span:hover, .SA-info-box-no-bg p span:active, .SA-info-box-no-bg p span:focus {
   border-bottom: 1px solid #fff;
+}
+
+/* make horizontal bar on bottom of img any % modular */
+.SA-horizontal-bar {
+  background: inherit;
+}
+
+.SA-horizontal-bar-fill {
+  background: #cc0033;
+  width: 70%;
+  height: 5px;
 }
 /*# sourceMappingURL=custom-cards.css.map */
