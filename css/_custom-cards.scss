@@ -1938,9 +1938,10 @@ footer{
   }
 */
 
-
+/* Spotify Trial 2 */
+/*
 .SA-img-container {
-    background-color: #e0e0e0;
+    background-color: rgba(0,0,0,1);
     margin-bottom: 30px;
     overflow: hidden;
     -webkit-transition: $ease;
@@ -2017,6 +2018,106 @@ footer{
     opacity: .5;
     z-index: 0;
   }
+*/
+
+
+
+.SA-img-container {
+    background-color: rgba(0,0,0,0);
+    margin-bottom: 30px;
+    padding-top: 24px;
+    overflow: hidden;
+    -webkit-transition: $ease;
+    transition: $ease;
+    min-height: 200px;
+    position: relative;
+
+    
+    a{
+        color:#fff;
+        z-index: 2;
+        &:hover, &:active, &:focus{
+            text-decoration: none;
+            border-bottom: 1px solid #fff;
+            color: #fff;
+        }
+    }
+    h3{
+        font-size: 1.3em;
+        font-weight: 600;
+        color: #000;
+        background-color: $scarlet-red;
+        margin-left: -20px;
+        padding-left: 10px;
+        z-index: 2;
+        padding-top: 5px;
+        padding-bottom: 5px;    
+    }
+    p{
+        font-size: $nav-font-size;
+        color: #000;
+        margin-right: 10px;
+        z-index: 2;
+    }
+    img{
+        float: left;
+        z-index: 1;
+        margin: 0 auto;
+        background-size: cover;
+        position: absolute;
+        top: -12px;
+        background-position: center center;
+    }
+}
+
+.SA-img-text-content {
+    margin-left: 260px;
+    z-index: 2;
+}
+
+.item-bg {
+    position: absolute;
+    height: 100%;
+    width: 95%;
+    background-color: #e0e0e0;
+    z-index: -2;
+    margin-top: 24px;
+    top: 0;
+    right: 0;
+  }
+@media all and (max-width: 455px){
+    .SA-img-container {
+        padding: 0;
+        height: auto;
+        background-color: #e0e0e0;
+        min-height: auto;
+        a{
+            color:#000;
+            &:hover, &:active, &:focus{
+                text-decoration: none;
+                border-bottom: 1px solid #000;
+                color: #000;
+            }
+        }
+
+        h3{
+            padding-left: 35px;
+            background: none;
+            color: #000;
+        }
+        p{
+            padding-left: 15px;
+        }
+        img{
+            display: none;  
+        }
+    }
+
+    .SA-img-text-content {
+        margin-left: 0px;
+    }
+} 
+
 
 
 
