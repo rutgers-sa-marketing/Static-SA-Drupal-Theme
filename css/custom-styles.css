@@ -2071,15 +2071,57 @@ footer {
   height: 5px;
 }
 
+/* Dark Mode Code */
 body.dark {
-  -webkit-transition: .3s all;
-  transition: .3s all;
+  -webkit-transition: .5s all;
+  transition: .5s all;
   background-color: #333;
   color: #fff;
 }
 
 body.dark a {
   color: #fff;
+}
+
+body.dark .SA-alert a {
+  color: inherit;
+}
+
+body.dark .SA-advisory a {
+  color: inherit;
+}
+
+body.dark .SA-featured-block {
+  background-color: #5e5f5f;
+}
+
+body.dark .SA-featured-block p {
+  color: #fff;
+}
+
+body.dark .SA-slider {
+  background-color: #5e5f5f;
+}
+
+body.dark .SA-img-container p {
+  color: #fff;
+}
+
+body.dark .SA-img-container .item-bg {
+  background-color: #404040;
+}
+
+body.dark .SA-info-box-no-bg {
+  color: #fff !important;
+}
+
+body.dark .SA-horizontal-bar-fill {
+  background-color: #fff;
+}
+
+body {
+  -webkit-transition: .5s all;
+  transition: .5s all;
 }
 
 /*!

@@ -219,11 +219,59 @@
     height: 5px;
 }
 
+/* Dark Mode Code */
 body.dark {
-    transition: .3s all;
+    transition: .5s all;
     background-color: $dark-grey;
     color: #fff;
     a {
       color: #fff;
     }
+
+    .SA-alert {
+        a{
+            color: inherit;
+        }
+    }
+
+    .SA-advisory {
+        a{
+            color: inherit;
+        }
+    }
+
+    .SA-featured-block {
+        background-color: $menu-button-color;
+        
+        p {
+            color: #fff;
+        }
+    }
+
+    .SA-slider {
+        background-color: $menu-button-color;
+    }
+
+    .SA-img-container{
+
+        p{
+            color: #fff;
+        }
+        .item-bg{
+            background-color: #404040;
+        }
+    }
+    
+    .SA-info-box-no-bg {
+        color: #fff !important;
+    }
+
+    .SA-horizontal-bar-fill {
+        background-color: #fff;
+    }
+
+  }
+
+  body {
+    transition: .5s all;
   }

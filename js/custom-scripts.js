@@ -91,8 +91,7 @@ function includeHTML() {
 
 //Script to Enable/Disable Dark mode on Website
 function toggleDarkLight() {
-  console.log('yo');
   var body = document.getElementById("body");
   var currentClass = body.className;
-  body.className = currentClass == "dark" ? "light" : "dark";
+  body.className = currentClass == "dark" ? "" : "dark";
 }
