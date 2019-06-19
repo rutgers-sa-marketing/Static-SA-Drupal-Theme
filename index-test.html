@@ -21,9 +21,6 @@
     <!-- Custom styles for this template -->
     <link href="css/custom-styles.css" rel="stylesheet">
 
-    <!-- Custom style for the Carousel Slides -->
-    <link href="css/carousel-slides.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,7 +29,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body id="body" class="dark">
     <!--Header is pulled from header.html-->
     <div w3-include-html="header.html"></div>
 
@@ -41,7 +38,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-              <i class="fas fa-exclamation-triangle"></i>
+              <a style="cursor: pointer;" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode"><i class="fas fa-exclamation-triangle"></i></a>
               <p><a href="#">Click Here for Updates About Serogroup B Meningococcal Disease on the Rutgers University-New Brunswick Campus and the Vaccination Recommendation.</a></p>
           </div>
         </div>
