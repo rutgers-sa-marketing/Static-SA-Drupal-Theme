@@ -1885,5 +1885,60 @@ footer{
         padding: 0px 0px 0px 20px;
     }
 
+/* Max-height banner 250 for inner-page */
+  .SA-small-banner {
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0) 30%);
+  }
+  
+  @media all and (min-width: 768px) {
+    .SA-small-banner {
+          height: 250px;
+      }
+  }
+  @media all and (max-width: 767px) {
+            
+    .SA-small-banner{
+        max-height: 250px;
+    }
+
+  }
+
+/* Video  */
+.SA-banner {
+    position: relative;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%) translateY(0%);
+    z-index: -1;
+  }
+  
+  @media all and (max-width: 990px) {
+    .SA-banner {
+        position: relative;
+        float: left;
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%) translateY(0%);
+        z-index: -1;
+      }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .SA-banner {
+        position: relative;
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%) translateY(0%);
+        z-index: -1;
+      }
+  }
+
+
+
+
     @import '_custom-cards.scss';
     @import '_yamm.scss';
