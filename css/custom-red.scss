@@ -1160,6 +1160,29 @@ footer{
     }
 }
 
+.SA-footer-navbar{
+    background-color: #000;
+    margin-bottom: 0;
+    border: none;
+    a{
+        color: #fff !important;
+        font-size: $nav-font-size;
+        font-weight: 600;
+        -webkit-transition: $ease;
+        transition: $ease;
+    }
+
+    .SA-footer-navbar-toggle{
+        border: none;
+        span{
+            background-color: #fff !important; 
+        }
+        &:hover, &:focus{
+            background-color: transparent;
+        }
+    }
+}
+
 .SA-disclaimer{
     font-size: .75em;
     p{
