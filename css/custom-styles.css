@@ -444,7 +444,7 @@ h6 {
     box-sizing: border-box;
     background-color: #8e182e;
     padding-bottom: 10px !important;
-    border-bottom: 5px solid #fff;
+    border-bottom: 5px solid #333;
   }
 }
 
@@ -862,7 +862,7 @@ h6 {
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
   position: relative;
-  border-top: 5px solid #8e182e;
+  border-top: 5px solid #cc0033;
 }
 
 .SA-link-boxes a:hover, .SA-link-boxes a:active, .SA-link-boxes a:focus {
@@ -898,7 +898,6 @@ h6 {
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
   min-height: 320px;
-  padding-bottom: 20px;
   overflow: hidden;
   margin-bottom: 25px;
 }
@@ -906,7 +905,7 @@ h6 {
 .SA-info-box img {
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
-  border-bottom: 10px solid #cc0033;
+  border-bottom: 7px solid #cc0033;
 }
 
 .SA-info-box:hover {
@@ -916,7 +915,7 @@ h6 {
 }
 
 .SA-info-box:hover img {
-  border-bottom: 5px solid #cc0033;
+  border-bottom: 7px solid #cc0033;
 }
 
 .SA-info-box h3 {
