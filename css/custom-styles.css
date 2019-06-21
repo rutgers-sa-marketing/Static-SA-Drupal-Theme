@@ -828,6 +828,8 @@ h6 {
 
 .SA-featured-block img {
   float: left;
+  height: 200px;
+  width: 240px;
   margin: 0 20px 0 0;
 }
 
