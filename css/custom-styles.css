@@ -330,8 +330,12 @@ h6 {
   transition: all 0.15s ease-in-out;
 }
 
-.SA-navbar a:hover, .SA-navbar a:focus {
+.SA-navbar a:hover {
   background-color: #8e182e !important;
+}
+
+.SA-navbar a:focus {
+  background-color: #333 !important;
 }
 
 .SA-navbar .SA-navbar-toggle {
@@ -443,8 +447,7 @@ h6 {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background-color: #8e182e;
-    padding-bottom: 10px !important;
-    border-bottom: 5px solid #333;
+    text-decoration: underline;
   }
 }
 

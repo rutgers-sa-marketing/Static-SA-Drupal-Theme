@@ -383,10 +383,15 @@ $h-line-height: 1.3em;
         font-weight: 600;
         -webkit-transition: $ease;
         transition: $ease;
-        &:hover, &:focus{
+        &:hover{
             background-color: $scarlet-hover-color !important;
     
         }
+
+        &:focus {
+            background-color: #333 !important;
+        }
+
     }
 
     .SA-navbar-toggle{
@@ -491,8 +496,7 @@ $h-line-height: 1.3em;
            -webkit-box-sizing: border-box;
            box-sizing: border-box;
            background-color: $scarlet-hover-color;
-           padding-bottom: 10px !important;
-           border-bottom: 5px solid #333;
+          text-decoration: underline;
         }
    }
 } 
