@@ -943,7 +943,7 @@ h6 {
 
 /* Slider */
 .SA-slider {
-  height: 320px;
+  height: 330px;
   background-color: #E0E0E0;
   padding: 0 15%;
   margin-bottom: 25px;
@@ -1911,6 +1911,7 @@ footer {
   }
 }
 
+/* Overlay for when dropdown happens*/
 /* Spotify Style Image Offset */
 .SA-img-container {
   background-color: rgba(0, 0, 0, 0);
