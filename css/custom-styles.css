@@ -897,7 +897,7 @@ h6 {
   color: #fff !important;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
-  min-height: 320px;
+  min-height: 330px;
   overflow: hidden;
   margin-bottom: 25px;
 }
@@ -933,6 +933,10 @@ h6 {
 
 .SA-info-box h3 span:hover, .SA-info-box h3 span:active, .SA-info-box h3 span:focus, .SA-info-box p span:hover, .SA-info-box p span:active, .SA-info-box p span:focus {
   border-bottom: 1px solid #fff;
+}
+
+.SA-info-box:hover {
+  border-bottom: none !important;
 }
 
 /* Slider */
@@ -1163,6 +1167,10 @@ footer {
 
 .SA-footer-navbar .SA-footer-navbar-toggle:hover, .SA-footer-navbar .SA-footer-navbar-toggle:focus {
   background-color: transparent;
+}
+
+.SA-footer-navbar .nav {
+  float: none;
 }
 
 .SA-disclaimer {
