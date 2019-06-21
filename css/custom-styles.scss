@@ -443,6 +443,11 @@ $h-line-height: 1.3em;
 .SA-dropdown-menu {
     background-color: #333 !important;
     border-top: 1px solid #333;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
     a{
         display: block;
         padding: 8px;
@@ -1956,7 +1961,17 @@ footer{
   }
 
 /* Overlay for when dropdown happens*/ 
-
+.overlay {
+    height: 80%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden; 
+    transition: .5s;
+  }
 
 
     @import '_custom-cards.scss';

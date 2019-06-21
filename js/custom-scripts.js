@@ -95,3 +95,26 @@ function toggleDarkLight() {
   var currentClass = body.className;
   body.className = currentClass == "dark" ? "" : "dark";
 }
+
+
+//Add/Remove Overlay based on nav open class.
+
+//open and close nav
+/*function openNav() {
+  var el = document.getElementById("darken");
+  var currentClass = el.className;
+
+  var interval = setInterval(check,100);
+
+  function check(){
+    console.log('checker');
+    var list = document.getElementsByClassName('open');
+    el.className = currentClass = "overlay";
+    if(list.length==0){
+      el.className = currentClass == "";
+
+      clearInterval(interval);
+    }
+  };
+
+  };*/
