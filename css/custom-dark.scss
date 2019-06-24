@@ -334,11 +334,12 @@ $h-line-height: 1.3em;
 
 .SA-advisory{
     background-color: $advisory-color;
+    margin-bottom: 10px;
     p{
         color: #293a46;
     }
     a{
-        color: #293a46;
+        color: #293a46 !important;
         text-decoration: underline;
     }
     li{
@@ -358,6 +359,13 @@ $h-line-height: 1.3em;
         font-weight: 700;
         display: block;
     }
+
+     a {
+         &:hover {
+        border-bottom: none !important;
+        }
+    }
+
 
     
     li{
@@ -1719,7 +1727,6 @@ footer{
   .SA-offset {
       margin-top: -100px;
       background: #fff;
-      padding-top: 20px;
   }
   /* Video Within Container Styling */
   
@@ -1912,11 +1919,12 @@ footer{
   .SA-small-banner {
     position: relative;
     overflow: hidden;
-    padding-left: 0px !important;
+    left: 0;
+    right: 0;
     padding-right: 0px !important;
-    background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0) 30%);
-  }
-  
+    padding-left: 0px !important;
+    z-index: 0;
+  }  
   @media all and (min-width: 768px) {
     .SA-small-banner {
           height: 250px;
@@ -1992,7 +2000,6 @@ footer{
 
   .make-margin-to-padding {
       margin-top: 0px;
-      padding-top: 40px;
       
   }
   
