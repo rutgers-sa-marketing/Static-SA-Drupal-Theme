@@ -873,12 +873,12 @@ h6 {
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
   position: relative;
-  border-top: 5px solid #cc0033;
+  border-top: 7px solid #cc0033;
 }
 
 .SA-link-boxes a:hover, .SA-link-boxes a:active, .SA-link-boxes a:focus {
   background-color: #cc0033;
-  border-top: 5px solid #cc0033;
+  border-top: 7px solid #cc0033;
   text-decoration: none;
 }
 

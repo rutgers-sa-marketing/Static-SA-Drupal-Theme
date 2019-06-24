@@ -914,10 +914,10 @@ $h-line-height: 1.3em;
         -webkit-transition: $ease;
         transition: $ease;
         position: relative;
-        border-top: 5px solid $scarlet-red;
+        border-top: 7px solid $scarlet-red;
         &:hover, &:active, &:focus{
             background-color: $scarlet-red;
-            border-top: 5px solid $scarlet-red;
+            border-top: 7px solid $scarlet-red;
             text-decoration: none;
         }
     }
