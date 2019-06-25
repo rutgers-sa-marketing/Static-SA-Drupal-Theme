@@ -1250,6 +1250,8 @@ footer {
   border-right: 5px solid #8e182e;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
+  text-align: center;
+  width: 90px;
 }
 
 .SA-ql-box:hover {
@@ -1963,6 +1965,11 @@ footer {
 .row {
   margin-left: 0px;
   margin-right: 0px;
+}
+
+.row2 {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
 }
 
 /*!

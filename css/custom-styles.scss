@@ -1269,6 +1269,8 @@ footer{
         border-right: 5px solid #8e182e;
         -webkit-transition: $ease;
         transition: $ease;
+        text-align: center;
+        width: 90px;
     }
     margin-bottom: $mobile-spacing;
 	display: inline-block;
@@ -1418,21 +1420,53 @@ footer{
 
 /* Staff Bio */
 .SA-staff-block{
+
+    background-color: #e0e0e0;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    overflow: hidden;
+    -webkit-transition: $ease;
+    transition: $ease;
+
     img{
-        display: inline-block;
-        height: 100px;
+        height: 130px;
+        float: left;
     }
    a{
         &:hover{
             text-decoration: underline;
         }
     }
+        h4{
+        font-size: 1.2em;
+        font-weight: 600;
+        color: #000;
+        padding-left: 115px;
+    }
+    p{
+        font-size: $nav-font-size;
+        color: #000;
+        padding-left: 115px;
+    }
+}
+
+@media all and (min-width: 991px){
+    img{
+        display: inline-block;
+        float: none;
+    }
+    .SA-staff-block{
+        width: 100%;
+        padding-right: 0px;
+    }
 }
 
 @media all and (min-width: 440px){
     .SA-staff-block{
+        padding: 0;
         img{
             height: 130px;
+            float: left;
         }
     }
 }

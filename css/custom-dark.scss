@@ -1279,11 +1279,13 @@ footer{
         border-right: 5px solid #8e182e;
         -webkit-transition: $ease;
         transition: $ease;
+        text-align: center;
+        width: 90px;
     }
     margin-bottom: $mobile-spacing;
 	display: inline-block;
 	background-color: $menu-button-color;
-	width: 100%;
+    width: 100%;
     color: #fff;
     -webkit-transition: $ease;
 	transition: $ease;
@@ -2010,5 +2012,10 @@ footer{
       margin-left: 0px;
       margin-right: 0px;
   }
+
+  .row2 {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
 
     @import '_yamm.scss';
