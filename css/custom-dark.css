@@ -275,6 +275,8 @@ h6 {
 .SA-advisory {
   background-color: #bbe4f8;
   margin-bottom: 10px;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
 }
 
 .SA-advisory p {
@@ -1669,7 +1671,7 @@ footer {
 
 @media all and (max-width: 767px) {
   .video-banner {
-    margin-bottom: -50%;
+    margin-bottom: -60%;
   }
   .video-banner .red-title {
     font-size: 1.8em !important;
@@ -1877,13 +1879,9 @@ footer {
   right: 0;
   padding-right: 0px !important;
   padding-left: 0px !important;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
   z-index: 0;
-}
-
-@media all and (min-width: 768px) {
-  .SA-small-banner {
-    height: 250px;
-  }
 }
 
 @media all and (max-width: 767px) {
@@ -1960,6 +1958,11 @@ footer {
 
 .bot-padding {
   margin-bottom: 0px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /*!

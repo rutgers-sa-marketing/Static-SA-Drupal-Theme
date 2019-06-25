@@ -335,6 +335,8 @@ $h-line-height: 1.3em;
 .SA-advisory{
     background-color: $advisory-color;
     margin-bottom: 10px;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
     p{
         color: #293a46;
     }
@@ -1709,7 +1711,7 @@ footer{
   @media all and (max-width: 767px) {
             
     .video-banner{
-        margin-bottom: -50% ;
+        margin-bottom: -60% ;
 
         .red-title {
             font-size: 1.8em !important;
@@ -1923,13 +1925,10 @@ footer{
     right: 0;
     padding-right: 0px !important;
     padding-left: 0px !important;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
     z-index: 0;
   }  
-  @media all and (min-width: 768px) {
-    .SA-small-banner {
-          height: 250px;
-      }
-  }
   @media all and (max-width: 767px) {
             
     .SA-small-banner{
@@ -2006,4 +2005,10 @@ footer{
   .bot-padding {
       margin-bottom: 0px;
   }
+
+  .row {
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+
     @import '_yamm.scss';
