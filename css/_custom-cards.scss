@@ -169,6 +169,7 @@ $light-gray: #949494;
         -webkit-transition: $ease;
         transition: $ease;
     }
+
     position: relative;
     display: block;
     color: $scarlet-red !important;
@@ -222,12 +223,11 @@ $light-gray: #949494;
 
 /* Info Box Light Grey no Red border */
 .SA-info-box-light-grey{
-
-
     img{
         -webkit-transition: $ease;
         transition: $ease;
     }
+    
     position: relative;
     display: block;
     background: $light-gray;
@@ -266,12 +266,11 @@ $light-gray: #949494;
 
 /* Info Box Black no Red border */
 .SA-info-box-black{
-
-
     img{
         -webkit-transition: $ease;
         transition: $ease;
     }
+
     position: relative;
     display: block;
     background: #000;
@@ -311,12 +310,11 @@ $light-gray: #949494;
 
 /* Info Box White Light Grey Border */
 .SA-info-box-light-border{
-
-
     img{
         -webkit-transition: $ease;
         transition: $ease;
     }
+
     position: relative;
     display: block;
     background: #fff;
@@ -362,12 +360,11 @@ $light-gray: #949494;
 /* Info Box White Dark Grey Border */
 
 .SA-info-box-dark-border{
-
-
     img{
         -webkit-transition: $ease;
         transition: $ease;
     }
+    
     position: relative;
     display: block;
     background: #fff;
