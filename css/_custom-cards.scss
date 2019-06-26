@@ -1,3 +1,4 @@
+$light-gray: #949494;
 /* Spotify Style Image Offset */
 
 .SA-img-container {
@@ -218,6 +219,199 @@
     width: 70%;
     height: 5px;
 }
+
+/* Info Box Light Grey no Red border */
+.SA-info-box-light-grey{
+
+
+    img{
+        -webkit-transition: $ease;
+        transition: $ease;
+    }
+    position: relative;
+    display: block;
+    background: $light-gray;
+    color: #000 !important;
+    -webkit-transition: $ease;
+    transition: $ease;
+    min-height: 330px;
+    overflow: hidden;
+    margin-bottom: $mobile-spacing;
+    &:hover{
+        background: $scarlet-red;
+        text-decoration: none;
+        color: #fff !important;
+    }
+
+    h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h3,p{
+        padding: 0 10px;
+        span{
+            border-bottom: none;
+            &:hover, &:active, &:focus{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+    
+    &:hover {
+        border-bottom: none !important;
+    }
+
+}
+
+
+/* Info Box Black no Red border */
+.SA-info-box-black{
+
+
+    img{
+        -webkit-transition: $ease;
+        transition: $ease;
+    }
+    position: relative;
+    display: block;
+    background: #000;
+    color: #fff !important;
+    -webkit-transition: $ease;
+    transition: $ease;
+    min-height: 330px;
+    overflow: hidden;
+    margin-bottom: $mobile-spacing;
+    &:hover{
+        background: $scarlet-red;
+        text-decoration: none;
+        color: #fff !important;
+    }
+
+    h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h3,p{
+        padding: 0 10px;
+        span{
+            border-bottom: none;
+            &:hover, &:active, &:focus{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+    
+    &:hover {
+        border-bottom: none !important;
+    }
+
+}
+
+
+
+/* Info Box White Light Grey Border */
+.SA-info-box-light-border{
+
+
+    img{
+        -webkit-transition: $ease;
+        transition: $ease;
+    }
+    position: relative;
+    display: block;
+    background: #fff;
+    color: #000 !important;
+    -webkit-transition: $ease;
+    transition: $ease;
+    min-height: 330px;
+    overflow: hidden;
+    margin-bottom: $mobile-spacing;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: #949494;
+
+    &:hover{
+        background: $scarlet-red;
+        text-decoration: none;
+        color: #fff !important;
+    }
+
+    h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h3,p{
+        padding: 0 10px;
+        span{
+            border-bottom: none;
+            &:hover, &:active, &:focus{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+    
+    &:hover {
+        border-bottom: none !important;
+    }
+
+}
+
+
+
+/* Info Box White Dark Grey Border */
+
+.SA-info-box-dark-border{
+
+
+    img{
+        -webkit-transition: $ease;
+        transition: $ease;
+    }
+    position: relative;
+    display: block;
+    background: #fff;
+    color: #000 !important;
+    -webkit-transition: $ease;
+    transition: $ease;
+    min-height: 330px;
+    overflow: hidden;
+    margin-bottom: $mobile-spacing;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: $menu-button-color;
+
+    &:hover{
+        background: $scarlet-red;
+        text-decoration: none;
+        color: #fff !important;
+    }
+
+    h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h3,p{
+        padding: 0 10px;
+        span{
+            border-bottom: none;
+            &:hover, &:active, &:focus{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+    
+    &:hover {
+        border-bottom: none !important;
+    }
+
+}
+
+
+/* Info Box White Red Border */
+
+
 
 /* Dark Mode Code */
 body.dark {

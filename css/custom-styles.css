@@ -2197,6 +2197,193 @@ footer {
   height: 5px;
 }
 
+/* Info Box Light Grey no Red border */
+.SA-info-box-light-grey {
+  position: relative;
+  display: block;
+  background: #949494;
+  color: #000 !important;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  min-height: 330px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.SA-info-box-light-grey img {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.SA-info-box-light-grey:hover {
+  background: #cc0033;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.SA-info-box-light-grey h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.SA-info-box-light-grey h3, .SA-info-box-light-grey p {
+  padding: 0 10px;
+}
+
+.SA-info-box-light-grey h3 span, .SA-info-box-light-grey p span {
+  border-bottom: none;
+}
+
+.SA-info-box-light-grey h3 span:hover, .SA-info-box-light-grey h3 span:active, .SA-info-box-light-grey h3 span:focus, .SA-info-box-light-grey p span:hover, .SA-info-box-light-grey p span:active, .SA-info-box-light-grey p span:focus {
+  border-bottom: 1px solid #fff;
+}
+
+.SA-info-box-light-grey:hover {
+  border-bottom: none !important;
+}
+
+/* Info Box Black no Red border */
+.SA-info-box-black {
+  position: relative;
+  display: block;
+  background: #000;
+  color: #fff !important;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  min-height: 330px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.SA-info-box-black img {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.SA-info-box-black:hover {
+  background: #cc0033;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.SA-info-box-black h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.SA-info-box-black h3, .SA-info-box-black p {
+  padding: 0 10px;
+}
+
+.SA-info-box-black h3 span, .SA-info-box-black p span {
+  border-bottom: none;
+}
+
+.SA-info-box-black h3 span:hover, .SA-info-box-black h3 span:active, .SA-info-box-black h3 span:focus, .SA-info-box-black p span:hover, .SA-info-box-black p span:active, .SA-info-box-black p span:focus {
+  border-bottom: 1px solid #fff;
+}
+
+.SA-info-box-black:hover {
+  border-bottom: none !important;
+}
+
+/* Info Box White Light Grey Border */
+.SA-info-box-light-border {
+  position: relative;
+  display: block;
+  background: #fff;
+  color: #000 !important;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  min-height: 330px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #949494;
+}
+
+.SA-info-box-light-border img {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.SA-info-box-light-border:hover {
+  background: #cc0033;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.SA-info-box-light-border h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.SA-info-box-light-border h3, .SA-info-box-light-border p {
+  padding: 0 10px;
+}
+
+.SA-info-box-light-border h3 span, .SA-info-box-light-border p span {
+  border-bottom: none;
+}
+
+.SA-info-box-light-border h3 span:hover, .SA-info-box-light-border h3 span:active, .SA-info-box-light-border h3 span:focus, .SA-info-box-light-border p span:hover, .SA-info-box-light-border p span:active, .SA-info-box-light-border p span:focus {
+  border-bottom: 1px solid #fff;
+}
+
+.SA-info-box-light-border:hover {
+  border-bottom: none !important;
+}
+
+/* Info Box White Dark Grey Border */
+.SA-info-box-dark-border {
+  position: relative;
+  display: block;
+  background: #fff;
+  color: #000 !important;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  min-height: 330px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #5e5f5f;
+}
+
+.SA-info-box-dark-border img {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.SA-info-box-dark-border:hover {
+  background: #cc0033;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.SA-info-box-dark-border h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.SA-info-box-dark-border h3, .SA-info-box-dark-border p {
+  padding: 0 10px;
+}
+
+.SA-info-box-dark-border h3 span, .SA-info-box-dark-border p span {
+  border-bottom: none;
+}
+
+.SA-info-box-dark-border h3 span:hover, .SA-info-box-dark-border h3 span:active, .SA-info-box-dark-border h3 span:focus, .SA-info-box-dark-border p span:hover, .SA-info-box-dark-border p span:active, .SA-info-box-dark-border p span:focus {
+  border-bottom: 1px solid #fff;
+}
+
+.SA-info-box-dark-border:hover {
+  border-bottom: none !important;
+}
+
+/* Info Box White Red Border */
 /* Dark Mode Code */
 body.dark {
   -webkit-transition: .5s all;
