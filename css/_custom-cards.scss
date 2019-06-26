@@ -408,6 +408,54 @@ $light-gray: #949494;
 
 /* Info Box White Red Border */
 
+.SA-info-box-red-border{
+    img{
+        -webkit-transition: $ease;
+        transition: $ease;
+    }
+    
+    position: relative;
+    display: block;
+    background: #fff;
+    color: #000 !important;
+    -webkit-transition: $ease;
+    transition: $ease;
+    min-height: 330px;
+    overflow: hidden;
+    margin-bottom: $mobile-spacing;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: $scarlet-red;
+
+    &:hover{
+        background: $scarlet-red;
+        text-decoration: none;
+        color: #fff !important;
+    }
+
+    h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h3,p{
+        padding: 0 10px;
+        span{
+            border-bottom: none;
+            &:hover, &:active, &:focus{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+    
+    &:hover {
+        border-bottom: none !important;
+    }
+
+}
+
+
+
 
 
 /* Dark Mode Code */

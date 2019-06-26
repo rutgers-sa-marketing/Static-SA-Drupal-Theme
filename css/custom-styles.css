@@ -2384,6 +2384,53 @@ footer {
 }
 
 /* Info Box White Red Border */
+.SA-info-box-red-border {
+  position: relative;
+  display: block;
+  background: #fff;
+  color: #000 !important;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  min-height: 330px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #cc0033;
+}
+
+.SA-info-box-red-border img {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.SA-info-box-red-border:hover {
+  background: #cc0033;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.SA-info-box-red-border h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.SA-info-box-red-border h3, .SA-info-box-red-border p {
+  padding: 0 10px;
+}
+
+.SA-info-box-red-border h3 span, .SA-info-box-red-border p span {
+  border-bottom: none;
+}
+
+.SA-info-box-red-border h3 span:hover, .SA-info-box-red-border h3 span:active, .SA-info-box-red-border h3 span:focus, .SA-info-box-red-border p span:hover, .SA-info-box-red-border p span:active, .SA-info-box-red-border p span:focus {
+  border-bottom: 1px solid #fff;
+}
+
+.SA-info-box-red-border:hover {
+  border-bottom: none !important;
+}
+
 /* Dark Mode Code */
 body.dark {
   -webkit-transition: .5s all;
