@@ -456,7 +456,7 @@ $tan: #947d6e;
 }
 
 /* SA Info Box Tan */
-.SA-info-box-tan{
+.SA-info-box-red-border-go{
     img{
         -webkit-transition: $ease;
         transition: $ease;
@@ -464,17 +464,23 @@ $tan: #947d6e;
 
     position: relative;
     display: block;
-    background: $tan;
-    color: #fff !important;
+    background: #fff;
+    color: #000 !important;
     -webkit-transition: $ease;
     transition: $ease;
     min-height: 330px;
     overflow: hidden;
     margin-bottom: $mobile-spacing;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: $scarlet-red;
+
     &:hover{
         background: $scarlet-red;
         text-decoration: none;
         color: #fff !important;
+        border-width: 0px;
     }
 
     h3{
@@ -499,7 +505,7 @@ $tan: #947d6e;
 
 /* Info Box White Tan Border */
 
-.SA-info-box-tan-border{
+.SA-info-box-border-change{
     img{
         -webkit-transition: $ease;
         transition: $ease;
@@ -517,13 +523,13 @@ $tan: #947d6e;
 
     border-width: 3px;
     border-style: solid;
-    border-color: $tan;
+    border-color: $menu-button-color;
 
     &:hover{
         background: $scarlet-red;
         text-decoration: none;
         color: #fff !important;
-        border-width: 0px;  
+        border-color: $scarlet-red;
     }
 
     h3{
