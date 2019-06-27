@@ -1,4 +1,5 @@
 $light-gray: #949494;
+$tan: #947d6e;
 /* Spotify Style Image Offset */
 
 .SA-img-container {
@@ -218,7 +219,7 @@ $light-gray: #949494;
 .SA-horizontal-bar-fill {
     background: $scarlet-red;
     width: 70%;
-    height: 5px;
+    height: 7px;
 }
 
 /* Info Box Light Grey no Red border */
@@ -454,8 +455,96 @@ $light-gray: #949494;
 
 }
 
+/* SA Info Box Tan */
+.SA-info-box-tan{
+    img{
+        -webkit-transition: $ease;
+        transition: $ease;
+    }
 
+    position: relative;
+    display: block;
+    background: $tan;
+    color: #fff !important;
+    -webkit-transition: $ease;
+    transition: $ease;
+    min-height: 330px;
+    overflow: hidden;
+    margin-bottom: $mobile-spacing;
+    &:hover{
+        background: $scarlet-red;
+        text-decoration: none;
+        color: #fff !important;
+    }
 
+    h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h3,p{
+        padding: 0 10px;
+        span{
+            border-bottom: none;
+            &:hover, &:active, &:focus{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+    
+    &:hover {
+        border-bottom: none !important;
+    }
+
+}
+
+/* Info Box White Tan Border */
+
+.SA-info-box-tan-border{
+    img{
+        -webkit-transition: $ease;
+        transition: $ease;
+    }
+    
+    position: relative;
+    display: block;
+    background: #fff;
+    color: #000 !important;
+    -webkit-transition: $ease;
+    transition: $ease;
+    min-height: 330px;
+    overflow: hidden;
+    margin-bottom: $mobile-spacing;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: $tan;
+
+    &:hover{
+        background: $scarlet-red;
+        text-decoration: none;
+        color: #fff !important;
+        border-width: 0px;  
+    }
+
+    h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h3,p{
+        padding: 0 10px;
+        span{
+            border-bottom: none;
+            &:hover, &:active, &:focus{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+    
+    &:hover {
+        border-bottom: none !important;
+    }
+
+}
 
 
 /* Dark Mode Code */

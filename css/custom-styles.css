@@ -2194,7 +2194,7 @@ footer {
 .SA-horizontal-bar-fill {
   background: #cc0033;
   width: 70%;
-  height: 5px;
+  height: 7px;
 }
 
 /* Info Box Light Grey no Red border */
@@ -2428,6 +2428,100 @@ footer {
 }
 
 .SA-info-box-red-border:hover {
+  border-bottom: none !important;
+}
+
+/* SA Info Box Tan */
+.SA-info-box-tan {
+  position: relative;
+  display: block;
+  background: #947d6e;
+  color: #fff !important;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  min-height: 330px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.SA-info-box-tan img {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.SA-info-box-tan:hover {
+  background: #cc0033;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.SA-info-box-tan h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.SA-info-box-tan h3, .SA-info-box-tan p {
+  padding: 0 10px;
+}
+
+.SA-info-box-tan h3 span, .SA-info-box-tan p span {
+  border-bottom: none;
+}
+
+.SA-info-box-tan h3 span:hover, .SA-info-box-tan h3 span:active, .SA-info-box-tan h3 span:focus, .SA-info-box-tan p span:hover, .SA-info-box-tan p span:active, .SA-info-box-tan p span:focus {
+  border-bottom: 1px solid #fff;
+}
+
+.SA-info-box-tan:hover {
+  border-bottom: none !important;
+}
+
+/* Info Box White Tan Border */
+.SA-info-box-tan-border {
+  position: relative;
+  display: block;
+  background: #fff;
+  color: #000 !important;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  min-height: 330px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #947d6e;
+}
+
+.SA-info-box-tan-border img {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.SA-info-box-tan-border:hover {
+  background: #cc0033;
+  text-decoration: none;
+  color: #fff !important;
+  border-width: 0px;
+}
+
+.SA-info-box-tan-border h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.SA-info-box-tan-border h3, .SA-info-box-tan-border p {
+  padding: 0 10px;
+}
+
+.SA-info-box-tan-border h3 span, .SA-info-box-tan-border p span {
+  border-bottom: none;
+}
+
+.SA-info-box-tan-border h3 span:hover, .SA-info-box-tan-border h3 span:active, .SA-info-box-tan-border h3 span:focus, .SA-info-box-tan-border p span:hover, .SA-info-box-tan-border p span:active, .SA-info-box-tan-border p span:focus {
+  border-bottom: 1px solid #fff;
+}
+
+.SA-info-box-tan-border:hover {
   border-bottom: none !important;
 }
 
