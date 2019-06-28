@@ -1946,15 +1946,13 @@ footer{
   .SA-small-banner {
     position: relative;
     overflow: hidden;
-    padding-left: 0px !important;
+    left: 0;
+    right: 0;
     padding-right: 0px !important;
-    background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,0) 30%);
-  }
-  
-  @media all and (min-width: 768px) {
-    .SA-small-banner {
-          height: 250px;
-      }
+    padding-left: 0px !important;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    z-index: 0;
   }
   @media all and (max-width: 767px) {
             
@@ -1993,6 +1991,11 @@ footer{
         z-index: -1;
       }
   }
+
+  .make-margin-to-padding {
+    margin-top: 0px;
+    
+}
 
 /* Overlay for when dropdown happens*/ 
 .overlay {
