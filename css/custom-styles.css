@@ -2583,6 +2583,20 @@ body {
   transition: .5s all;
 }
 
+.black-bg {
+  background-color: #000;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.bot-padding {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
 /*!
  * Yamm!3 - Yet another megamenu for Bootstrap 3
  * http://geedmo.github.com/yamm3

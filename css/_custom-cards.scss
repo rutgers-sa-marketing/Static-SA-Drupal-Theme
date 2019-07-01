@@ -609,3 +609,19 @@ body.dark {
   body {
     transition: .5s all;
   }
+
+ 
+  //styles for dark index test
+  .black-bg {
+    background-color: #000;
+  }
+
+  .white-bg{
+    background-color: #fff;
+  }
+
+  .bot-padding {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
