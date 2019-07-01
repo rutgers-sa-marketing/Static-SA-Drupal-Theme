@@ -2333,7 +2333,7 @@ footer {
 }
 
 .SA-info-box-light-border:hover {
-  border-bottom: none !important;
+  border-bottom: 3px solid #949494 !important;
 }
 
 /* Info Box White Dark Grey Border */
@@ -2381,7 +2381,7 @@ footer {
 }
 
 .SA-info-box-dark-border:hover {
-  border-bottom: none !important;
+  border-bottom: 3px solid #5e5f5f !important;
 }
 
 /* Info Box White Red Border */

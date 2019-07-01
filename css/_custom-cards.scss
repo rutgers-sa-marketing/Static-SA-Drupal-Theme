@@ -349,9 +349,9 @@ $tan: #947d6e;
             }
         }
     }
-    
+
     &:hover {
-        border-bottom: none !important;
+        border-bottom: 3px solid $light-gray !important;
     }
 
 }
@@ -401,7 +401,7 @@ $tan: #947d6e;
     }
     
     &:hover {
-        border-bottom: none !important;
+        border-bottom: 3px solid $menu-button-color !important;
     }
 
 }
