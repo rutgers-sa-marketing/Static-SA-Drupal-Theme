@@ -2007,5 +2007,68 @@ footer{
   }
 
 
+/* Alternative Featured Block w/ Red border and white fill*/
+.SA-featured-red-block {
+    margin-bottom: 30px;
+    padding-right: 10px;
+    overflow: hidden;
+    -webkit-transition: $ease;
+    transition: $ease;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: $scarlet-red;
+
+    a{
+        color:$scarlet-red;
+ 
+        &:hover, &:active, &:focus{
+            text-decoration: none;
+            border-bottom: 1px solid $scarlet-red;
+        }
+    }
+    h3{
+        font-size: 1.2em;
+        font-weight: 600;
+        color: #000;
+    }
+    p{
+        font-size: $nav-font-size;
+        color: #000
+    }
+    img{
+        float: left;
+        height: 200px;
+        width: 240px;
+        margin: 0 20px 0 0;  
+    }
+}
+
+@media all and (max-width: 455px){
+    .SA-featured-red-block {
+        padding: 0;
+        h3{
+            padding-left: 15px;
+        }
+        p{
+            padding-left: 15px;
+        }
+        img{
+            display: none;
+            
+        }
+    }
+} 
+
+.SA-headers {
+    color: $scarlet-red !important;
+    &:hover, &:active, &:focus{
+        text-decoration: none;
+        border-bottom: 1px solid $scarlet-red !important;
+    }
+
+}
+
+
     @import '_custom-cards.scss';
     @import '_yamm.scss';

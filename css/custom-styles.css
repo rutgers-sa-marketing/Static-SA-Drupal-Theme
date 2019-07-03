@@ -1971,6 +1971,69 @@ footer {
   transition: .5s;
 }
 
+/* Alternative Featured Block w/ Red border and white fill*/
+.SA-featured-red-block {
+  margin-bottom: 30px;
+  padding-right: 10px;
+  overflow: hidden;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #cc0033;
+}
+
+.SA-featured-red-block a {
+  color: #cc0033;
+}
+
+.SA-featured-red-block a:hover, .SA-featured-red-block a:active, .SA-featured-red-block a:focus {
+  text-decoration: none;
+  border-bottom: 1px solid #cc0033;
+}
+
+.SA-featured-red-block h3 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #000;
+}
+
+.SA-featured-red-block p {
+  font-size: 0.875em;
+  color: #000;
+}
+
+.SA-featured-red-block img {
+  float: left;
+  height: 200px;
+  width: 240px;
+  margin: 0 20px 0 0;
+}
+
+@media all and (max-width: 455px) {
+  .SA-featured-red-block {
+    padding: 0;
+  }
+  .SA-featured-red-block h3 {
+    padding-left: 15px;
+  }
+  .SA-featured-red-block p {
+    padding-left: 15px;
+  }
+  .SA-featured-red-block img {
+    display: none;
+  }
+}
+
+.SA-headers {
+  color: #cc0033 !important;
+}
+
+.SA-headers:hover, .SA-headers:active, .SA-headers:focus {
+  text-decoration: none;
+  border-bottom: 1px solid #cc0033 !important;
+}
+
 /* Spotify Style Image Offset */
 .SA-img-container {
   background-color: rgba(0, 0, 0, 0);
