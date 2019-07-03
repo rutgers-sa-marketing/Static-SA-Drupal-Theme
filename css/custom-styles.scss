@@ -1725,7 +1725,7 @@ footer{
   
   @media all and (min-width: 768px) {
       .video-banner {
-          height: 660px;
+          height: 500px;
       }
   }
   @media all and (max-width: 767px) {
@@ -1769,7 +1769,7 @@ footer{
   .video-container-banner {
     overflow: hidden;
 
-    height:660px;
+    height:500px;
     background: rgba(0, 0, 0, .5) ;
     
         h2 {

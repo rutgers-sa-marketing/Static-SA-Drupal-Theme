@@ -1694,7 +1694,7 @@ footer {
 
 @media all and (min-width: 768px) {
   .video-banner {
-    height: 660px;
+    height: 500px;
   }
 }
 
@@ -1734,7 +1734,7 @@ footer {
 
 .video-container-banner {
   overflow: hidden;
-  height: 660px;
+  height: 500px;
   background: rgba(0, 0, 0, 0.5);
 }
 
