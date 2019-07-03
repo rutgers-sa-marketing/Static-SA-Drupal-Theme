@@ -438,7 +438,7 @@ h6 {
   text-decoration: underline;
 }
 
-/* Adds Support Students to Nav in Mobile Size*/
+/* Adds Giving to Nav in Mobile Size*/
 @media all and (min-width: 768px) {
   .affix {
     position: fixed;
@@ -1975,24 +1975,24 @@ footer {
 }
 
 /* Nav Modal */
-.SA-search-modal img {
+.SA-nav-modal img {
   margin-bottom: 25px;
 }
 
-.SA-search-modal ul {
+.SA-nav-modal ul {
   text-align: left;
   margin: 0;
 }
 
-.SA-search-modal li {
+.SA-nav-modal li {
   padding: 5px 0;
 }
 
-.SA-search-modal a {
+.SA-nav-modal a {
   color: #cc0033;
 }
 
-.SA-search-modal a:hover {
+.SA-nav-modal a:hover {
   color: #cc0033;
   text-decoration: none;
   border-bottom: 1px solid #cc0033;
@@ -2027,7 +2027,7 @@ footer {
   .SA-search-btn {
     display: none;
   }
-  .SA-search-modal .form-control {
+  .SA-nav-modal .form-control {
     width: 100%;
     min-width: 500px;
   }
