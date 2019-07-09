@@ -444,7 +444,7 @@ h6 {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 9999 !important;
+    z-index: 3 !important;
   }
   .SA-support-nav-link {
     display: none !important;
@@ -711,7 +711,6 @@ h6 {
 /* Main Container */
 .SA-main-content {
   margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 .SA-main-content a {
@@ -982,23 +981,17 @@ h6 {
 
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
   margin-left: -10px;
-  background: #fff;
-  border-radius: 50%;
   height: 40px;
   width: 40px;
-  padding: 9px;
-  color: #000;
+  color: #333;
   text-shadow: none;
 }
 
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
   margin-left: -10px;
-  background: #fff;
-  border-radius: 50%;
   height: 40px;
   width: 40px;
-  padding: 9px;
-  color: #000;
+  color: #333;
   text-shadow: none;
 }
 
@@ -1016,7 +1009,7 @@ h6 {
 /* SA BRAG FACTOID */
 .SA-fact {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .SA-fact h3 {
@@ -1043,7 +1036,7 @@ h6 {
 /* Changes Inside Text sizes of RU Fact Slider*/
 @media all and (min-width: 768px) {
   .SA-fact {
-    margin-top: 70px;
+    margin-top: 100px;
   }
   .SA-fact h3 {
     font-size: 3em;
@@ -1978,24 +1971,21 @@ footer {
   overflow: hidden;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
+  display: block;
   border-width: 3px;
   border-style: solid;
   border-color: #e0e0e0;
 }
 
-.SA-featured-red-block a {
-  color: #cc0033;
-}
-
-.SA-featured-red-block a:hover, .SA-featured-red-block a:active, .SA-featured-red-block a:focus {
-  text-decoration: none;
-  border-bottom: 1px solid #cc0033;
+.SA-featured-red-block:hover, .SA-featured-red-block:active, .SA-featured-red-block:focus {
+  border-color: #cc0033;
+  border-bottom: 3px solid #cc0033 !important;
 }
 
 .SA-featured-red-block h3 {
   font-size: 1.2em;
   font-weight: 600;
-  color: #000;
+  color: #cc0033;
 }
 
 .SA-featured-red-block p {
@@ -2032,6 +2022,12 @@ footer {
 .SA-headers:hover, .SA-headers:active, .SA-headers:focus {
   text-decoration: none;
   border-bottom: 1px solid #cc0033 !important;
+}
+
+.greyBG {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: #e0e0e0;
 }
 
 /* Spotify Style Image Offset */

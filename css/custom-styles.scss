@@ -490,7 +490,7 @@ $h-line-height: 1.3em;
         position: fixed;
         top: 0;
         width: 100%;
-        z-index: 9999 !important;
+        z-index: 3 !important;
     }
 
     .SA-support-nav-link{
@@ -758,7 +758,6 @@ $h-line-height: 1.3em;
 /* Main Container */
 .SA-main-content{
     margin-top: 40px;
-    margin-bottom: 40px;
     a{
         color: $scarlet-red;
         &:hover, &:target, &:focus{
@@ -1026,23 +1025,17 @@ $h-line-height: 1.3em;
 
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
     margin-left: -10px;
-    background: #fff;
-    border-radius: 50%;
     height: 40px;
     width: 40px;
-    padding: 9px;
-    color: #000;
+    color: #333;
     text-shadow: none;
 }
 
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
     margin-left: -10px;
-    background: #fff;
-    border-radius: 50%;
     height: 40px;
     width: 40px;
-    padding: 9px;
-    color: #000;
+    color: #333;
     text-shadow: none;
 }
 
@@ -1063,7 +1056,7 @@ $h-line-height: 1.3em;
 /* SA BRAG FACTOID */
 .SA-fact {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
     h3{
         font-size: 2em;
     }
@@ -1086,7 +1079,7 @@ $h-line-height: 1.3em;
 /* Changes Inside Text sizes of RU Fact Slider*/
 @media all and (min-width: 768px){
     .SA-fact {
-        margin-top: 70px;
+        margin-top: 100px;
         h3{
             font-size: 3em;
         }
@@ -2014,24 +2007,23 @@ footer{
     overflow: hidden;
     -webkit-transition: $ease;
     transition: $ease;
+    display: block;
 
     border-width: 3px;
     border-style: solid;
     border-color: #e0e0e0;
 
-    a{
-        color:$scarlet-red;
- 
-        &:hover, &:active, &:focus{
-            text-decoration: none;
-            border-bottom: 1px solid $scarlet-red;
-        }
+    &:hover, &:active, &:focus{
+        border-color: $scarlet-red;
+        border-bottom: 3px solid #cc0033 !important;
     }
+
     h3{
         font-size: 1.2em;
         font-weight: 600;
-        color: #000;
+        color: $scarlet-red;
     }
+
     p{
         font-size: $nav-font-size;
         color: #000
@@ -2069,6 +2061,11 @@ footer{
 
 }
 
+.greyBG {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #e0e0e0;
+}
 
     @import '_custom-cards.scss';
     @import '_yamm.scss';
