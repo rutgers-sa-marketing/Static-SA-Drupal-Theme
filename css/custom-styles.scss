@@ -97,7 +97,7 @@ $h-line-height: 1.3em;
 
 .SA-title{
     h2{
-        padding-top: 10px;
+        padding-top: 25px;
         margin-bottom: $mobile-spacing;
         border-top: 5px solid $scarlet-red;
     }
@@ -757,7 +757,8 @@ $h-line-height: 1.3em;
 
 /* Main Container */
 .SA-main-content{
-    margin-top: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     a{
         color: $scarlet-red;
         &:hover, &:target, &:focus{
@@ -787,7 +788,7 @@ $h-line-height: 1.3em;
 }
 
 .SA-banner-img-2{
-    background: url('../images/banner-2.jpg') no-repeat;
+    background: url('../images/carnivale-16.jpg') no-repeat;
     @include SA-banner-dimension;
     height: 600px;
 }
@@ -1002,6 +1003,13 @@ $h-line-height: 1.3em;
         border-bottom: none !important;
     }
 
+}
+
+
+.SA-text-box {
+    margin: 100px 20px;
+    border-top: $scarlet-red 5px solid;
+    background-color: #fff;
 }
 
 
@@ -1695,7 +1703,7 @@ footer{
     font-weight: 700;
     text-align: center;
     position: absolute;
-    top: 20%;
+    top: 30%;
     width: 100%;
     line-height: 1em;
 }
