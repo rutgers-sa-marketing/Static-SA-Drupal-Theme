@@ -727,6 +727,21 @@ h6 {
   margin-top: -40px;
 }
 
+/*Homepage Full-width Banners*/
+.SA-banner-img-1 {
+  background: url("../images/banner-1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.SA-banner-img-2 {
+  background: url("../images/banner-2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
 /* Sidebars */
 .SA-left-sidebar {
   margin-bottom: 25px;
@@ -896,10 +911,6 @@ h6 {
 }
 
 /*Photo Info Box*/
-.SA-factoid {
-  margin-bottom: 5%;
-}
-
 .SA-info-box {
   position: relative;
   display: block;
@@ -954,7 +965,11 @@ h6 {
   height: 330px;
   background-color: #E0E0E0;
   padding: 0 15%;
-  margin-bottom: 25px;
+  margin: 65px 0;
+}
+
+.SA-slide {
+  margin: 65px 0;
 }
 
 /*These styles override Bootstrap's slider styles*/
@@ -983,7 +998,7 @@ h6 {
   margin-left: -10px;
   height: 40px;
   width: 40px;
-  color: #333;
+  color: #fff;
   text-shadow: none;
 }
 
@@ -991,7 +1006,7 @@ h6 {
   margin-left: -10px;
   height: 40px;
   width: 40px;
-  color: #333;
+  color: #fff;
   text-shadow: none;
 }
 
@@ -1033,6 +1048,24 @@ h6 {
   font-size: 0.875em;
 }
 
+.SA-fact-caption {
+  text-align: center;
+  top: 25%;
+  position: absolute;
+  color: #fff;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.SA-fact-caption h3 {
+  font-size: 4em;
+}
+
+.SA-fact-caption a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 /* Changes Inside Text sizes of RU Fact Slider*/
 @media all and (min-width: 768px) {
   .SA-fact {
@@ -1047,10 +1080,6 @@ h6 {
 }
 
 /* Latest Videos Section (Front Page)*/
-.SA-videos {
-  margin-bottom: 5%;
-}
-
 .SA-videos iframe {
   margin-bottom: 25px;
 }
@@ -1626,15 +1655,14 @@ footer {
 
 .hero-title {
   color: #fff;
-  font-size: 4vw;
-  line-height: 1.1em;
-  letter-spacing: 2px;
+  font-size: 5em;
   font-family: "Montserrat", sans-serif !important;
   font-weight: 700;
   text-align: center;
   position: absolute;
-  top: 25%;
+  top: 20%;
   width: 100%;
+  line-height: 1em;
 }
 
 /* Video  */
