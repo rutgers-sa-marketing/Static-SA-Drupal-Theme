@@ -182,12 +182,12 @@ h6 {
 
 /* Branding Section */
 .SA-branding {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .SA-branding img {
-  width: 235px;
+  width: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -198,9 +198,21 @@ h6 {
 }
 
 .SA-dep-title {
-  font-size: 1.3em;
+  font-size: .875em;
   font-weight: 700;
   text-align: center;
+  line-height: 1em;
+  margin-bottom: 0px;
+}
+
+.SA-dep-header {
+  font-size: .70em;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /*Moves Logo On top of Dept Name in Mobile */
@@ -215,6 +227,9 @@ h6 {
     display: block;
   }
   .SA-branding .SA-dep-title {
+    text-align: left;
+  }
+  .SA-branding .SA-dep-header {
     text-align: left;
   }
   .SA-branding-hero {
@@ -232,6 +247,10 @@ h6 {
     display: block;
   }
   .SA-branding-hero .SA-dep-title {
+    text-align: left;
+    color: #fff;
+  }
+  .SA-branding-hero .SA-dep-header {
     text-align: left;
     color: #fff;
   }

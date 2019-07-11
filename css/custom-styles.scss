@@ -233,10 +233,10 @@ $h-line-height: 1.3em;
 
 /* Branding Section */
 .SA-branding{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     img{
-        width:235px;
+        width:150px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -246,10 +246,22 @@ $h-line-height: 1.3em;
     }
 }
 
-.SA-dep-title{
-    font-size: 1.3em;
+.SA-dep-title{ 
+    font-size: .875em;
     font-weight: 700;
     text-align: center;
+    line-height: 1em;
+    margin-bottom: 0px;
+}
+
+.SA-dep-header {
+    font-size: .70em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 1em;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /*Moves Logo On top of Dept Name in Mobile */
@@ -259,6 +271,7 @@ $h-line-height: 1.3em;
             float: left;
             margin-right: 45px;
             margin-left: 0;
+ 
         }
 
         .SA-btn-primary{
@@ -267,6 +280,11 @@ $h-line-height: 1.3em;
         }
         .SA-dep-title{
             text-align: left;
+
+        }
+        .SA-dep-header{
+            text-align: left;
+
         }
     }
 
@@ -285,6 +303,10 @@ $h-line-height: 1.3em;
             display: block;
         }
         .SA-dep-title{
+            text-align: left;
+            color: #fff;
+        }
+        .SA-dep-header{
             text-align: left;
             color: #fff;
         }
