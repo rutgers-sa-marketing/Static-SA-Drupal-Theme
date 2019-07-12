@@ -1806,12 +1806,17 @@ footer{
     }  
   }   
 
+  @media all and (min-width: 1200px) {
+    .video-banner {
+        height: 600px;
+    }
+}
+
   /* Offset content up */
 
   .SA-offset {
-      margin-top: -100px;
-      background: #fff;
-      padding-top: 20px;
+      margin-top: 25px;
+      
   }
   /* Video Within Container Styling */
   
