@@ -284,7 +284,7 @@ $h-line-height: 1.3em;
         }
         .SA-dep-header{
             text-align: left;
-
+            margin-top: 0px;
         }
     }
 
@@ -318,7 +318,13 @@ $h-line-height: 1.3em;
     .SA-branding{
         .SA-btn-primary{
             float: right;
-            margin-top: 15px;
+        }
+        .SA-dep-title{
+            font-size: 1em;
+        }
+        .SA-dep-header{
+            font-size: .875em;
+    
         }
     }
 

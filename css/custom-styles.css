@@ -231,6 +231,7 @@ h6 {
   }
   .SA-branding .SA-dep-header {
     text-align: left;
+    margin-top: 0px;
   }
   .SA-branding-hero {
     background-color: rgba(0, 0, 0, 0.5);
@@ -259,7 +260,12 @@ h6 {
 @media all and (min-width: 991px) {
   .SA-branding .SA-btn-primary {
     float: right;
-    margin-top: 15px;
+  }
+  .SA-branding .SA-dep-title {
+    font-size: 1em;
+  }
+  .SA-branding .SA-dep-header {
+    font-size: .875em;
   }
 }
 
