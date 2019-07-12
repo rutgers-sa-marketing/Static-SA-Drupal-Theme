@@ -1679,8 +1679,11 @@ footer{
     
 /* Change Slide Height */
 @media screen and (max-width: 768px) {
+ 
     .carousel-inner>.item>img{
         height: 350px;
+        max-width: none;
+        margin-left: -50%;
     }
 }
 
