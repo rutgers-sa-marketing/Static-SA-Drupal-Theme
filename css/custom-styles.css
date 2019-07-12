@@ -217,10 +217,15 @@ h6 {
 
 /*Moves Logo On top of Dept Name in Mobile */
 @media all and (min-width: 768px) {
+  .SA-branding {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
   .SA-branding img {
     float: left;
     margin-right: 45px;
     margin-left: 0;
+    width: 250px;
   }
   .SA-branding .SA-btn-primary {
     float: left;
@@ -262,7 +267,7 @@ h6 {
     float: right;
   }
   .SA-branding .SA-dep-title {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .SA-branding .SA-dep-header {
     font-size: .875em;

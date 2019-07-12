@@ -267,11 +267,13 @@ $h-line-height: 1.3em;
 /*Moves Logo On top of Dept Name in Mobile */
 @media all and (min-width: 768px){
     .SA-branding{
+        padding-top: 25px;
+        padding-bottom: 20px;
         img{
             float: left;
             margin-right: 45px;
             margin-left: 0;
- 
+            width: 250px;
         }
 
         .SA-btn-primary{
@@ -320,7 +322,7 @@ $h-line-height: 1.3em;
             float: right;
         }
         .SA-dep-title{
-            font-size: 1em;
+            font-size: 1.5em;
         }
         .SA-dep-header{
             font-size: .875em;
