@@ -126,6 +126,9 @@ function includeVid() {
       }
     }
   }
+  else {
+    return;
+  }
 };
 
 
