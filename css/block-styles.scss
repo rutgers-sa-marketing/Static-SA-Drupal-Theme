@@ -2012,6 +2012,11 @@ footer{
 
 /* Nav Modal */
 .SA-nav-modal{
+    display: block;
+    padding-right: 17px;
+    top: 200px;
+    height: 400px;
+    position: absolute;
     img{
         margin-bottom: $mobile-spacing;
     }

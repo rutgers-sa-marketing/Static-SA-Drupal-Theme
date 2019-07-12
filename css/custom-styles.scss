@@ -2150,5 +2150,67 @@ footer{
     background-color: #e0e0e0;
 }
 
+
+/*Navigation for Sub-pages*/
+
+.panel-nav {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+        a {
+            font-size: 14px;
+            font-weight: 700;
+
+        }
+    .SA-nav-heading {
+        padding: 0;
+        border-radius: 0;
+        color: $scarlet-red;
+        border-color: none;
+        background-color: #fff;
+        transition: all .15s ease-in-out;
+        // height: 65px;
+      
+    }
+    .SA-nav-title {
+
+        border-bottom: 1px solid #e0e0e0;
+
+        font-size: 14px;
+            a {
+                display: block;
+                padding: 15px;
+                text-decoration: none;
+                text-align: center;
+            }
+    }
+    .SA-nav-body{
+        background-color: $dark-grey;
+        color: #fff;
+        ul {
+            list-style: none;
+            li {
+                list-style: none;
+            }
+        }
+
+        a{
+            color: #fff;
+            font-size: .75em;
+        }
+    }
+  }
+  
+  .SA-panel-nav.active {
+    background-color: $scarlet-red;
+  }
+  
+  .SA-panel-nav-collapse {
+
+    border-top: 1px solid #e0e0e0;
+}
+  
+
+
     @import '_custom-cards.scss';
     @import '_yamm.scss';

@@ -2110,6 +2110,67 @@ footer {
   background-color: #e0e0e0;
 }
 
+/*Navigation for Sub-pages*/
+.panel-nav {
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+
+.panel-nav a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.panel-nav .SA-nav-heading {
+  padding: 0;
+  border-radius: 0;
+  color: #cc0033;
+  border-color: none;
+  background-color: #fff;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.panel-nav .SA-nav-title {
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 14px;
+}
+
+.panel-nav .SA-nav-title a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.panel-nav .SA-nav-body {
+  background-color: #333;
+  color: #fff;
+}
+
+.panel-nav .SA-nav-body ul {
+  list-style: none;
+}
+
+.panel-nav .SA-nav-body ul li {
+  list-style: none;
+}
+
+.panel-nav .SA-nav-body a {
+  color: #fff;
+  font-size: .75em;
+}
+
+.SA-panel-nav.active {
+  background-color: #cc0033;
+}
+
+.SA-panel-nav-collapse {
+  border-top: 1px solid #e0e0e0;
+}
+
 /* Spotify Style Image Offset */
 .SA-img-container {
   background-color: rgba(0, 0, 0, 0);
