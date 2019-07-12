@@ -1737,6 +1737,16 @@ footer {
   }
 }
 
+.SA-mobile-img {
+  position: relative;
+  left: 50%;
+  padding-top: 56.25%;
+  width: 100%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+
 /* Video Banner (container) */
 .video-banner {
   position: relative;

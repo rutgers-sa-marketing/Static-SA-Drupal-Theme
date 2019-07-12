@@ -1771,6 +1771,16 @@ footer{
       }
   }
 
+ .SA-mobile-img {
+    position: relative;
+    left: 50%;
+    padding-top: 56.25%;
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+ }
+
+  
   /* Video Banner (container) */
   .video-banner {
     position: relative;
@@ -1784,7 +1794,6 @@ footer{
             font-size: 1.8em;
         }
   }
-  
   @media all and (min-width: 768px) {
       .video-banner {
           height: 500px;
@@ -1794,7 +1803,6 @@ footer{
             
     .video-banner{
         margin-bottom: -50% ;
-
         .red-title {
             font-size: 1.8em !important;
         }

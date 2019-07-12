@@ -21,8 +21,6 @@
     <!-- Custom styles for this template -->
     <link href="css/custom-styles.css" rel="stylesheet">
 
-    <!--Custom style for Carousel Slides-->
-    <link href="css/carousel-slides.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -40,7 +38,8 @@
     <!-- Hero Image -->
      <div class=" container-fluid video-banner">
         <h2 class="hero-title">Student Success<br>is Our Success</h2>
-        <video autoplay loop muted src="http://slwordpress.rutgers.edu/wp-content/uploads/video/SA-video-bg.mp4" id="vid-bg" class="hero-video" type="video/mp4"></video>
+        <div class = " hidden-xs "add-vid="video.html" id="vid-bg"></div>
+        <img src="./images/SA-vid-frame.JPG" class="img-responsive SA-mobile-img hidden-s hidden-m hidden-l" alt="Featured">
       </div>
 
       <div class="container SA-main-content SA-offset">
@@ -223,6 +222,7 @@
     <script type="text/javascript">
       //Imports Header and Footer sections from their .html files
       includeHTML();
+      includeVid();
       $('#myTab').tabCollapse();
   </script>
   </body>
