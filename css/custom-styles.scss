@@ -472,11 +472,14 @@ $h-line-height: 1.3em;
 .SA-dropdown-menu {
     background-color: #333 !important;
     border-top: 1px solid #333;
+    padding: 10px 15px;
     transition: all 0.2s;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
+
+
     a{
         display: block;
         padding: 8px;
@@ -489,18 +492,8 @@ $h-line-height: 1.3em;
         padding:0;
         li{
             list-style: none;
+            padding: 2px;
         }
-    }
-    h3{
-        color: #fff;
-        display: block;
-        border-bottom: 1px solid #fff;
-        padding-bottom: 5px;
-        margin: 0 0 10px 0;
-        
-    }
-    .col-sm-3{
-        margin-bottom: 25px;
     }
 }
 
@@ -2210,6 +2203,20 @@ footer{
     border-top: 1px solid #e0e0e0;
 }
   
+.SA-nav-drop {
+
+    h3{
+        color: #fff;
+        display: block;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 5px;
+        margin: 0 0 10px 0;
+        
+    }
+    .col-sm-3{
+        margin-bottom: 25px;
+    }
+}
 
 
     @import '_custom-cards.scss';
