@@ -1688,9 +1688,14 @@ footer {
   font-weight: 700;
   text-align: center;
   position: absolute;
-  top: 30%;
+  top: 40%;
   width: 100%;
   line-height: 1em;
+}
+
+.hero-slogan {
+  max-width: 1000px;
+  width: 90%;
 }
 
 /* Video  */
@@ -1765,7 +1770,7 @@ footer {
     font-size: 1.8em !important;
   }
   .hero-title {
-    top: 15%;
+    top: 20%;
     font-size: 5vw;
   }
 }

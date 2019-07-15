@@ -1721,15 +1721,20 @@ footer{
 }  
 
 .hero-title{
-    color: #fff;
-    font-size: 5em;
-    font-family: $body-font !important;
-    font-weight: 700;
-    text-align: center;
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    line-height: 1em;
+        color: #fff;
+        font-size: 5em;
+        font-family: $body-font !important;
+        font-weight: 700;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        line-height: 1em;
+}
+
+.hero-slogan {
+    max-width: 1000px;
+    width: 90%;
 }
 
 
@@ -1803,9 +1808,10 @@ footer{
     }
     
     .hero-title {
-        top: 15%;
+        top: 20%;
         font-size: 5vw;
     }  
+
   }   
 
   @media all and (min-width: 1200px) {
