@@ -421,6 +421,7 @@ h6 {
 .SA-dropdown-menu {
   background-color: #333 !important;
   border-top: 1px solid #333;
+  padding: 10px 15px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   -webkit-transition: all 0.2s ease;
@@ -445,18 +446,7 @@ h6 {
 
 .SA-dropdown-menu ul li {
   list-style: none;
-}
-
-.SA-dropdown-menu h3 {
-  color: #fff;
-  display: block;
-  border-bottom: 1px solid #fff;
-  padding-bottom: 5px;
-  margin: 0 0 10px 0;
-}
-
-.SA-dropdown-menu .col-sm-3 {
-  margin-bottom: 25px;
+  padding: 2px;
 }
 
 .SA-support-nav-link {
@@ -2169,6 +2159,18 @@ footer {
 
 .SA-panel-nav-collapse {
   border-top: 1px solid #e0e0e0;
+}
+
+.SA-nav-drop h3 {
+  color: #fff;
+  display: block;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  margin: 0 0 10px 0;
+}
+
+.SA-nav-drop .col-sm-3 {
+  margin-bottom: 25px;
 }
 
 /* Spotify Style Image Offset */
