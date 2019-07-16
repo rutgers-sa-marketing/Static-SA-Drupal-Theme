@@ -750,7 +750,7 @@ h6 {
 
 .SA-index-spacing {
   margin-top: 100px !important;
-  margin-bottom: 100px !important;
+  margin-bottom: 125px !important;
 }
 
 /*Homepage Full-width Banners*/
@@ -2154,7 +2154,20 @@ footer {
   display: block;
   padding: 15px;
   text-decoration: none;
-  text-align: center;
+}
+
+.panel-nav .SA-nav-title a:hover, .panel-nav .SA-nav-title a:active, .panel-nav .SA-nav-title a:focus {
+  text-decoration: underline;
+}
+
+.panel-nav .SA-nav-title .fa {
+  -webkit-transition: .3s transform ease-in-out;
+  transition: .3s transform ease-in-out;
+}
+
+.panel-nav .SA-nav-title .collapsed .fa {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .panel-nav .SA-nav-body {
