@@ -730,8 +730,8 @@ h6 {
 
 /* Main Container */
 .SA-main-content {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .SA-main-content a {
@@ -746,6 +746,11 @@ h6 {
 
 .SA-main-content .SA-Hero {
   margin-top: -40px;
+}
+
+.SA-index-spacing {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
 }
 
 /*Homepage Full-width Banners*/
