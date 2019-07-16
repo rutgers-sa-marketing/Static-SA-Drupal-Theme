@@ -1475,33 +1475,45 @@ footer{
 
 /* Staff Bio */
 .SA-staff-block{
-
-    background-color: #e0e0e0;
     margin-bottom: 30px;
     padding-right: 10px;
     overflow: hidden;
+    display: block;
     -webkit-transition: $ease;
     transition: $ease;
+    max-height: 130px;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    
+
+    &:hover, &:active, &:focus{
+        border-color: $scarlet-red;
+        border-bottom: 3px solid #cc0033 !important;
+        text-decoration: none;
+    }
 
     img{
         height: 130px;
+        width: 100px;
         float: left;
+        margin: 0 15px 0 0;  
     }
-   a{
-        &:hover{
-            text-decoration: underline;
-        }
-    }
-        h4{
+    h4{
         font-size: 1.2em;
         font-weight: 600;
         color: #000;
-        padding-left: 115px;
+        padding-right: 10px;
+        
+        &:hover, &:active, &:focus{
+            color: $scarlet-red;
+        }
     }
     p{
         font-size: $nav-font-size;
-        color: #000;
-        padding-left: 115px;
+        color: #000;        
+        padding-right: 10px;
     }
 }
 
