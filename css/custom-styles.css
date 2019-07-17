@@ -723,6 +723,18 @@ h6 {
   width: 100%;
 }
 
+.modal-search-body .SA-dep-header {
+  font-size: 1em;
+}
+
+.modal-search-body .SA-dep-title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  line-height: 1.4em;
+  font-size: 1.6em;
+}
+
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border: none;
@@ -730,8 +742,8 @@ h6 {
 
 /* Main Container */
 .SA-main-content {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .SA-main-content a {

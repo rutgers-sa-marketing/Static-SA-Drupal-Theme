@@ -767,6 +767,17 @@ $h-line-height: 1.3em;
       float: none;
       width: 100%;
     }
+
+    .SA-dep-header{
+        font-size: 1em;
+    }
+    .SA-dep-title {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        line-height: 1.4em;
+        font-size: 1.6em;
+    }
   }
   
   
@@ -779,8 +790,8 @@ $h-line-height: 1.3em;
 
 /* Main Container */
 .SA-main-content{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     a{
         color: $scarlet-red;
         &:hover, &:target, &:focus{
