@@ -29,11 +29,10 @@ $body-font-size: 1em;
 $utility-font-size: .875em;
 $h1-font-size: 2em;
 $h2-font-size: 1.5em;
-$h3-font-size: 1.35em;
+$h3-font-size: 1.250em;
 $h4-font-sie: 1em;
-$h5-font-size: .95em;
-$h6-font-size: .875em;
-$h-line-height: 1.3em;
+$h5-font-size: .875em;
+$h6-font-size: .775em;
 
 /* Mandatory styling for placing Font Awesome on pseudo selectors*/
 @mixin icon-pseudo {
@@ -62,7 +61,6 @@ $h-line-height: 1.3em;
 
     h1,h2,h3,h4,h5,h6{
         font-family: $heading-font;
-        line-height: $h-line-height;
         font-weight: 700;
     }
     h1{
@@ -71,6 +69,7 @@ $h-line-height: 1.3em;
 
     h2{
         font-size: $h2-font-size;
+        color: $scarlet-red;
     }
     
     h3{

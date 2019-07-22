@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/navbar-static-top/">
+
+    <title>Division of Student Affairs - New Brunswick</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom-styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!--Header is pulled from header.html-->
+    <div w3-include-html="header.html" id="header-div"></div>
+
+
+    <div class="container SA-main-content">
+
+        <div class="row SA-featured-content ">
+            <div class="col-md-12"> <!-- Add col-md-push-3 when sidebars are enabled -->
+                <h1>Typeface and Image Standards</h1>
+                <p>Baseline Body pixel size is 16px. 16px = 1em.</p>
+            </div>
+            
+            <div class="col-md-12">
+                <h2>Body Styles</h2>
+                <p>Lorem, ipsum dolor sit amet <strong>consectetur adipisicing elit.</strong> Itaque laudantium reiciendis quas ea nihil id <em>corrupti necessitatibus rerum adipisci</em> repudiandae illum temporibus tenetur, dolor atque sequi cumque iure neque doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Ullam, laboriosam explicabo facere,</strong> et sed dolores eaque suscipit harum, sint alias sit. Qui nulla maxime repellendus optio molestias, molestiae possimus veritatis.</p>
+                <p><a href="#">Body Links</a></p>
+                <p>
+                    <ul>
+                        <li>Bulleted Lists!</li>
+                        <li>Lorem ipsum dolor sit</li>
+                        <li>Lorem ipsum dolor sit</li>
+                        <li>Lorem ipsum dolor sit</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="col-md-12">
+                    <h2>Heading Styles</h2>
+                    <p>Line height for headings are set at 1em. Bootstrap defaults the first three heading elements to have a top margin spacing of 20px. Exceptions to these Heading standards would be headings to sections on the front page and the Department's name in the header.</p>
+                    <h1>H1 - 32px</h1>
+                    <h2>H2 - 24px</h2>
+                    <h3>H3 - 20px</h3>
+                    <h4>H4 - 16px</h4>
+                    <h5>H5 - 14px</h5>
+                    <h6>H6 - 12px</h6>
+            </div>
+
+            <div class="col-md-12">
+                <h2>Images</h2>
+                <h3>Banners</h3>
+
+                <p>Recommended maximum dimensions for banners 1600px by 500px<br><img src="./images/banner-1.jpg" class="img-responsive" alt="Involvement Fair"></p>
+
+                <h3>Bio's</h3>
+                <p>Recommended maximum dimensions for bio's 350px by 500px<br><img src="./images/banner-1.jpg" class="img-responsive" alt="Involvement Fair"></p>
+            </div>
+        </div><!-- /row -->
+    </div><!-- /container -->
+
+     
+
+     <!--Footer is pulled from footer.html-->
+     <div w3-include-html="footer.html"></div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/custom-scripts.js"></script>
+    <script type="text/javascript" src="js/bootstrap-tabcollapse.js"></script>
+    <script type="text/javascript">
+      //Imports Header and Footer sections from their .html files
+      includeHTML();
+      includeVid();
+      $('#myTab').tabCollapse();
+  </script>
+  </body>
+</html>
