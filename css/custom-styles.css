@@ -304,6 +304,8 @@ h6 {
 
 .SA-advisory {
   background-color: #bbe4f8;
+  border-radius: 10px;
+  border: 2px solid #34a9e2;
 }
 
 .SA-advisory p {
@@ -421,7 +423,6 @@ h6 {
 .SA-dropdown-menu {
   background-color: #333 !important;
   border-top: 1px solid #333;
-  padding: 10px 15px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   -webkit-transition: all 0.2s ease;
@@ -432,7 +433,7 @@ h6 {
 
 .SA-dropdown-menu a {
   display: block;
-  padding: 8px;
+  padding: 10px 15px;
 }
 
 .SA-dropdown-menu a:hover {
@@ -446,7 +447,6 @@ h6 {
 
 .SA-dropdown-menu ul li {
   list-style: none;
-  padding: 2px;
 }
 
 .SA-support-nav-link {
@@ -649,11 +649,11 @@ h6 {
   width: 100%;
   display: block;
   color: #fff;
-  background-color: #333333;
+  background-color: #333;
   border: none;
   margin: 0;
   padding: 13px 15px;
-  border-right: 3px solid #333333;
+  border-right: 3px solid #333;
   border-radius: 0;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
@@ -952,34 +952,38 @@ h6 {
 .SA-info-box {
   position: relative;
   display: block;
-  background: #5e5f5f;
-  color: #fff !important;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
   min-height: 330px;
   overflow: hidden;
   margin-bottom: 25px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #e0e0e0;
 }
 
 .SA-info-box img {
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
-  border-bottom: 7px solid #cc0033;
+  border-bottom: 5px solid #cc0033;
 }
 
-.SA-info-box:hover {
-  background: #cc0033;
-  text-decoration: none;
-  color: #fff !important;
+.SA-info-box:hover, .SA-info-box:active, .SA-info-box:focus {
+  border-color: #cc0033;
+  border-bottom: 3px solid #cc0033 !important;
 }
 
-.SA-info-box:hover img {
-  border-bottom: 7px solid #cc0033;
+.SA-info-box:hover img, .SA-info-box:active img, .SA-info-box:focus img {
+  border-color: #cc0033;
 }
 
 .SA-info-box h3 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.SA-info-box p {
+  color: #333;
 }
 
 .SA-info-box h3, .SA-info-box p {
@@ -994,10 +998,6 @@ h6 {
   border-bottom: 1px solid #fff;
 }
 
-.SA-info-box:hover {
-  border-bottom: none !important;
-}
-
 .SA-text-box {
   margin: 100px 20px;
   border-top: #cc0033 5px solid;
@@ -1007,7 +1007,7 @@ h6 {
 /* Slider */
 .SA-slider {
   height: 330px;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   padding: 0 15%;
   margin: 65px 0;
 }
@@ -1582,7 +1582,7 @@ footer {
 
 /* Events Page */
 .SA-detail-box {
-  background: #E0E0E0;
+  background: #e0e0e0;
   padding: 10px;
   display: inline-block;
 }

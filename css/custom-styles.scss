@@ -6,6 +6,7 @@ $alert-color: #fed116;
 $advisory-color: #bbe4f8;
 $menu-button-color: #5e5f5f;
 $dark-grey: #333;
+$light-grey: #e0e0e0;
 $ease: all .15s ease-in-out;
 $row-spacing: 5%;
 $mobile-spacing: 25px;
@@ -363,6 +364,8 @@ $h-line-height: 1.3em;
 
 .SA-advisory{
     background-color: $advisory-color;
+    border-radius: 10px;
+    border: 2px solid #34a9e2;
     p{
         color: #293a46;
     }
@@ -418,7 +421,7 @@ $h-line-height: 1.3em;
         }
 
         &:focus {
-            background-color: #333 !important;
+            background-color: $dark-grey !important;
         }
 
     }
@@ -470,9 +473,9 @@ $h-line-height: 1.3em;
 }
 
 .SA-dropdown-menu {
-    background-color: #333 !important;
-    border-top: 1px solid #333;
-    padding: 10px 15px;
+    background-color: $dark-grey !important;
+    border-top: 1px solid $dark-grey;
+
     transition: all 0.2s;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -482,7 +485,7 @@ $h-line-height: 1.3em;
 
     a{
         display: block;
-        padding: 8px;
+        padding: 10px 15px;
         &:hover{
             background-color: $scarlet-red !important;
             text-decoration: underline;
@@ -492,7 +495,6 @@ $h-line-height: 1.3em;
         padding:0;
         li{
             list-style: none;
-            padding: 2px;
         }
     }
 }
@@ -694,11 +696,11 @@ $h-line-height: 1.3em;
     width: 100%;
     display: block;
     color: #fff;
-    background-color: #333333;
+    background-color: $dark-grey;
     border: none;
     margin: 0;
     padding: 13px 15px;
-    border-right: 3px solid #333333;
+    border-right: 3px solid $dark-grey;
     border-radius: 0;
     -webkit-transition: $ease;
     transition: $ease;
@@ -877,7 +879,7 @@ $h-line-height: 1.3em;
 
 @media all and (min-width: 990px){
     .SA-right-sidebar-content {
-        border-left: 5px solid #e0e0e0;
+        border-left: 5px solid $light-grey;
         padding-left: 20px;
     }
 }
@@ -906,7 +908,7 @@ $h-line-height: 1.3em;
 }
 
 .SA-featured-block {
-    background-color: #e0e0e0;
+    background-color: $light-grey;
     margin-bottom: 30px;
     padding-right: 10px;
     overflow: hidden;
@@ -1001,30 +1003,42 @@ $h-line-height: 1.3em;
     img{
         -webkit-transition: $ease;
         transition: $ease;
-        border-bottom: 7px solid $scarlet-red;
+        border-bottom: 5px solid $scarlet-red;
     }
+
     position: relative;
     display: block;
-    background: $menu-button-color;
-    color: #fff !important;
+
     -webkit-transition: $ease;
     transition: $ease;
     min-height: 330px;
     overflow: hidden;
     margin-bottom: $mobile-spacing;
-    &:hover{
-        background: $scarlet-red;
-        text-decoration: none;
-        color: #fff !important;
-        img{
-            border-bottom: 7px solid #cc0033;
+
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: $light-grey;
+
+    &:hover, &:active, &:focus{
+        border-color: $scarlet-red;
+        border-bottom: 3px solid $scarlet-red !important;
+
+        img {
+            border-color: $scarlet-red;
         }
     }
+
 
     h3{
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    p{
+        color: $dark-grey; 
+    }
+
     h3,p{
         padding: 0 10px;
         span{
@@ -1033,10 +1047,6 @@ $h-line-height: 1.3em;
                 border-bottom: 1px solid #fff;
             }
         }
-    }
-    
-    &:hover {
-        border-bottom: none !important;
     }
 
 }
@@ -1054,7 +1064,7 @@ $h-line-height: 1.3em;
 /* Slider */
 .SA-slider {
     height: 330px;
-    background-color: #E0E0E0;
+    background-color: $light-grey;
     padding: 0 15%;
     margin: 65px 0;
 }
@@ -1186,7 +1196,7 @@ $h-line-height: 1.3em;
 
 /* Pre-Footer */
 .SA-footer{
-    background: #333;
+    background: $dark-grey;
     color: #fff;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1499,7 +1509,7 @@ footer{
 
     border-width: 3px;
     border-style: solid;
-    border-color: #e0e0e0;
+    border-color: $light-grey;
     
 
     &:hover, &:active, &:focus{
@@ -1621,7 +1631,7 @@ footer{
 
 /* Events Page */
 .SA-detail-box{
-    background: #E0E0E0;
+    background: $light-grey;
     padding: 10px;
     display: inline-block;
 }
@@ -1914,7 +1924,7 @@ footer{
     }
 
     .SA-mini-articles-block {
-        //background-color: #e0e0e0;
+        //background-color: $light-grey;
         margin-bottom: 30px;
         padding-right: 10px;
         overflow: hidden;
@@ -1973,7 +1983,7 @@ footer{
     .about-sa {
         padding: 25px;
         font-size: 14px;
-        color: #333;
+        color: $dark-grey;
         background: #efefef;
         text-transform: uppercase;
         em {
@@ -2004,7 +2014,7 @@ footer{
         padding-bottom: 10px;
         padding-left: 25px;
         font-size: 14px;
-        color: #333;
+        color: $dark-grey;
         background: #efefef;
         text-transform: uppercase;
     }
@@ -2017,7 +2027,7 @@ footer{
 
         h4 {
             padding-left: 25px;
-            color: #333;
+            color: $dark-grey;
         }
         p {
             font-size: .9em;
@@ -2119,7 +2129,7 @@ footer{
 
     border-width: 3px;
     border-style: solid;
-    border-color: #e0e0e0;
+    border-color: $light-grey;
 
     &:hover, &:active, &:focus{
         border-color: $scarlet-red;
@@ -2172,7 +2182,7 @@ footer{
 .greyBG {
     padding-top: 5px;
     padding-bottom: 10px;
-    background-color: #e0e0e0;
+    background-color: $light-grey;
 }
 
 
@@ -2199,7 +2209,7 @@ footer{
     }
     .SA-nav-title {
 
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid $light-grey;
 
         font-size: 14px;
             a {
@@ -2243,7 +2253,7 @@ footer{
   
   .SA-panel-nav-collapse {
 
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid $light-grey;
 }
   
 .SA-nav-drop {
