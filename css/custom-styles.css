@@ -1574,7 +1574,7 @@ footer {
     font-size: 1em;
   }
   .SA-table th {
-    text-align: center;
+    text-align: left;
   }
   .SA-table tbody > tr > td {
     padding: 20px 10px;
@@ -2219,6 +2219,61 @@ footer {
 
 .SA-nav-drop .col-sm-3 {
   margin-bottom: 25px;
+}
+
+/* SA Event Accordion*/
+.SA-event-accordion {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.event-panel-default {
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+
+.event-panel-default a {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.event-panel-default .SA-event-panel-heading {
+  padding: 0;
+  border-radius: 0;
+  color: #fff;
+  border-color: none;
+  background-color: #8e182e;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.event-panel-default .SA-event-panel-heading:hover {
+  background-color: #cc0033;
+}
+
+.event-panel-default .SA-event-panel-title {
+  font-size: 14px;
+}
+
+.event-panel-default .SA-event-panel-title a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.event-panel-default .SA-event-panel-title a .fa {
+  float: right;
+  color: #fff;
+}
+
+.event-panel-default .SA-event-panel-body {
+  background-color: #D8D9D8;
+}
+
+.SA-event-panel-heading.active {
+  background-color: #cc0033;
 }
 
 /* Spotify Style Image Offset */
