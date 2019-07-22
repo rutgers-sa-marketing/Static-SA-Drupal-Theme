@@ -2,11 +2,12 @@
 /* SA Accordions */
 /*Font Stack*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i|Work+Sans:400,600");
+@import url("https://fonts.googleapis.com/css?family=Sarabun:400,400i,700,700i&display=swap");
 /* Mandatory styling for placing Font Awesome on pseudo selectors*/
 /*General Styles*/
 html, body {
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Sarabun", sans-serif;
   color: #000;
   overflow-x: hidden;
 }
@@ -17,7 +18,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Sarabun", sans-serif;
   line-height: 1.3em;
   font-weight: 700;
 }
@@ -1713,7 +1714,7 @@ footer {
 .hero-title {
   color: #fff;
   font-size: 5em;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Sarabun", sans-serif !important;
   font-weight: 700;
   text-align: center;
   position: absolute;
