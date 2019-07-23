@@ -28,11 +28,11 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  color: #cc0033;
 }
 
 h3 {
   font-size: 1.25em;
+  color: #cc0033;
 }
 
 h4 {
@@ -1104,6 +1104,7 @@ h6 {
 
 .SA-fact-caption h3 {
   font-size: 4em;
+  color: #fff;
 }
 
 .SA-fact-caption a {
@@ -1199,7 +1200,7 @@ footer {
 
 .SA-quick-links {
   padding-bottom: 45px;
-  font-size: .75em;
+  font-size: .775em;
   background-color: #000;
 }
 
@@ -1229,8 +1230,6 @@ footer {
 
 .SA-footer-navbar a {
   color: #fff !important;
-  font-size: 0.875em;
-  font-weight: 600;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
 }
@@ -1329,6 +1328,7 @@ footer {
   padding: 10px 5px;
   display: block;
   overflow: auto;
+  color: #fff;
 }
 
 /* Tabs */

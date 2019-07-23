@@ -63,17 +63,17 @@ $h6-font-size: .775em;
         font-family: $heading-font;
         font-weight: 700;
     }
-    h1{
+   h1{
         font-size: $h1-font-size;
     }
 
     h2{
         font-size: $h2-font-size;
-        color: $scarlet-red;
     }
     
     h3{
         font-size: $h3-font-size;
+        color: $scarlet-red;
     }
     
     h4{
@@ -1157,6 +1157,7 @@ $h6-font-size: .775em;
     width: 100%;
     h3{
         font-size: 4em;
+        color: #fff;
     }
     a{
         color: #fff;
@@ -1256,7 +1257,7 @@ footer{
 
 .SA-quick-links{
     padding-bottom: 45px;
-    font-size: .75em;
+    font-size: .775em;
     background-color: #000;
     a{
         color:#fff;
@@ -1280,8 +1281,6 @@ footer{
     border: none;
     a{
         color: #fff !important;
-        font-size: $nav-font-size;
-        font-weight: 600;
         -webkit-transition: $ease;
         transition: $ease;
     }
@@ -1376,6 +1375,7 @@ footer{
         padding: 10px 5px;
         display: block;
         overflow: auto;
+        color: #fff;
     }
 }
 
