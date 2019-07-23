@@ -771,7 +771,7 @@ h6 {
   background: url("../images/banner-1.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 500px;
 }
 
 .SA-banner-img-2 {
@@ -891,7 +891,7 @@ h6 {
 .SA-featured-block img {
   float: left;
   height: 200px;
-  width: 240px;
+  width: 267px;
   margin: 0 20px 0 0;
 }
 
@@ -2101,7 +2101,7 @@ footer {
 .SA-featured-red-block img {
   float: left;
   height: 200px;
-  width: 240px;
+  width: 267px;
   margin: 0 20px 0 0;
 }
 

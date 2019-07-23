@@ -823,7 +823,7 @@ $h6-font-size: .775em;
 .SA-banner-img-1{
     background: url('../images/banner-1.jpg') no-repeat;
     @include SA-banner-dimension;
-    height: 400px;
+    height: 500px;
 }
 
 .SA-banner-img-2{
@@ -935,7 +935,7 @@ $h6-font-size: .775em;
     img{
         float: left;
         height: 200px;
-        width: 240px;
+        width: 267px;
         margin: 0 20px 0 0;  
     }
 }
@@ -2134,7 +2134,7 @@ footer{
 
     &:hover, &:active, &:focus{
         border-color: $scarlet-red;
-        border-bottom: 3px solid #cc0033 !important;
+        border-bottom: 3px solid $scarlet-red !important;
     }
 
     h3{
@@ -2150,7 +2150,7 @@ footer{
     img{
         float: left;
         height: 200px;
-        width: 240px;
+        width: 267px;
         margin: 0 20px 0 0;  
     }
 }
@@ -2293,7 +2293,7 @@ footer{
       border-radius: 0;
       color: #fff;
       border-color: none;
-      background-color: #8e182e;
+      background-color: $scarlet-hover-color;
       transition: all .15s ease-in-out;
       // height: 65px;
       &:hover{

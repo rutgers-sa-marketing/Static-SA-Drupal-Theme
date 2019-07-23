@@ -68,15 +68,140 @@
             </div>
 
             <div class="col-md-12">
+              <h2>Colors</h2>
+              <p>List of colors and hexcodes used throughout the site</p>
+              <ul style="list-style: none">
+                <li style="color: #cc0033"> Scarlet Red: #cc0033</li>
+                <li style="color: #8e182e"> Scarlet Hover Color: #8e182e</li>
+                <li style="color: #333"> Font Color: #333</li>
+                <li style="color: #fed116"> Alert Color: #fed116</li>
+                <li style="color: #bbe4f8"> Advisory Color: #bbe4f8</li>
+                <li style="color: #34a9e2"> Advisory Border Color: #34a9e2</li>
+                <li style="color: #5e5f5f"> Menu Button Color: #5e5f5f</li>
+                <li style="color: #333"> Dark Grey (same as font color): #333</li>
+                <li style="color: #e0e0e0"> Light Grey: #e0e0e0</li>
+              </ul>
+            </div>
+          
+            <div class="col-md-12">
+              <h2>Page Header</h2>
+                <h3>Rutgers Logo</h3>
+                <p>The Rutgers logo has a 45px margin right and its container has a 25px padding top and 20px padding bottom. <br />
+                It has a width of 250px while above window width: 768 and a width of 150px window width is below 768 </p>  
+                <img style="width: 250px" src="images/RU-noshield.svg" onerror="this.onerror=null;" this.src='images/RU-noshield.png' alt="Rutgers Student Affairs Logo">
+                  
+                <h3>Department Title</h3>
+                <p>The Department Header (that says Division of Student Affairs) styling is as follows: </p>
+                <ul>
+                    <li>font-size: .70em;</li>
+                    <li>font-weight: 900;</li>
+                    <li>letter-spacing: 1px;</li>
+                    <li>text-transform: uppercase;</li>
+                </ul>
+                <p>The Department Title styling is as follows:</p>
+                <ul>
+                  <li>font-size: .875em;</li>
+                  <li>font-weight: 700;</li>
+                </ul>
+                <div class="SA-branding">
+                    <h1 class="SA-dep-header"><span >Division of Student Affairs</span></h1> 
+                    <p class="SA-dep-title">Center for Social Justice Education <br class="hidden-xs" /> and LGBTQ Communities</p>
+                </div>
+            </div>
+
+            <div class="col-md-12">
                 <h2>Images</h2>
                 <h3>Banners</h3>
 
-                <p>Recommended maximum dimensions for banners 1600px by 500px<br><img src="./images/banner-1.jpg" class="img-responsive" alt="Involvement Fair"></p>
-
+                <p>Recommended maximum dimensions for banners 1600px by 500px (16:5 Ratio)<br><img src="./images/banner-1.jpg" class="img-responsive" alt="Involvement Fair"></p>
+              
                 <h3>Bio's</h3>
-                <p>Recommended maximum dimensions for bio's 350px by 500px<br><img src="./images/banner-1.jpg" class="img-responsive" alt="Involvement Fair"></p>
-            </div>
-        </div><!-- /row -->
+                <p>Recommended maximum dimensions for bio's 350px by 500px.<br><img style = "height: 500px; width: 350px; overflow: hidden" src="https://picsum.photos/id/1074/350/500" class="img-responsive" alt="Bio Image"></p>
+     
+                <h3>Photo Buttons</h3>
+                <p>Recommended maximum dimensions for Photo buttons are 2048px by 1152px (16:9 Ratio)</p>
+                <div class="row SA-events col-sm-12">
+                  <div class="col-md-3 col-sm-6">
+                      <a href="event-inner.html" class="SA-info-box" role="button">
+                      <img class="img-responsive" src="./images/events/Convocation.jpg" alt="Announcement">
+                      <h3>H3 Tag</h3>
+                      <p><span>Span inside<br> Paragraph Tag</span></p>
+                      </a>
+                  </div><!-- /col -->
+                </div>
+              
+                <h3>Featured Content</h3>
+                <p>Recommended maximum dimensions for both Main Story and Featured images are 720 by 540 (4:3 Ratio).  </p>
+                <div class="row SA-featured-content">
+                  <div class="col-md-6">
+                    <h4>Main Story</h4>
+                    <a href="#" role="img link" title="Featured Story"><img src="./images/index-content-images/SA_Attalla_Sisters-2.jpg" class="img-responsive" alt="Featured"></a>
+                    <h2 ><a href="#" role="titlelink" class="SA-headers">H2 Tag</a></h2>
+                    <p>Paragraph Tag</p>
+                  </div><!-- /col -->
+            
+                  <div class="col-md-6"> <!-- Add col-md-push-3 when sidebars are enabled -->
+                    <h4>Featured Story Image</h4>
+                    <a  href="#" class=" SA-featured-red-block" role="button" >
+                      <img src="./images/index-content-images/Lum_Horizontal.jpg" class="img-responsive" alt="Featured">
+                      <h3>H3 Tag with Scarlet Red</h3>
+                      <p>Paragraph Tag</p>
+                    </a>
+                  </div>
+                </div>
+
+            
+              </div><!--Row-->
+               
+              <div class="col-md-12">
+                <h2>Buttons</h2>
+                <p>Buttons have a Scarlet Red background and white text. On hover, the background turns to scarlet hover color, and text is underlined.   </p>
+                <div >
+                  <a class="btn btn-default SA-btn-primary" style=" color: #fff; border-bottom: none;" href="#" role="button">Button</a>
+                </div>
+              </div> <!--Row-->
+
+
+              <div class="col-md-12">
+                <h2>Breadcrumbs</h2>
+                <p>Breadcrumbs are Ordered List with List items. &gt; symbol seperates pages and show path to current page from main page. Pages are Scarlet Red, but current page is menu button color.</p>
+               
+                <ol class="breadcrumb SA-breadcrumbs">
+                    <li><a href="#">Main Page</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li class="active">Active Page</li>
+                  </ol>
+              </div> <!--Row-->
+
+              <div class="col-md-12">
+                  <h2>Quick Link Buttons</h2>
+
+                  <p>Icons have width: 90px and icon background is #869299. Also have border right of solid 5px in scarlet hover color. Border turns scarlet red on hover.  <br />
+                  The text background is menu button color and turns scarlet red on hover. </p>
+                  <div class="row">
+                      <div class="col-md-6">
+                        <a href="#" class="SA-ql-box"  style="color: white !important; border-bottom: none">
+                          <i class="fas fa-star"></i>
+                          <div class="SA-ql-box-copy">
+                            <h3>h3</h3>
+                          </div>
+                        </a>
+                      </div>
+        
+                      <div class="col-md-6">
+                          <a href="#" class="SA-ql-box"  style="color: white !important; border-bottom: none ">
+                              <i class="fas fa-briefcase-medical"></i>
+                            <div class="SA-ql-box-copy">
+                              <h3>Example</h3>
+                            </div>
+                          </a>
+                      </div>
+                    </div>
+              </div>
+
+      </div><!--Featured Content-->
+
     </div><!-- /container -->
 
      
