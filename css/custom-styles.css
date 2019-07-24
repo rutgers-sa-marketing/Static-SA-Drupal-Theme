@@ -642,8 +642,18 @@ h6 {
   border-bottom: 1px solid #cc0033;
 }
 
+.SA-form-control {
+  border: 1px solid #5e5f5f;
+  height: 4em;
+}
+
+.SA-modal-btn {
+  height: 4em;
+}
+
 .SA-search-ul {
-  padding: 80px 0 25px;
+  text-align: center;
+  padding: 50px 0 25px;
 }
 
 .SA-search-btn {
@@ -675,6 +685,20 @@ h6 {
     width: 100%;
     min-width: 500px;
   }
+  .modal-search-backdrop {
+    height: 85% !important;
+    width: 80% !important;
+  }
+  .close {
+    font-size: 4em !important;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .modal-search-backdrop {
+    height: 85% !important;
+    width: 75% !important;
+  }
 }
 
 .SA-search-icon {
@@ -694,6 +718,9 @@ h6 {
 
 .modal-search-backdrop {
   background-color: #fff;
+  margin: auto;
+  height: 90%;
+  width: 90%;
   opacity: 1 !important;
   border: 10px solid rgba(136, 136, 136, 0.4);
 }
@@ -709,8 +736,14 @@ h6 {
 }
 
 .modal-search-content .close {
-  opacity: 1;
-  font-size: 4em;
+  opacity: .75;
+  color: #cc0033;
+  font-size: 2em;
+  margin-right: 20px;
+}
+
+.modal-search-content .close:hover {
+  color: #8e182e;
 }
 
 .modal-search-body {
