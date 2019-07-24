@@ -2299,6 +2299,7 @@ footer{
       // height: 65px;
       &:hover{
           background-color: $scarlet-red;
+          
       }
   }
   .SA-event-panel-title {
@@ -2307,19 +2308,33 @@ footer{
               display: block;
               padding: 15px;
               text-decoration: none;
+              color: #fff !important;
                   .fa {
                       float: right;
                       color: #fff;
                   }
+
+              &:hover {
+                border-bottom: none !important;
+              }
           }
   }
   .SA-event-panel-body{
       background-color: #D8D9D8;
+
+      ul {
+          list-style: none;
+
+          li{
+              padding-bottom: 5px;
+          }
+      }
   }
 }
 
 .SA-event-panel-heading.active {
   background-color: $scarlet-red;
+ 
 }
 
 

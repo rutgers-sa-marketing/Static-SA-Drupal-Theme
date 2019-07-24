@@ -132,24 +132,9 @@ function includeVid() {
 };
 
 
-//Add/Remove Overlay based on nav open class.
-
-//open and close nav
-/*function openNav() {
-  var el = document.getElementById("darken");
-  var currentClass = el.className;
-
-  var interval = setInterval(check,100);
-
-  function check(){
-    console.log('checker');
-    var list = document.getElementsByClassName('open');
-    el.className = currentClass = "overlay";
-    if(list.length==0){
-      el.className = currentClass == "";
-
-      clearInterval(interval);
-    }
-  };
-
-  };*/
+ //Adds the active class when an accordion is clicked on for events
+ $('.SA-event-panel-heading a').click(function() {
+  $('.SA-event-panel-heading').removeClass('active');
+  if(!$(this).closest('.panel').find('.SA-panel-collapse').hasClass('in'))
+      $(this).parents('.SA-event-panel-heading').addClass('active');
+});

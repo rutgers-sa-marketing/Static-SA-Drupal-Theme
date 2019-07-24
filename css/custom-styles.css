@@ -2262,6 +2262,7 @@ footer {
   display: block;
   padding: 15px;
   text-decoration: none;
+  color: #fff !important;
 }
 
 .event-panel-default .SA-event-panel-title a .fa {
@@ -2269,8 +2270,20 @@ footer {
   color: #fff;
 }
 
+.event-panel-default .SA-event-panel-title a:hover {
+  border-bottom: none !important;
+}
+
 .event-panel-default .SA-event-panel-body {
   background-color: #D8D9D8;
+}
+
+.event-panel-default .SA-event-panel-body ul {
+  list-style: none;
+}
+
+.event-panel-default .SA-event-panel-body ul li {
+  padding-bottom: 5px;
 }
 
 .SA-event-panel-heading.active {
