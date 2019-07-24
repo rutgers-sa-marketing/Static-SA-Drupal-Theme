@@ -1292,10 +1292,11 @@ footer {
   margin-bottom: 25px;
   display: inline-block;
   background-color: #5e5f5f;
-  width: 100%;
   color: #fff;
   -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
+  max-width: 380px;
+  width: 100%;
 }
 
 .SA-ql-box i {
@@ -1325,7 +1326,7 @@ footer {
 
 .SA-ql-box-copy h3 {
   margin: 0;
-  padding: 10px 5px;
+  padding: 10px;
   display: block;
   overflow: auto;
   color: #fff;
