@@ -706,9 +706,9 @@ $h6-font-size: .775em;
     -webkit-transition: $ease;
     transition: $ease;
     &:hover, &:active, &:focus{
-        background-color:$scarlet-red;
+        background-color: $dark-grey;
         color: #fff;
-        border-color:$scarlet-red;
+        border-color:$dark-grey;
     }
 }
 

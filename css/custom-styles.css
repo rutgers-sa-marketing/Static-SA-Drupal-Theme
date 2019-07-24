@@ -661,9 +661,9 @@ h6 {
 }
 
 .SA-search-btn:hover, .SA-search-btn:active, .SA-search-btn:focus {
-  background-color: #cc0033;
+  background-color: #333;
   color: #fff;
-  border-color: #cc0033;
+  border-color: #333;
 }
 
 /*Adds Search from Red bar into NavBar in Mobile*/
