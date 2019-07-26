@@ -109,7 +109,7 @@
                 <img style="width: 250px" src="images/RU-noshield.svg" onerror="this.onerror=null;" this.src='images/RU-noshield.png' alt="Rutgers Student Affairs Logo">
                   
                 <h3>Department Title</h3>
-                <p>The Department Header (that says Division of Student Affairs) styling is as follows: </p>
+                <p>The Department Header (that says Division of Student Affairs) is a link leading to Student Affairs flagship site. Its styling is as follows: </p>
                 <ul>
                     <li>font-size: .70em;</li>
                     <li>font-weight: 900;</li>
@@ -217,11 +217,323 @@
                     </div>
               </div>
 
+
+              <div class="col-md-12 override-main">
+
+                <h2>Active Elements</h2>
+                
+                <h3>Tabs</h3>
+                
+                <p>
+                  Active tab is scarlet red (1st tab is active by default) and scarlet-hover-color when inactive. The tab content background is light-grey.
+                  <br />
+                  When below sm breakpoint, tabs are converted into an accordion.
+                </p>
+
+                <ul id="myTab" class="nav nav-tabs SA-tabs">
+                  <li class="active"><a href="#tab1" class="SA-tab" data-toggle="tab">Busch<br>Campus Hours</a></li>
+                  <li><a href="#tab2" class="SA-tab" data-toggle="tab">College Ave<br>Campus Hours</a></li>
+                  <li><a href="#tab3" class="SA-tab" data-toggle="tab">Cook/Douglass<br>Campus Hours</a></li>
+                  <li><a href="#tab4" class="SA-tab" data-toggle="tab">Livingston<br>Campus Hours</a></li>
+                </ul>
+          
+                <div id="myTabContent" class="tab-content" >
+                    <div class="tab-pane fade in active" id="tab1">
+                        <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                    </div>
+          
+                    <div class="tab-pane fade" id="tab2">
+                        <p>Light Blue - is a next generation admin template based on the latest Metro design. There are few reasons we want to tell you, why we have created it:
+                            We didn't like the darkness of most of admin templates, so we created this light one. We didn't like the high contrast of most of admin templates, so we created this unobtrusive one.
+                            We searched for a solution of how to make widgets look like real widgets, so we decided that deep background - is what makes widgets look real.</p>
+                    </div>
+          
+                    <div class="tab-pane fade" id="tab3">
+                        <p>Light Blue - is a next generation admin template based on the latest Metro design. There are few reasons we want to tell you, why we have created it:
+                            We didn't like the darkness of most of admin templates, so we created this light one. We didn't like the high contrast of most of admin templates, so we created this unobtrusive one.
+                            We searched for a solution of how to make widgets look like real widgets, so we decided that deep background - is what makes widgets look real.</p>
+                    </div>
+          
+                    <div class="tab-pane fade" id="tab4">
+                        <p>Light Blue - is a next generation admin template based on the latest Metro design. There are few reasons we want to tell you, why we have created it:
+                            We didn't like the darkness of most of admin templates, so we created this light one. We didn't like the high contrast of most of admin templates, so we created this unobtrusive one.
+                            We searched for a solution of how to make widgets look like real widgets, so we decided that deep background - is what makes widgets look real.</p>
+                    </div>
+                </div>
+          
+
+                <h3>Accordion</h3>
+
+                <p>
+                  The accordions have the same styling as the tabs. First tab is active by default, active tab is scarlet red, inactive tabs are scarlet-hover-color and the content area is light-grey.
+                  The chevron on the right side flips based on active state (done using CSS transform property with active class)
+                </p>
+
+                <div class="panel-group SA-accordion" id="accordion" role="tablist" aria-multiselectable="true">
+
+                    <div class="panel panel-default SA-accordion-panel">
+                        <div class="panel-heading SA-panel-heading active" role="tab" id="headingOne">
+                            <h4 class="panel-title SA-panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fa fa-chevron-up"></i>
+                                    Panel 1
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse SA-panel-collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body SA-panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius ac sem rutrum gravida. Cras vel blandit lectus, porta blandit purus. Sed laoreet velit ac iaculis fringilla. Nulla massa mauris, tempor ut malesuada a, rutrum id ligula. Phasellus nec erat non tortor pellentesque laoreet a ac nunc. Nullam vel mauris risus. Maecenas ipsum nisi, bibendum vel est vel, maximus consectetur sem. Fusce dui tellus, accumsan ut tincidunt non, molestie sed libero. Proin eu facilisis libero. Proin ante felis, auctor ac cursus eget, maximus ut turpis. Vivamus sed lacus sed diam suscipit fringilla. Ut quis augue efficitur, ornare arcu non, egestas lorem.</p>
+            
+            <p>Nunc dictum semper erat vitae tincidunt. Nunc vel nisi eget arcu faucibus cursus. Quisque in eleifend leo, sed venenatis libero. Nulla nec finibus quam. Quisque sagittis, elit id vehicula sagittis, augue libero mattis mauris, nec mattis erat felis gravida sapien. Curabitur gravida sem id risus facilisis, eget varius arcu placerat. Mauris vitae rutrum nibh.</p>
+                            </div>
+                        </div>
+                    </div>
+            
+            
+            
+                    <div class="panel panel-default SA-accordion-panel">
+                      <div class="panel-heading SA-panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title SA-panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    <i class="fa fa-chevron-down"></i>
+                                    Panel 2
+                                </a>
+                            </h4>
+                       </div>
+                             
+                       <div id="collapseTwo" class="panel-collapse collapse SA-panel-collapse" role="tabpanel" aria-labelledby="headingTwo">
+                           <div class="panel-body SA-panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius ac sem rutrum gravida. Cras vel blandit lectus, porta blandit purus. Sed laoreet velit ac iaculis fringilla. Nulla massa mauris, tempor ut malesuada a, rutrum id ligula. Phasellus nec erat non tortor pellentesque laoreet a ac nunc. Nullam vel mauris risus. Maecenas ipsum nisi, bibendum vel est vel, maximus consectetur sem. Fusce dui tellus, accumsan ut tincidunt non, molestie sed libero. Proin eu facilisis libero. Proin ante felis, auctor ac cursus eget, maximus ut turpis. Vivamus sed lacus sed diam suscipit fringilla. Ut quis augue efficitur, ornare arcu non, egestas lorem.</p>
+            
+            <p>Nunc dictum semper erat vitae tincidunt. Nunc vel nisi eget arcu faucibus cursus. Quisque in eleifend leo, sed venenatis libero. Nulla nec finibus quam. Quisque sagittis, elit id vehicula sagittis, augue libero mattis mauris, nec mattis erat felis gravida sapien. Curabitur gravida sem id risus facilisis, eget varius arcu placerat. Mauris vitae rutrum nibh.</p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="panel panel-default SA-accordion-panel">
+                        <div class="panel-heading SA-panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title SA-panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    <i class="fa fa-chevron-down"></i>
+                                    Panel 3
+                                </a>
+                            </h4>
+                       </div>
+                             
+                       <div id="collapseThree" class="panel-collapse collapse SA-panel-collapse" role="tabpanel" aria-labelledby="headingThree">
+                           <div class="panel-body SA-panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius ac sem rutrum gravida. Cras vel blandit lectus, porta blandit purus. Sed laoreet velit ac iaculis fringilla. Nulla massa mauris, tempor ut malesuada a, rutrum id ligula. Phasellus nec erat non tortor pellentesque laoreet a ac nunc. Nullam vel mauris risus. Maecenas ipsum nisi, bibendum vel est vel, maximus consectetur sem. Fusce dui tellus, accumsan ut tincidunt non, molestie sed libero. Proin eu facilisis libero. Proin ante felis, auctor ac cursus eget, maximus ut turpis. Vivamus sed lacus sed diam suscipit fringilla. Ut quis augue efficitur, ornare arcu non, egestas lorem.</p>
+            
+            <p>Nunc dictum semper erat vitae tincidunt. Nunc vel nisi eget arcu faucibus cursus. Quisque in eleifend leo, sed venenatis libero. Nulla nec finibus quam. Quisque sagittis, elit id vehicula sagittis, augue libero mattis mauris, nec mattis erat felis gravida sapien. Curabitur gravida sem id risus facilisis, eget varius arcu placerat. Mauris vitae rutrum nibh.</p>
+                            </div>
+                        </div>
+                    </div>
+            
+            
+            
+                    <div class="panel panel-default SA-accordion-panel">
+                        <div class="panel-heading SA-panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title SA-panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    <i class="fa fa-chevron-down"></i>
+                                    Panel 4
+                                </a>
+                            </h4>
+                       </div>
+                             
+                       <div id="collapseFour" class="panel-collapse collapse SA-panel-collapse" role="tabpanel" aria-labelledby="headingFour">
+                           <div class="panel-body SA-panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius ac sem rutrum gravida. Cras vel blandit lectus, porta blandit purus. Sed laoreet velit ac iaculis fringilla. Nulla massa mauris, tempor ut malesuada a, rutrum id ligula. Phasellus nec erat non tortor pellentesque laoreet a ac nunc. Nullam vel mauris risus. Maecenas ipsum nisi, bibendum vel est vel, maximus consectetur sem. Fusce dui tellus, accumsan ut tincidunt non, molestie sed libero. Proin eu facilisis libero. Proin ante felis, auctor ac cursus eget, maximus ut turpis. Vivamus sed lacus sed diam suscipit fringilla. Ut quis augue efficitur, ornare arcu non, egestas lorem.</p>
+            
+            <p>Nunc dictum semper erat vitae tincidunt. Nunc vel nisi eget arcu faucibus cursus. Quisque in eleifend leo, sed venenatis libero. Nulla nec finibus quam. Quisque sagittis, elit id vehicula sagittis, augue libero mattis mauris, nec mattis erat felis gravida sapien. Curabitur gravida sem id risus facilisis, eget varius arcu placerat. Mauris vitae rutrum nibh.</p>
+                            </div>
+                        </div>
+                    </div>
+      
+                    
+                    </div>
+                    
+
+              </div>
+
+
       </div><!--Featured Content-->
 
     </div><!-- /container -->
 
+    <div class= "container ">
+
+    <h2>Navbar</h2>
      
+    <p>
+      Navbar has a color of scarlet red and the current section should be scarlet-hover-color while the other buttons are scarlet-red. 
+      The text is always white, and if there is a dropdown then the caret should be shown. 
+      <br />
+      <br />
+      When clicked and active, the button with a dropdown should be dark-grey. The color of the dropdown is also dark-grey.
+      In the dropdown, on hover, the block should be scarlet-red and have an underline.
+      <br />
+      <br />
+      When below sm breakpoint, there is a hamburger menu button on the right with "menu" next to it. 
+      Clicking expands the menu which now holds the "search" button which is dark-grey and also has the "Giving" button from the larger sized menu in scarlet-hover-color.
+      <br />
+      NOTE: Sample below does not work in mobile, please look at top of page for example in mobile.
+    </p>
+
+    </div>
+       <!-- Main Navigation & MEGA MENU -->
+   <div class="navbar navbar-default navbar-static-top SA-navbar yamm"data-offset-top="159">
+      <div class="container">
+    
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed SA-navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" aria-expanded="false">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+          <p class="navbar-brand SA-navbar-brand visible-xs-inline collapsed " data-toggle="collapse" data-target="#navbar-collapse-grid" >Menu</p>
+        </div>
+      
+    <div class="navbar-collapse collapse" id="navbar-collapse-grid" aria-expanded="false" style="height: 1px;">
+      
+      <ul class="nav navbar-nav">
+        <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-default navbar-btn SA-search-btn"><i class="fas fa-search SA-search-icon"></i> Search</button>
+        <li><a class="SA-support-nav-link" href="#">Giving</a></li>
+    
+        <li class="SA-active"><a href="index.html" class="navTitle">Home<span class="sr-only">(current)</span></a></li>
+        <!-- Dropdown -->
+        <li class="dropdown"><a class="dropdown-toggle navTitle" href="#" data-toggle="dropdown" aria-expanded="false">Home Pages<b class="caret"></b></a> 
+          <ul class="dropdown-menu SA-dropdown-menu">      
+            <ul>
+              <li><a href="accent-index.html">Cultural Center Accent Front Page</a></li>
+              <li><a href="index-slider.html">Sliding Banner Front Page</a></li>          
+              <li><a href="index-plain.html">Plain Front Page (Has Shield Logo)</a></li>
+              <li><a href="index-plain-alerts.html">Plain Front Page with Alerts</a></li>
+              <!--<li><a href="megamenu.html">Sub-Menu Page</a></li>-->
+            </ul>
+          </ul>
+        </li>
+        <!-- Dropdown -->
+        <li class="dropdown"><a class="dropdown-toggle navTitle" href="#" data-toggle="dropdown" aria-expanded="false">Landing Pages<b class="caret"></b></a>
+          <ul class="dropdown-menu SA-dropdown-menu">
+            <ul>
+              <li><a href="accordions.html" class="navTitle">Accordions/Quicklinks</a></li>
+              <li><a href="tabs.html" class="navTitle">Tabs/Quicklinks</a></li>
+              <li><a href="inner-page.html">Landing Page with Banner</a></li>
+            </ul>
+          </ul>
+        </li>
+    
+        <!-- Dropdown -->
+        <li class="dropdown"><a class="dropdown-toggle navTitle" href="#" data-toggle="dropdown" aria-expanded="false">Staff<b class="caret"></b></a>
+          <ul class="dropdown-menu SA-dropdown-menu">
+            <ul>
+              <li><a href="bio-page.html">Staff Directory</a></li>
+              <li><a href="bio.html">Staff Bio</a></li>
+            </ul>
+          </ul>
+        </li>
+        <!-- Dropdown -->
+        <li class="dropdown"><a class="dropdown-toggle navTitle" href="#" data-toggle="dropdown" aria-expanded="false">Events<b class="caret"></b></a>
+          <ul class="dropdown-menu SA-dropdown-menu">
+            <ul> 
+              <li><a href="events.html">Upcoming Events</a></li>          
+              <li><a href="event-inner.html">Events Inner Page</a></li>
+              <li><a href="event-inner-2.html">Events Inner Page 2</a></li>
+            </ul>
+          </ul>
+        </li>
+    
+        <!-- Dropdown -->
+        <li class="dropdown"><a class="dropdown-toggle navTitle" href="#" data-toggle="dropdown" aria-expanded="false">Facilities<b class="caret"></b></a>
+          <ul class="dropdown-menu SA-dropdown-menu">       
+            <ul> 
+              <li><a href="facilities.html">Our Facilities</a></li>
+              <li><a href="facilities-inner.html">Facility Inner Page</a></li>
+              <li><a href="facilities-inner-accordion.html">Facility Inner Accordion Page</a></li>                    
+            </ul>
+          </ul>
+        </li>
+    
+        <!-- Dropdown -->
+        <li class="dropdown"><a class="dropdown-toggle navTitle" href="#" data-toggle="dropdown" aria-expanded="false">Articles<b class="caret"></b></a>
+          <ul class="dropdown-menu SA-dropdown-menu"> 
+            <ul>
+              <li><a href="articles.html">Articles List/Dropdown Example</a></li>
+              <li><a href="articles-inner.html">Article Landing Page</a></li>          
+            </ul>      
+          </ul>
+        </li>
+      </ul>
+    
+    </div>
+    
+    </div>
+    </div><!-- End Navigation & MEGA MENU -->
+
+    <div class="container">
+      <h2>Footer Nav</h2>
+
+      <p>
+        Above sm breakpoint, quick links appear in 4 column list. Background is #000 and text is #fff. 
+        <br />
+        Below sm breakpoint, the links are collapsed into a navbar that has hamburger icons and "Quick Links" text. When expanded, there is a list of quick links.
+      </p>
+
+
+    </div>
+
+      <div class="navbar navbar-default SA-footer-navbar">
+          <div class="container">
+       
+            <div class="navbar-header">
+              <button class="navbar-toggle collapsed SA-footer-navbar-toggle" type="button" data-toggle="collapse" data-target="#footer-collapse-sample" aria-expanded="false">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+              </button>
+              <p class="navbar-brand SA-navbar-brand visible-xs-inline collapsed " data-toggle="collapse" data-target="#footer-collapse-sample" >Quick Links</p>
+            </div>
+
+            <div class="navbar-collapse collapse" id="footer-collapse-sample" aria-expanded="false" style="height: 1px;">
+    
+                <ul class="nav navbar-nav">      
+    <div class="row SA-quick-links">
+      <div class="col-md-3 col-sm-6">
+        <ul>
+          <li><a href="#">Communications</a></li>
+          <li><a href="#">Student Affairs Social Media Directory</a></li>
+        </ul>
+      </div><!-- /col -->
+
+      <div class="col-md-3 col-sm-6">
+        <ul>
+          <li><a href="#">Asian American Cultural Center</a></li>
+        </ul>
+      </div><!-- /col -->
+
+      <div class="col-md-3 col-sm-6">
+          <ul>
+              <li><a href="#">Finance and Administration</a></li>
+
+            </ul>
+      </div><!-- /col -->
+
+      <div class="col-md-3 col-sm-6">
+          <ul>
+              <li><a href="#">Residence Life</a></li>
+            </ul>
+        
+      </div><!-- /col -->
+    </div><!-- /row -->
+    </ul>
+    </div>
+    </div>
+      </div>
+
+    <div style="height: 200px">
+
+    </div>
 
      <!--Footer is pulled from footer.html-->
      <div w3-include-html="footer.html"></div>

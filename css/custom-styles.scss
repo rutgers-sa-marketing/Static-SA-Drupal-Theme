@@ -264,6 +264,11 @@ $h6-font-size: .775em;
     margin-top: 10px;
     text-align: center;
     text-transform: uppercase;
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
 }
 
 /*Moves Logo On top of Dept Name in Mobile */
@@ -1452,7 +1457,7 @@ footer{
 }
 
 .tab-content{
-    background-color: #e0e2e1;
+    background-color: #e0e0e0;
     color: #000;
     padding: 15px;
     border-top: 5px solid #c03;
@@ -1662,6 +1667,34 @@ footer{
     }
     
 
+}
+
+.SA-hours-div {
+    ul {
+        list-style: none;
+        display: flex;
+        align-items: stretch; /* Default */
+        justify-content: space-between;
+        width: 100%;
+        text-align: center;
+        
+        li {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            width: 12.5%;
+            height: 50px;
+        }
+    }
+}
+
+.SA-loc-header {
+    font-weight: bold;
+}
+
+.SA-loc-bg {
+    background-color: $light-grey;
 }
 
 
@@ -2072,7 +2105,8 @@ footer{
 
     /* Mobile Footer Styling*/
     .SA-navbar-brand {
-        padding: 10px 5px 5px 15px;
+        float: right;
+        color: #fff !important;
     }
 
     .SA-mobile-nav-header {
@@ -2371,7 +2405,11 @@ footer{
  
 }
 
-
+.override-main {
+    a{
+        color: #fff !important;
+    }
+}
 
 
 
